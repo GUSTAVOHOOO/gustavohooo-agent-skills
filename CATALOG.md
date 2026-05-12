@@ -1,1347 +1,619 @@
 # 📚 Catálogo Completo de Agent Skills
 
-Este arquivo contém a lista de todas as skills organizadas por categoria.
+Este arquivo contém a lista de todas as skills organizadas por categoria. Use `Ctrl + F` para buscar.
 
 | Categoria | Nome da Skill | Descrição |
 | :--- | :--- | :--- |
-| ai-ml | **ai-ml** | name: ai-ml |
-| ai-ml\advanced-evaluation | **advanced-evaluation** | name: advanced-evaluation |
-| ai-ml\aegisops-ai | **aegisops-ai** | name: aegisops-ai |
-| ai-ml\agent-evaluation | **agent-evaluation** | name: agent-evaluation |
-| ai-ml\agent-framework-azure-ai-py | **agent-framework-azure-ai-py** | name: agent-framework-azure-ai-py |
-| ai-ml\agent-manager-skill | **agent-manager-skill** | name: agent-manager-skill |
-| ai-ml\agent-memory-mcp | **agent-memory-mcp** | name: agent-memory-mcp |
-| ai-ml\agent-memory-systems | **agent-memory-systems** | name: agent-memory-systems |
-| ai-ml\agent-orchestration-improve-agent | **agent-orchestration-improve-agent** | name: agent-orchestration-improve-agent |
-| ai-ml\agent-orchestration-multi-agent-optimize | **agent-orchestration-multi-agent-optimize** | name: agent-orchestration-multi-agent-optimize |
-| ai-ml\agent-orchestrator | **agent-orchestrator** | name: agent-orchestrator |
-| ai-ml\agent-tool-builder | **agent-tool-builder** | name: agent-tool-builder |
-| ai-ml\agentfolio | **agentfolio** | name: agentfolio |
-| ai-ml\agentic-actions-auditor | **agentic-actions-auditor** | name: agentic-actions-auditor |
-| ai-ml\agentmail | **agentmail** | name: agentmail |
-| ai-ml\agents-md | **agents-md** | name: agents-md |
-| ai-ml\agents-v2-py | **agents-v2-py** | name: agents-v2-py |
-| ai-ml\ai-agent-development | **ai-agent-development** | name: ai-agent-development |
-| ai-ml\ai-agents-architect | **ai-agents-architect** | name: ai-agents-architect |
-| ai-ml\ai-analyzer | **ai-analyzer** | name: ai-analyzer |
-| ai-ml\ai-engineer | **ai-engineer** | name: ai-engineer |
-| ai-ml\ai-engineering-toolkit | **ai-engineering-toolkit** | name: ai-engineering-toolkit |
-| ai-ml\ai-md | **ai-md** | name: ai-md |
-| ai-ml\ai-native-cli | **ai-native-cli** | name: ai-native-cli |
-| ai-ml\ai-product | **ai-product** | name: ai-product |
-| ai-ml\ai-seo | **ai-seo** | name: ai-seo |
-| ai-ml\ai-studio-image | **ai-studio-image** | name: ai-studio-image |
-| ai-ml\ai-wrapper-product | **ai-wrapper-product** | name: ai-wrapper-product |
-| ai-ml\algorithmic-art | **algorithmic-art** | name: algorithmic-art |
-| ai-ml\audio-transcriber | **audio-transcriber** | name: audio-transcriber |
-| ai-ml\auri-core | **auri-core** | name: auri-core |
-| ai-ml\autonomous-agent-patterns | **autonomous-agent-patterns** | name: autonomous-agent-patterns |
-| ai-ml\autonomous-agents | **autonomous-agents** | name: autonomous-agents |
-| ai-ml\avoid-ai-writing | **avoid-ai-writing** | name: avoid-ai-writing |
-| ai-ml\bdi-mental-states | **bdi-mental-states** | name: bdi-mental-states |
-| ai-ml\bdistill-behavioral-xray | **bdistill-behavioral-xray** | name: bdistill-behavioral-xray |
-| ai-ml\bdistill-knowledge-extraction | **bdistill-knowledge-extraction** | name: bdistill-knowledge-extraction |
-| ai-ml\behavioral-modes | **behavioral-modes** | name: behavioral-modes |
-| ai-ml\hugging-face-cli | **hugging-face-cli** | source: "https://github.com/huggingface/skills/tree/main/skills/hf-cli" |
-| ai-ml\hugging-face-community-evals | **hugging-face-community-evals** | source: "https://github.com/huggingface/skills/tree/main/skills/huggingface-community-evals" |
-| ai-ml\hugging-face-dataset-viewer | **hugging-face-dataset-viewer** | source: "https://github.com/huggingface/skills/tree/main/skills/huggingface-datasets" |
-| ai-ml\hugging-face-datasets | **hugging-face-datasets** | name: hugging-face-datasets |
-| ai-ml\hugging-face-evaluation | **hugging-face-evaluation** | name: hugging-face-evaluation |
-| ai-ml\hugging-face-gradio | **hugging-face-gradio** | source: "https://github.com/huggingface/skills/tree/main/skills/huggingface-gradio" |
-| ai-ml\hugging-face-jobs | **hugging-face-jobs** | source: "https://github.com/huggingface/skills/tree/main/skills/huggingface-jobs" |
-| ai-ml\hugging-face-model-trainer | **hugging-face-model-trainer** | source: "https://github.com/huggingface/skills/tree/main/skills/huggingface-llm-trainer" |
-| ai-ml\hugging-face-paper-publisher | **hugging-face-paper-publisher** | source: "https://github.com/huggingface/skills/tree/main/skills/huggingface-paper-publisher" |
-| ai-ml\hugging-face-papers | **hugging-face-papers** | source: "https://github.com/huggingface/skills/tree/main/skills/huggingface-papers" |
-| ai-ml\hugging-face-tool-builder | **hugging-face-tool-builder** | name: hugging-face-tool-builder |
-| ai-ml\hugging-face-trackio | **hugging-face-trackio** | source: "https://github.com/huggingface/skills/tree/main/skills/huggingface-trackio" |
-| ai-ml\hugging-face-vision-trainer | **hugging-face-vision-trainer** | source: "https://github.com/huggingface/skills/tree/main/skills/huggingface-vision-trainer" |
-| ai-ml\llm-app-patterns | **llm-app-patterns** | name: llm-app-patterns |
-| ai-ml\llm-application-dev-ai-assistant | **llm-application-dev-ai-assistant** | name: llm-application-dev-ai-assistant |
-| ai-ml\llm-application-dev-langchain-agent | **llm-application-dev-langchain-agent** | name: llm-application-dev-langchain-agent |
-| ai-ml\llm-application-dev-prompt-optimize | **llm-application-dev-prompt-optimize** | name: llm-application-dev-prompt-optimize |
-| ai-ml\llm-evaluation | **llm-evaluation** | name: llm-evaluation |
-| ai-ml\llm-ops | **llm-ops** | name: llm-ops |
-| ai-ml\llm-prompt-optimizer | **llm-prompt-optimizer** | name: llm-prompt-optimizer |
-| ai-ml\llm-structured-output | **llm-structured-output** | name: llm-structured-output |
-| ai-ml\ml-engineer | **ml-engineer** | name: ml-engineer |
-| ai-ml\ml-pipeline-workflow | **ml-pipeline-workflow** | name: ml-pipeline-workflow |
-| ai-ml\mlops-engineer | **mlops-engineer** | name: mlops-engineer |
-| ai-ml\personas\andrej-karpathy | **andrej-karpathy** | name: andrej-karpathy |
-| ai-ml\personas\elon-musk | **elon-musk** | name: elon-musk |
-| ai-ml\personas\geoffrey-hinton | **geoffrey-hinton** | name: geoffrey-hinton |
-| ai-ml\personas\ilya-sutskever | **ilya-sutskever** | name: ilya-sutskever |
-| ai-ml\personas\sam-altman | **sam-altman** | name: sam-altman |
-| ai-ml\personas\steve-jobs | **steve-jobs** | name: steve-jobs |
-| ai-ml\personas\warren-buffett | **warren-buffett** | name: warren-buffett |
-| ai-ml\personas\yann-lecun | **yann-lecun** | name: yann-lecun |
-| ai-ml\personas\yann-lecun-debate | **yann-lecun-debate** | name: yann-lecun-debate |
-| ai-ml\personas\yann-lecun-filosofia | **yann-lecun-filosofia** | name: yann-lecun-filosofia |
-| ai-ml\personas\yann-lecun-tecnico | **yann-lecun-tecnico** | name: yann-lecun-tecnico |
-| ai-ml\pydantic-ai | **pydantic-ai** | name: pydantic-ai |
-| ai-ml\pydantic-models-py | **pydantic-models-py** | name: pydantic-models-py |
-| ai-ml\transformers-js | **transformers-js** | source: "https://github.com/huggingface/skills/tree/main/skills/transformers-js" |
-| automation\activecampaign-automation | **activecampaign-automation** | name: activecampaign-automation |
-| automation\airflow-dag-patterns | **airflow-dag-patterns** | name: airflow-dag-patterns |
-| automation\airtable-automation | **airtable-automation** | name: airtable-automation |
-| automation\alpha-vantage | **alpha-vantage** | name: alpha-vantage |
-| automation\amazon-alexa | **amazon-alexa** | name: amazon-alexa |
-| automation\amplitude-automation | **amplitude-automation** | name: amplitude-automation |
-| automation\apify-actor-development | **apify-actor-development** | name: apify-actor-development |
-| automation\apify-actorization | **apify-actorization** | name: apify-actorization |
-| automation\apify-audience-analysis | **apify-audience-analysis** | name: apify-audience-analysis |
-| automation\apify-brand-reputation-monitoring | **apify-brand-reputation-monitoring** | name: apify-brand-reputation-monitoring |
-| automation\apify-competitor-intelligence | **apify-competitor-intelligence** | name: apify-competitor-intelligence |
-| automation\apify-content-analytics | **apify-content-analytics** | name: apify-content-analytics |
-| automation\apify-ecommerce | **apify-ecommerce** | name: apify-ecommerce |
-| automation\apify-influencer-discovery | **apify-influencer-discovery** | name: apify-influencer-discovery |
-| automation\apify-lead-generation | **apify-lead-generation** | name: apify-lead-generation |
-| automation\apify-market-research | **apify-market-research** | name: apify-market-research |
-| automation\apify-trend-analysis | **apify-trend-analysis** | name: apify-trend-analysis |
-| automation\apify-ultimate-scraper | **apify-ultimate-scraper** | name: apify-ultimate-scraper |
-| automation\asana-automation | **asana-automation** | name: asana-automation |
-| automation\bamboohr-automation | **bamboohr-automation** | name: bamboohr-automation |
-| automation\basecamp-automation | **basecamp-automation** | name: basecamp-automation |
-| automation\billing-automation | **billing-automation** | name: billing-automation |
-| automation\bitbucket-automation | **bitbucket-automation** | name: bitbucket-automation |
-| automation\box-automation | **box-automation** | name: box-automation |
-| automation\brevo-automation | **brevo-automation** | name: brevo-automation |
-| automation\browser-automation | **browser-automation** | name: browser-automation |
-| automation\cal-com-automation | **cal-com-automation** | name: cal-com-automation |
-| automation\calendly-automation | **calendly-automation** | name: calendly-automation |
-| automation\canva-automation | **canva-automation** | name: canva-automation |
-| automation\changelog-automation | **changelog-automation** | name: changelog-automation |
-| automation\cicd-automation-workflow-automate | **cicd-automation-workflow-automate** | name: cicd-automation-workflow-automate |
-| automation\circleci-automation | **circleci-automation** | name: circleci-automation |
-| automation\clickup-automation | **clickup-automation** | name: clickup-automation |
-| automation\close-automation | **close-automation** | name: close-automation |
-| automation\coda-automation | **coda-automation** | name: coda-automation |
-| automation\confluence-automation | **confluence-automation** | name: confluence-automation |
-| automation\convertkit-automation | **convertkit-automation** | name: convertkit-automation |
-| automation\datadog-automation | **datadog-automation** | name: datadog-automation |
-| automation\discord-automation | **discord-automation** | name: discord-automation |
-| automation\discord-bot-architect | **discord-bot-architect** | name: discord-bot-architect |
-| automation\docusign-automation | **docusign-automation** | name: docusign-automation |
-| automation\dropbox-automation | **dropbox-automation** | name: dropbox-automation |
-| automation\figma-automation | **figma-automation** | name: figma-automation |
-| automation\freshdesk-automation | **freshdesk-automation** | name: freshdesk-automation |
-| automation\freshservice-automation | **freshservice-automation** | name: freshservice-automation |
-| automation\git-hooks-automation | **git-hooks-automation** | name: git-hooks-automation |
-| automation\github-automation | **github-automation** | name: github-automation |
-| automation\github-workflow-automation | **github-workflow-automation** | name: github-workflow-automation |
-| automation\gitlab-automation | **gitlab-automation** | name: gitlab-automation |
-| automation\gmail-automation | **gmail-automation** | name: gmail-automation |
-| automation\google-analytics-automation | **google-analytics-automation** | name: google-analytics-automation |
-| automation\google-calendar-automation | **google-calendar-automation** | name: google-calendar-automation |
-| automation\google-docs-automation | **google-docs-automation** | name: google-docs-automation |
-| automation\google-drive-automation | **google-drive-automation** | name: google-drive-automation |
-| automation\google-sheets-automation | **google-sheets-automation** | name: google-sheets-automation |
-| automation\google-slides-automation | **google-slides-automation** | name: google-slides-automation |
-| automation\googlesheets-automation | **googlesheets-automation** | name: googlesheets-automation |
-| automation\helpdesk-automation | **helpdesk-automation** | name: helpdesk-automation |
-| automation\hubspot-automation | **hubspot-automation** | name: hubspot-automation |
-| automation\hubspot-integration | **hubspot-integration** | name: hubspot-integration |
-| automation\instagram-automation | **instagram-automation** | name: instagram-automation |
-| automation\intercom-automation | **intercom-automation** | name: intercom-automation |
-| automation\jira-automation | **jira-automation** | name: jira-automation |
-| automation\klaviyo-automation | **klaviyo-automation** | name: klaviyo-automation |
-| automation\linear-automation | **linear-automation** | name: linear-automation |
-| automation\linkedin-automation | **linkedin-automation** | name: linkedin-automation |
-| automation\mailchimp-automation | **mailchimp-automation** | name: mailchimp-automation |
-| automation\make-automation | **make-automation** | name: make-automation |
-| automation\microsoft-teams-automation | **microsoft-teams-automation** | name: microsoft-teams-automation |
-| automation\miro-automation | **miro-automation** | name: miro-automation |
-| automation\mixpanel-automation | **mixpanel-automation** | name: mixpanel-automation |
-| automation\monday-automation | **monday-automation** | name: monday-automation |
-| automation\notion-automation | **notion-automation** | name: notion-automation |
-| automation\notion-template-business | **notion-template-business** | name: notion-template-business |
-| automation\one-drive-automation | **one-drive-automation** | name: one-drive-automation |
-| automation\outlook-automation | **outlook-automation** | name: outlook-automation |
-| automation\outlook-calendar-automation | **outlook-calendar-automation** | name: outlook-calendar-automation |
-| automation\pagerduty-automation | **pagerduty-automation** | name: pagerduty-automation |
-| automation\paypal-integration | **paypal-integration** | name: paypal-integration |
-| automation\pipedrive-automation | **pipedrive-automation** | name: pipedrive-automation |
-| automation\posthog-automation | **posthog-automation** | name: posthog-automation |
-| automation\postmark-automation | **postmark-automation** | name: postmark-automation |
-| automation\reddit-automation | **reddit-automation** | name: reddit-automation |
-| automation\render-automation | **render-automation** | name: render-automation |
-| automation\salesforce-automation | **salesforce-automation** | name: salesforce-automation |
-| automation\segment-automation | **segment-automation** | name: segment-automation |
-| automation\sendgrid-automation | **sendgrid-automation** | name: sendgrid-automation |
-| automation\sentry-automation | **sentry-automation** | name: sentry-automation |
-| automation\shopify-automation | **shopify-automation** | name: shopify-automation |
-| automation\slack-automation | **slack-automation** | name: slack-automation |
-| automation\slack-bot-builder | **slack-bot-builder** | name: slack-bot-builder |
-| automation\slack-gif-creator | **slack-gif-creator** | name: slack-gif-creator |
-| automation\square-automation | **square-automation** | name: square-automation |
-| automation\stripe-automation | **stripe-automation** | name: stripe-automation |
-| automation\stripe-integration | **stripe-integration** | name: stripe-integration |
-| automation\supabase-automation | **supabase-automation** | name: supabase-automation |
-| automation\telegram-automation | **telegram-automation** | name: telegram-automation |
-| automation\tiktok-automation | **tiktok-automation** | name: tiktok-automation |
-| automation\todoist-automation | **todoist-automation** | name: todoist-automation |
-| automation\trello-automation | **trello-automation** | name: trello-automation |
-| automation\twitter-automation | **twitter-automation** | name: twitter-automation |
-| automation\vercel-automation | **vercel-automation** | name: vercel-automation |
-| automation\webflow-automation | **webflow-automation** | name: webflow-automation |
-| automation\whatsapp-automation | **whatsapp-automation** | name: whatsapp-automation |
-| automation\workflow-automation | **workflow-automation** | name: workflow-automation |
-| automation\wrike-automation | **wrike-automation** | name: wrike-automation |
-| automation\youtube-automation | **youtube-automation** | name: youtube-automation |
-| automation\zapier-make-patterns | **zapier-make-patterns** | name: zapier-make-patterns |
-| automation\zendesk-automation | **zendesk-automation** | name: zendesk-automation |
-| automation\zoho-crm-automation | **zoho-crm-automation** | name: zoho-crm-automation |
-| automation\zoom-automation | **zoom-automation** | name: zoom-automation |
-| cloud\aws\aws-cost-cleanup | **aws-cost-cleanup** | name: aws-cost-cleanup |
-| cloud\aws\aws-cost-optimizer | **aws-cost-optimizer** | name: aws-cost-optimizer |
-| cloud\aws\aws-penetration-testing | **aws-penetration-testing** | name: aws-penetration-testing |
-| cloud\aws\aws-serverless | **aws-serverless** | name: aws-serverless |
-| cloud\aws\aws-skills | **aws-skills** | name: aws-skills |
-| cloud\azure\azd-deployment | **azd-deployment** | name: azd-deployment |
-| cloud\azure\azure-ai-agents-persistent-dotnet | **azure-ai-agents-persistent-dotnet** | name: azure-ai-agents-persistent-dotnet |
-| cloud\azure\azure-ai-agents-persistent-java | **azure-ai-agents-persistent-java** | name: azure-ai-agents-persistent-java |
-| cloud\azure\azure-ai-anomalydetector-java | **azure-ai-anomalydetector-java** | name: azure-ai-anomalydetector-java |
-| cloud\azure\azure-ai-contentsafety-java | **azure-ai-contentsafety-java** | name: azure-ai-contentsafety-java |
-| cloud\azure\azure-ai-contentsafety-py | **azure-ai-contentsafety-py** | name: azure-ai-contentsafety-py |
-| cloud\azure\azure-ai-contentsafety-ts | **azure-ai-contentsafety-ts** | name: azure-ai-contentsafety-ts |
-| cloud\azure\azure-ai-contentunderstanding-py | **azure-ai-contentunderstanding-py** | name: azure-ai-contentunderstanding-py |
-| cloud\azure\azure-ai-document-intelligence-dotnet | **azure-ai-document-intelligence-dotnet** | name: azure-ai-document-intelligence-dotnet |
-| cloud\azure\azure-ai-document-intelligence-ts | **azure-ai-document-intelligence-ts** | name: azure-ai-document-intelligence-ts |
-| cloud\azure\azure-ai-formrecognizer-java | **azure-ai-formrecognizer-java** | name: azure-ai-formrecognizer-java |
-| cloud\azure\azure-ai-ml-py | **azure-ai-ml-py** | name: azure-ai-ml-py |
-| cloud\azure\azure-ai-openai-dotnet | **azure-ai-openai-dotnet** | name: azure-ai-openai-dotnet |
-| cloud\azure\azure-ai-projects-dotnet | **azure-ai-projects-dotnet** | name: azure-ai-projects-dotnet |
-| cloud\azure\azure-ai-projects-java | **azure-ai-projects-java** | name: azure-ai-projects-java |
-| cloud\azure\azure-ai-projects-py | **azure-ai-projects-py** | name: azure-ai-projects-py |
-| cloud\azure\azure-ai-projects-ts | **azure-ai-projects-ts** | name: azure-ai-projects-ts |
-| cloud\azure\azure-ai-textanalytics-py | **azure-ai-textanalytics-py** | name: azure-ai-textanalytics-py |
-| cloud\azure\azure-ai-transcription-py | **azure-ai-transcription-py** | name: azure-ai-transcription-py |
-| cloud\azure\azure-ai-translation-document-py | **azure-ai-translation-document-py** | name: azure-ai-translation-document-py |
-| cloud\azure\azure-ai-translation-text-py | **azure-ai-translation-text-py** | name: azure-ai-translation-text-py |
-| cloud\azure\azure-ai-translation-ts | **azure-ai-translation-ts** | name: azure-ai-translation-ts |
-| cloud\azure\azure-ai-vision-imageanalysis-java | **azure-ai-vision-imageanalysis-java** | name: azure-ai-vision-imageanalysis-java |
-| cloud\azure\azure-ai-vision-imageanalysis-py | **azure-ai-vision-imageanalysis-py** | name: azure-ai-vision-imageanalysis-py |
-| cloud\azure\azure-ai-voicelive-dotnet | **azure-ai-voicelive-dotnet** | name: azure-ai-voicelive-dotnet |
-| cloud\azure\azure-ai-voicelive-java | **azure-ai-voicelive-java** | name: azure-ai-voicelive-java |
-| cloud\azure\azure-ai-voicelive-py | **azure-ai-voicelive-py** | name: azure-ai-voicelive-py |
-| cloud\azure\azure-ai-voicelive-ts | **azure-ai-voicelive-ts** | name: azure-ai-voicelive-ts |
-| cloud\azure\azure-appconfiguration-java | **azure-appconfiguration-java** | name: azure-appconfiguration-java |
-| cloud\azure\azure-appconfiguration-py | **azure-appconfiguration-py** | name: azure-appconfiguration-py |
-| cloud\azure\azure-appconfiguration-ts | **azure-appconfiguration-ts** | name: azure-appconfiguration-ts |
-| cloud\azure\azure-communication-callautomation-java | **azure-communication-callautomation-java** | name: azure-communication-callautomation-java |
-| cloud\azure\azure-communication-callingserver-java | **azure-communication-callingserver-java** | name: azure-communication-callingserver-java |
-| cloud\azure\azure-communication-chat-java | **azure-communication-chat-java** | name: azure-communication-chat-java |
-| cloud\azure\azure-communication-common-java | **azure-communication-common-java** | name: azure-communication-common-java |
-| cloud\azure\azure-communication-sms-java | **azure-communication-sms-java** | name: azure-communication-sms-java |
-| cloud\azure\azure-compute-batch-java | **azure-compute-batch-java** | name: azure-compute-batch-java |
-| cloud\azure\azure-containerregistry-py | **azure-containerregistry-py** | name: azure-containerregistry-py |
-| cloud\azure\azure-cosmos-db-py | **azure-cosmos-db-py** | name: azure-cosmos-db-py |
-| cloud\azure\azure-cosmos-java | **azure-cosmos-java** | name: azure-cosmos-java |
-| cloud\azure\azure-cosmos-py | **azure-cosmos-py** | name: azure-cosmos-py |
-| cloud\azure\azure-cosmos-rust | **azure-cosmos-rust** | name: azure-cosmos-rust |
-| cloud\azure\azure-cosmos-ts | **azure-cosmos-ts** | name: azure-cosmos-ts |
-| cloud\azure\azure-data-tables-java | **azure-data-tables-java** | name: azure-data-tables-java |
-| cloud\azure\azure-data-tables-py | **azure-data-tables-py** | name: azure-data-tables-py |
-| cloud\azure\azure-eventgrid-dotnet | **azure-eventgrid-dotnet** | name: azure-eventgrid-dotnet |
-| cloud\azure\azure-eventgrid-java | **azure-eventgrid-java** | name: azure-eventgrid-java |
-| cloud\azure\azure-eventgrid-py | **azure-eventgrid-py** | name: azure-eventgrid-py |
-| cloud\azure\azure-eventhub-dotnet | **azure-eventhub-dotnet** | name: azure-eventhub-dotnet |
-| cloud\azure\azure-eventhub-java | **azure-eventhub-java** | name: azure-eventhub-java |
-| cloud\azure\azure-eventhub-py | **azure-eventhub-py** | name: azure-eventhub-py |
-| cloud\azure\azure-eventhub-rust | **azure-eventhub-rust** | name: azure-eventhub-rust |
-| cloud\azure\azure-eventhub-ts | **azure-eventhub-ts** | name: azure-eventhub-ts |
-| cloud\azure\azure-functions | **azure-functions** | name: azure-functions |
-| cloud\azure\azure-identity-dotnet | **azure-identity-dotnet** | name: azure-identity-dotnet |
-| cloud\azure\azure-identity-java | **azure-identity-java** | name: azure-identity-java |
-| cloud\azure\azure-identity-py | **azure-identity-py** | name: azure-identity-py |
-| cloud\azure\azure-identity-rust | **azure-identity-rust** | name: azure-identity-rust |
-| cloud\azure\azure-identity-ts | **azure-identity-ts** | name: azure-identity-ts |
-| cloud\azure\azure-keyvault-certificates-rust | **azure-keyvault-certificates-rust** | name: azure-keyvault-certificates-rust |
-| cloud\azure\azure-keyvault-keys-rust | **azure-keyvault-keys-rust** | name: azure-keyvault-keys-rust |
-| cloud\azure\azure-keyvault-keys-ts | **azure-keyvault-keys-ts** | name: azure-keyvault-keys-ts |
-| cloud\azure\azure-keyvault-py | **azure-keyvault-py** | name: azure-keyvault-py |
-| cloud\azure\azure-keyvault-secrets-rust | **azure-keyvault-secrets-rust** | name: azure-keyvault-secrets-rust |
-| cloud\azure\azure-keyvault-secrets-ts | **azure-keyvault-secrets-ts** | name: azure-keyvault-secrets-ts |
-| cloud\azure\azure-maps-search-dotnet | **azure-maps-search-dotnet** | name: azure-maps-search-dotnet |
-| cloud\azure\azure-messaging-webpubsub-java | **azure-messaging-webpubsub-java** | name: azure-messaging-webpubsub-java |
-| cloud\azure\azure-messaging-webpubsubservice-py | **azure-messaging-webpubsubservice-py** | name: azure-messaging-webpubsubservice-py |
-| cloud\azure\azure-mgmt-apicenter-dotnet | **azure-mgmt-apicenter-dotnet** | name: azure-mgmt-apicenter-dotnet |
-| cloud\azure\azure-mgmt-apicenter-py | **azure-mgmt-apicenter-py** | name: azure-mgmt-apicenter-py |
-| cloud\azure\azure-mgmt-apimanagement-dotnet | **azure-mgmt-apimanagement-dotnet** | name: azure-mgmt-apimanagement-dotnet |
-| cloud\azure\azure-mgmt-apimanagement-py | **azure-mgmt-apimanagement-py** | name: azure-mgmt-apimanagement-py |
-| cloud\azure\azure-mgmt-applicationinsights-dotnet | **azure-mgmt-applicationinsights-dotnet** | name: azure-mgmt-applicationinsights-dotnet |
-| cloud\azure\azure-mgmt-arizeaiobservabilityeval-dotnet | **azure-mgmt-arizeaiobservabilityeval-dotnet** | name: azure-mgmt-arizeaiobservabilityeval-dotnet |
-| cloud\azure\azure-mgmt-botservice-dotnet | **azure-mgmt-botservice-dotnet** | name: azure-mgmt-botservice-dotnet |
-| cloud\azure\azure-mgmt-botservice-py | **azure-mgmt-botservice-py** | name: azure-mgmt-botservice-py |
-| cloud\azure\azure-mgmt-fabric-dotnet | **azure-mgmt-fabric-dotnet** | name: azure-mgmt-fabric-dotnet |
-| cloud\azure\azure-mgmt-fabric-py | **azure-mgmt-fabric-py** | name: azure-mgmt-fabric-py |
-| cloud\azure\azure-mgmt-mongodbatlas-dotnet | **azure-mgmt-mongodbatlas-dotnet** | name: azure-mgmt-mongodbatlas-dotnet |
-| cloud\azure\azure-mgmt-weightsandbiases-dotnet | **azure-mgmt-weightsandbiases-dotnet** | name: azure-mgmt-weightsandbiases-dotnet |
-| cloud\azure\azure-microsoft-playwright-testing-ts | **azure-microsoft-playwright-testing-ts** | name: azure-microsoft-playwright-testing-ts |
-| cloud\azure\azure-monitor-ingestion-java | **azure-monitor-ingestion-java** | name: azure-monitor-ingestion-java |
-| cloud\azure\azure-monitor-ingestion-py | **azure-monitor-ingestion-py** | name: azure-monitor-ingestion-py |
-| cloud\azure\azure-monitor-opentelemetry-exporter-java | **azure-monitor-opentelemetry-exporter-java** | name: azure-monitor-opentelemetry-exporter-java |
-| cloud\azure\azure-monitor-opentelemetry-exporter-py | **azure-monitor-opentelemetry-exporter-py** | name: azure-monitor-opentelemetry-exporter-py |
-| cloud\azure\azure-monitor-opentelemetry-py | **azure-monitor-opentelemetry-py** | name: azure-monitor-opentelemetry-py |
-| cloud\azure\azure-monitor-opentelemetry-ts | **azure-monitor-opentelemetry-ts** | name: azure-monitor-opentelemetry-ts |
-| cloud\azure\azure-monitor-query-java | **azure-monitor-query-java** | name: azure-monitor-query-java |
-| cloud\azure\azure-monitor-query-py | **azure-monitor-query-py** | name: azure-monitor-query-py |
-| cloud\azure\azure-postgres-ts | **azure-postgres-ts** | name: azure-postgres-ts |
-| cloud\azure\azure-resource-manager-cosmosdb-dotnet | **azure-resource-manager-cosmosdb-dotnet** | name: azure-resource-manager-cosmosdb-dotnet |
-| cloud\azure\azure-resource-manager-durabletask-dotnet | **azure-resource-manager-durabletask-dotnet** | name: azure-resource-manager-durabletask-dotnet |
-| cloud\azure\azure-resource-manager-mysql-dotnet | **azure-resource-manager-mysql-dotnet** | name: azure-resource-manager-mysql-dotnet |
-| cloud\azure\azure-resource-manager-playwright-dotnet | **azure-resource-manager-playwright-dotnet** | name: azure-resource-manager-playwright-dotnet |
-| cloud\azure\azure-resource-manager-postgresql-dotnet | **azure-resource-manager-postgresql-dotnet** | name: azure-resource-manager-postgresql-dotnet |
-| cloud\azure\azure-resource-manager-redis-dotnet | **azure-resource-manager-redis-dotnet** | name: azure-resource-manager-redis-dotnet |
-| cloud\azure\azure-resource-manager-sql-dotnet | **azure-resource-manager-sql-dotnet** | name: azure-resource-manager-sql-dotnet |
-| cloud\azure\azure-search-documents-dotnet | **azure-search-documents-dotnet** | name: azure-search-documents-dotnet |
-| cloud\azure\azure-search-documents-py | **azure-search-documents-py** | name: azure-search-documents-py |
-| cloud\azure\azure-search-documents-ts | **azure-search-documents-ts** | name: azure-search-documents-ts |
-| cloud\azure\azure-security-keyvault-keys-dotnet | **azure-security-keyvault-keys-dotnet** | name: azure-security-keyvault-keys-dotnet |
-| cloud\azure\azure-security-keyvault-keys-java | **azure-security-keyvault-keys-java** | name: azure-security-keyvault-keys-java |
-| cloud\azure\azure-security-keyvault-secrets-java | **azure-security-keyvault-secrets-java** | name: azure-security-keyvault-secrets-java |
-| cloud\azure\azure-servicebus-dotnet | **azure-servicebus-dotnet** | name: azure-servicebus-dotnet |
-| cloud\azure\azure-servicebus-py | **azure-servicebus-py** | name: azure-servicebus-py |
-| cloud\azure\azure-servicebus-ts | **azure-servicebus-ts** | name: azure-servicebus-ts |
-| cloud\azure\azure-speech-to-text-rest-py | **azure-speech-to-text-rest-py** | name: azure-speech-to-text-rest-py |
-| cloud\azure\azure-storage-blob-java | **azure-storage-blob-java** | name: azure-storage-blob-java |
-| cloud\azure\azure-storage-blob-py | **azure-storage-blob-py** | name: azure-storage-blob-py |
-| cloud\azure\azure-storage-blob-rust | **azure-storage-blob-rust** | name: azure-storage-blob-rust |
-| cloud\azure\azure-storage-blob-ts | **azure-storage-blob-ts** | name: azure-storage-blob-ts |
-| cloud\azure\azure-storage-file-datalake-py | **azure-storage-file-datalake-py** | name: azure-storage-file-datalake-py |
-| cloud\azure\azure-storage-file-share-py | **azure-storage-file-share-py** | name: azure-storage-file-share-py |
-| cloud\azure\azure-storage-file-share-ts | **azure-storage-file-share-ts** | name: azure-storage-file-share-ts |
-| cloud\azure\azure-storage-queue-py | **azure-storage-queue-py** | name: azure-storage-queue-py |
-| cloud\azure\azure-storage-queue-ts | **azure-storage-queue-ts** | name: azure-storage-queue-ts |
-| cloud\azure\azure-web-pubsub-ts | **azure-web-pubsub-ts** | name: azure-web-pubsub-ts |
-| development | **development** | name: development |
-| development\backend\api-design-principles | **api-design-principles** | name: api-design-principles |
-| development\backend\api-documentation | **api-documentation** | name: api-documentation |
-| development\backend\api-documentation-generator | **api-documentation-generator** | name: api-documentation-generator |
-| development\backend\api-documenter | **api-documenter** | name: api-documenter |
-| development\backend\api-endpoint-builder | **api-endpoint-builder** | name: api-endpoint-builder |
-| development\backend\api-fuzzing-bug-bounty | **api-fuzzing-bug-bounty** | name: api-fuzzing-bug-bounty |
-| development\backend\api-patterns | **api-patterns** | name: api-patterns |
-| development\backend\api-security-best-practices | **api-security-best-practices** | name: api-security-best-practices |
-| development\backend\api-security-testing | **api-security-testing** | name: api-security-testing |
-| development\backend\api-testing-observability-api-mock | **api-testing-observability-api-mock** | name: api-testing-observability-api-mock |
-| development\backend\arm-cortex-expert | **arm-cortex-expert** | name: arm-cortex-expert |
-| development\backend\async-python-patterns | **async-python-patterns** | name: async-python-patterns |
-| development\backend\backend-architect | **backend-architect** | name: backend-architect |
-| development\backend\backend-dev-guidelines | **backend-dev-guidelines** | name: backend-dev-guidelines |
-| development\backend\backend-development-feature-development | **backend-development-feature-development** | name: backend-development-feature-development |
-| development\backend\backend-security-coder | **backend-security-coder** | name: backend-security-coder |
-| development\backend\bevy-ecs-expert | **bevy-ecs-expert** | name: bevy-ecs-expert |
-| development\backend\blockchain-developer | **blockchain-developer** | name: blockchain-developer |
-| development\backend\bullmq-specialist | **bullmq-specialist** | name: bullmq-specialist |
-| development\backend\bun-development | **bun-development** | name: bun-development |
-| development\backend\elixir-pro | **elixir-pro** | name: elixir-pro |
-| development\backend\fastapi-pro | **fastapi-pro** | name: fastapi-pro |
-| development\backend\fastapi-router-py | **fastapi-router-py** | name: fastapi-router-py |
-| development\backend\fastapi-templates | **fastapi-templates** | name: fastapi-templates |
-| development\backend\golang-pro | **golang-pro** | name: golang-pro |
-| development\backend\haskell-pro | **haskell-pro** | name: haskell-pro |
-| development\backend\java-pro | **java-pro** | name: java-pro |
-| development\backend\javascript-mastery | **javascript-mastery** | name: javascript-mastery |
-| development\backend\javascript-pro | **javascript-pro** | name: javascript-pro |
-| development\backend\javascript-testing-patterns | **javascript-testing-patterns** | name: javascript-testing-patterns |
-| development\backend\javascript-typescript-typescript-scaffold | **javascript-typescript-typescript-scaffold** | name: javascript-typescript-typescript-scaffold |
-| development\backend\nodejs-backend-patterns | **nodejs-backend-patterns** | name: nodejs-backend-patterns |
-| development\backend\nodejs-best-practices | **nodejs-best-practices** | name: nodejs-best-practices |
-| development\backend\php-pro | **php-pro** | name: php-pro |
-| development\backend\python-development-python-scaffold | **python-development-python-scaffold** | name: python-development-python-scaffold |
-| development\backend\python-fastapi-development | **python-fastapi-development** | name: python-fastapi-development |
-| development\backend\python-packaging | **python-packaging** | name: python-packaging |
-| development\backend\python-patterns | **python-patterns** | name: python-patterns |
-| development\backend\python-performance-optimization | **python-performance-optimization** | name: python-performance-optimization |
-| development\backend\python-pro | **python-pro** | name: python-pro |
-| development\backend\python-testing-patterns | **python-testing-patterns** | name: python-testing-patterns |
-| development\backend\ruby-pro | **ruby-pro** | name: ruby-pro |
-| development\backend\rust-async-patterns | **rust-async-patterns** | name: rust-async-patterns |
-| development\backend\rust-pro | **rust-pro** | name: rust-pro |
-| development\backend\scala-pro | **scala-pro** | name: scala-pro |
-| development\database\database | **database** | name: database |
-| development\database\database-admin | **database-admin** | name: database-admin |
-| development\database\database-architect | **database-architect** | name: database-architect |
-| development\database\database-cloud-optimization-cost-optimize | **database-cloud-optimization-cost-optimize** | name: database-cloud-optimization-cost-optimize |
-| development\database\database-design | **database-design** | name: database-design |
-| development\database\database-migration | **database-migration** | name: database-migration |
-| development\database\database-migrations-migration-observability | **database-migrations-migration-observability** | name: database-migrations-migration-observability |
-| development\database\database-migrations-sql-migrations | **database-migrations-sql-migrations** | name: database-migrations-sql-migrations |
-| development\database\database-optimizer | **database-optimizer** | name: database-optimizer |
-| development\database\drizzle-orm-expert | **drizzle-orm-expert** | name: drizzle-orm-expert |
-| development\database\postgres-best-practices | **postgres-best-practices** | name: postgres-best-practices |
-| development\database\postgresql | **postgresql** | name: postgresql |
-| development\database\postgresql-optimization | **postgresql-optimization** | name: postgresql-optimization |
-| development\database\prisma-expert | **prisma-expert** | name: prisma-expert |
-| development\database\sql-injection-testing | **sql-injection-testing** | name: sql-injection-testing |
-| development\database\sql-optimization-patterns | **sql-optimization-patterns** | name: sql-optimization-patterns |
-| development\database\sql-pro | **sql-pro** | name: sql-pro |
-| development\database\sqlmap-database-pentesting | **sqlmap-database-pentesting** | name: sqlmap-database-pentesting |
-| development\frontend\3d-web-experience | **3d-web-experience** | name: 3d-web-experience |
-| development\frontend\angular | **angular** | name: angular |
-| development\frontend\angular-best-practices | **angular-best-practices** | name: angular-best-practices |
-| development\frontend\angular-migration | **angular-migration** | name: angular-migration |
-| development\frontend\angular-state-management | **angular-state-management** | name: angular-state-management |
-| development\frontend\angular-ui-patterns | **angular-ui-patterns** | name: angular-ui-patterns |
-| development\frontend\animejs-animation | **animejs-animation** | name: animejs-animation |
-| development\frontend\astro | **astro** | name: astro |
-| development\frontend\avalonia-layout-zafiro | **avalonia-layout-zafiro** | name: avalonia-layout-zafiro |
-| development\frontend\avalonia-viewmodels-zafiro | **avalonia-viewmodels-zafiro** | name: avalonia-viewmodels-zafiro |
-| development\frontend\avalonia-zafiro-development | **avalonia-zafiro-development** | name: avalonia-zafiro-development |
-| development\frontend\baseline-ui | **baseline-ui** | name: baseline-ui |
-| development\frontend\browser-extension-builder | **browser-extension-builder** | name: browser-extension-builder |
-| development\frontend\nextjs-app-router-patterns | **nextjs-app-router-patterns** | name: nextjs-app-router-patterns |
-| development\frontend\nextjs-best-practices | **nextjs-best-practices** | name: nextjs-best-practices |
-| development\frontend\nextjs-supabase-auth | **nextjs-supabase-auth** | name: nextjs-supabase-auth |
-| development\frontend\radix-ui-design-system | **radix-ui-design-system** | name: radix-ui-design-system |
-| development\frontend\react-best-practices | **react-best-practices** | name: react-best-practices |
-| development\frontend\react-component-performance | **react-component-performance** | name: react-component-performance |
-| development\frontend\react-flow-architect | **react-flow-architect** | name: react-flow-architect |
-| development\frontend\react-flow-node-ts | **react-flow-node-ts** | name: react-flow-node-ts |
-| development\frontend\react-modernization | **react-modernization** | name: react-modernization |
-| development\frontend\react-native-architecture | **react-native-architecture** | name: react-native-architecture |
-| development\frontend\react-nextjs-development | **react-nextjs-development** | name: react-nextjs-development |
-| development\frontend\react-patterns | **react-patterns** | name: react-patterns |
-| development\frontend\react-state-management | **react-state-management** | name: react-state-management |
-| development\frontend\react-ui-patterns | **react-ui-patterns** | name: react-ui-patterns |
-| development\frontend\shadcn | **shadcn** | name: shadcn |
-| development\frontend\tailwind-design-system | **tailwind-design-system** | name: tailwind-design-system |
-| development\frontend\tailwind-patterns | **tailwind-patterns** | name: tailwind-patterns |
-| development\frontend\threejs-animation | **threejs-animation** | name: threejs-animation |
-| development\frontend\threejs-fundamentals | **threejs-fundamentals** | name: threejs-fundamentals |
-| development\frontend\threejs-geometry | **threejs-geometry** | name: threejs-geometry |
-| development\frontend\threejs-interaction | **threejs-interaction** | name: threejs-interaction |
-| development\frontend\threejs-lighting | **threejs-lighting** | name: threejs-lighting |
-| development\frontend\threejs-loaders | **threejs-loaders** | name: threejs-loaders |
-| development\frontend\threejs-materials | **threejs-materials** | name: threejs-materials |
-| development\frontend\threejs-postprocessing | **threejs-postprocessing** | name: threejs-postprocessing |
-| development\frontend\threejs-shaders | **threejs-shaders** | name: threejs-shaders |
-| development\frontend\threejs-skills | **threejs-skills** | name: threejs-skills |
-| development\frontend\threejs-textures | **threejs-textures** | name: threejs-textures |
-| development\mobile\android-jetpack-compose-expert | **android-jetpack-compose-expert** | name: android-jetpack-compose-expert |
-| development\mobile\android_ui_verification | **android_ui_verification** | name: android_ui_verification |
-| development\mobile\building-native-ui | **building-native-ui** | name: building-native-ui |
-| development\mobile\expo-api-routes | **expo-api-routes** | name: expo-api-routes |
-| development\mobile\expo-cicd-workflows | **expo-cicd-workflows** | name: expo-cicd-workflows |
-| development\mobile\expo-deployment | **expo-deployment** | name: expo-deployment |
-| development\mobile\expo-dev-client | **expo-dev-client** | name: expo-dev-client |
-| development\mobile\expo-tailwind-setup | **expo-tailwind-setup** | name: expo-tailwind-setup |
-| development\mobile\expo-ui-jetpack-compose | **expo-ui-jetpack-compose** | name: expo-ui-jetpack-compose |
-| development\mobile\expo-ui-swift-ui | **expo-ui-swift-ui** | name: expo-ui-swift-ui |
-| development\mobile\hig-components-content | **hig-components-content** | name: hig-components-content |
-| development\mobile\hig-components-controls | **hig-components-controls** | name: hig-components-controls |
-| development\mobile\hig-components-dialogs | **hig-components-dialogs** | name: hig-components-dialogs |
-| development\mobile\hig-components-layout | **hig-components-layout** | name: hig-components-layout |
-| development\mobile\hig-components-menus | **hig-components-menus** | name: hig-components-menus |
-| development\mobile\hig-components-search | **hig-components-search** | name: hig-components-search |
-| development\mobile\hig-components-status | **hig-components-status** | name: hig-components-status |
-| development\mobile\hig-components-system | **hig-components-system** | name: hig-components-system |
-| development\mobile\hig-foundations | **hig-foundations** | name: hig-foundations |
-| development\mobile\hig-inputs | **hig-inputs** | name: hig-inputs |
-| development\mobile\hig-patterns | **hig-patterns** | name: hig-patterns |
-| development\mobile\hig-platforms | **hig-platforms** | name: hig-platforms |
-| development\mobile\hig-project-context | **hig-project-context** | name: hig-project-context |
-| development\mobile\hig-technologies | **hig-technologies** | name: hig-technologies |
-| development\mobile\swift-concurrency-expert | **swift-concurrency-expert** | name: swift-concurrency-expert |
-| development\mobile\swiftui-expert-skill | **swiftui-expert-skill** | name: swiftui-expert-skill |
-| development\mobile\swiftui-liquid-glass | **swiftui-liquid-glass** | name: swiftui-liquid-glass |
-| development\mobile\swiftui-performance-audit | **swiftui-performance-audit** | name: swiftui-performance-audit |
-| development\mobile\swiftui-ui-patterns | **swiftui-ui-patterns** | name: swiftui-ui-patterns |
-| development\mobile\swiftui-view-refactor | **swiftui-view-refactor** | name: swiftui-view-refactor |
-| development\testing\awt-e2e-testing | **awt-e2e-testing** | name: awt-e2e-testing |
-| development\testing\bats-testing-patterns | **bats-testing-patterns** | name: bats-testing-patterns |
-| development\tools\bazel-build-optimization | **bazel-build-optimization** | name: bazel-build-optimization |
-| erp\odoo\odoo-accounting-setup | **odoo-accounting-setup** | name: odoo-accounting-setup |
-| erp\odoo\odoo-automated-tests | **odoo-automated-tests** | name: odoo-automated-tests |
-| erp\odoo\odoo-backup-strategy | **odoo-backup-strategy** | name: odoo-backup-strategy |
-| erp\odoo\odoo-docker-deployment | **odoo-docker-deployment** | name: odoo-docker-deployment |
-| erp\odoo\odoo-ecommerce-configurator | **odoo-ecommerce-configurator** | name: odoo-ecommerce-configurator |
-| erp\odoo\odoo-edi-connector | **odoo-edi-connector** | name: odoo-edi-connector |
-| erp\odoo\odoo-hr-payroll-setup | **odoo-hr-payroll-setup** | name: odoo-hr-payroll-setup |
-| erp\odoo\odoo-inventory-optimizer | **odoo-inventory-optimizer** | name: odoo-inventory-optimizer |
-| erp\odoo\odoo-l10n-compliance | **odoo-l10n-compliance** | name: odoo-l10n-compliance |
-| erp\odoo\odoo-manufacturing-advisor | **odoo-manufacturing-advisor** | name: odoo-manufacturing-advisor |
-| erp\odoo\odoo-migration-helper | **odoo-migration-helper** | name: odoo-migration-helper |
-| erp\odoo\odoo-module-developer | **odoo-module-developer** | name: odoo-module-developer |
-| erp\odoo\odoo-orm-expert | **odoo-orm-expert** | name: odoo-orm-expert |
-| erp\odoo\odoo-performance-tuner | **odoo-performance-tuner** | name: odoo-performance-tuner |
-| erp\odoo\odoo-project-timesheet | **odoo-project-timesheet** | name: odoo-project-timesheet |
-| erp\odoo\odoo-purchase-workflow | **odoo-purchase-workflow** | name: odoo-purchase-workflow |
-| erp\odoo\odoo-qweb-templates | **odoo-qweb-templates** | name: odoo-qweb-templates |
-| erp\odoo\odoo-rpc-api | **odoo-rpc-api** | name: odoo-rpc-api |
-| erp\odoo\odoo-sales-crm-expert | **odoo-sales-crm-expert** | name: odoo-sales-crm-expert |
-| erp\odoo\odoo-security-rules | **odoo-security-rules** | name: odoo-security-rules |
-| erp\odoo\odoo-shopify-integration | **odoo-shopify-integration** | name: odoo-shopify-integration |
-| erp\odoo\odoo-upgrade-advisor | **odoo-upgrade-advisor** | name: odoo-upgrade-advisor |
-| erp\odoo\odoo-woocommerce-bridge | **odoo-woocommerce-bridge** | name: odoo-woocommerce-bridge |
-| erp\odoo\odoo-xml-views-builder | **odoo-xml-views-builder** | name: odoo-xml-views-builder |
-| marketing-seo\ab-test-setup | **ab-test-setup** | name: ab-test-setup |
-| marketing-seo\ad-creative | **ad-creative** | name: ad-creative |
-| marketing-seo\analytics-product | **analytics-product** | name: analytics-product |
-| marketing-seo\analytics-tracking | **analytics-tracking** | name: analytics-tracking |
-| marketing-seo\blog-writing-guide | **blog-writing-guide** | name: blog-writing-guide |
-| marketing-seo\brand-guidelines | **brand-guidelines** | name: brand-guidelines |
-| marketing-seo\brand-guidelines-anthropic | **brand-guidelines-anthropic** | name: brand-guidelines-anthropic |
-| marketing-seo\brand-guidelines-community | **brand-guidelines-community** | name: brand-guidelines-community |
-| marketing-seo\content-creator | **content-creator** | name: content-creator |
-| marketing-seo\content-marketer | **content-marketer** | name: content-marketer |
-| marketing-seo\content-strategy | **content-strategy** | name: content-strategy |
-| marketing-seo\copywriting | **copywriting** | name: copywriting |
-| marketing-seo\email-sequence | **email-sequence** | name: email-sequence |
-| marketing-seo\growth-engine | **growth-engine** | name: growth-engine |
-| marketing-seo\lead-magnets | **lead-magnets** | name: lead-magnets |
-| marketing-seo\marketing-ideas | **marketing-ideas** | name: marketing-ideas |
-| marketing-seo\marketing-psychology | **marketing-psychology** | name: marketing-psychology |
-| marketing-seo\seo-audit | **seo-audit** | name: seo-audit |
-| marketing-seo\seo-authority-builder | **seo-authority-builder** | name: seo-authority-builder |
-| marketing-seo\seo-cannibalization-detector | **seo-cannibalization-detector** | name: seo-cannibalization-detector |
-| marketing-seo\seo-competitor-pages | **seo-competitor-pages** | name: seo-competitor-pages |
-| marketing-seo\seo-content | **seo-content** | name: seo-content |
-| marketing-seo\seo-content-auditor | **seo-content-auditor** | name: seo-content-auditor |
-| marketing-seo\seo-content-planner | **seo-content-planner** | name: seo-content-planner |
-| marketing-seo\seo-content-refresher | **seo-content-refresher** | name: seo-content-refresher |
-| marketing-seo\seo-content-writer | **seo-content-writer** | name: seo-content-writer |
-| marketing-seo\seo-dataforseo | **seo-dataforseo** | name: seo-dataforseo |
-| marketing-seo\seo-forensic-incident-response | **seo-forensic-incident-response** | name: seo-forensic-incident-response |
-| marketing-seo\seo-fundamentals | **seo-fundamentals** | name: seo-fundamentals |
-| marketing-seo\seo-geo | **seo-geo** | name: seo-geo |
-| marketing-seo\seo-hreflang | **seo-hreflang** | name: seo-hreflang |
-| marketing-seo\seo-image-gen | **seo-image-gen** | name: seo-image-gen |
-| marketing-seo\seo-images | **seo-images** | name: seo-images |
-| marketing-seo\seo-keyword-strategist | **seo-keyword-strategist** | name: seo-keyword-strategist |
-| marketing-seo\seo-meta-optimizer | **seo-meta-optimizer** | name: seo-meta-optimizer |
-| marketing-seo\seo-page | **seo-page** | name: seo-page |
-| marketing-seo\seo-plan | **seo-plan** | name: seo-plan |
-| marketing-seo\seo-programmatic | **seo-programmatic** | name: seo-programmatic |
-| marketing-seo\seo-schema | **seo-schema** | name: seo-schema |
-| marketing-seo\seo-sitemap | **seo-sitemap** | name: seo-sitemap |
-| marketing-seo\seo-snippet-hunter | **seo-snippet-hunter** | name: seo-snippet-hunter |
-| marketing-seo\seo-structure-architect | **seo-structure-architect** | name: seo-structure-architect |
-| marketing-seo\seo-technical | **seo-technical** | name: seo-technical |
-| misc\address-github-comments | **address-github-comments** | name: address-github-comments |
-| misc\adhx | **adhx** | name: adhx |
-| misc\legal\advogado-criminal | **advogado-criminal** | name: advogado-criminal |
-| misc\legal\advogado-especialista | **advogado-especialista** | name: advogado-especialista |
-| misc\science\astropy | **astropy** | name: astropy |
-| misc\science\biopython | **biopython** | name: biopython |
-| misc\unsorted\007 | **007** | name: '007' |
-| misc\unsorted\algolia-search | **algolia-search** | name: algolia-search |
-| misc\unsorted\app-builder | **app-builder** | name: app-builder |
-| misc\unsorted\app-builder\templates | **templates** | name: templates |
-| misc\unsorted\app-store-changelog | **app-store-changelog** | name: app-store-changelog |
-| misc\unsorted\app-store-optimization | **app-store-optimization** | name: app-store-optimization |
-| misc\unsorted\auth-implementation-patterns | **auth-implementation-patterns** | name: auth-implementation-patterns |
-| misc\unsorted\backtesting-frameworks | **backtesting-frameworks** | name: backtesting-frameworks |
-| misc\unsorted\bash-defensive-patterns | **bash-defensive-patterns** | name: bash-defensive-patterns |
-| misc\unsorted\bash-linux | **bash-linux** | name: bash-linux |
-| misc\unsorted\bash-pro | **bash-pro** | name: bash-pro |
-| misc\unsorted\bash-scripting | **bash-scripting** | name: bash-scripting |
-| misc\unsorted\beautiful-prose | **beautiful-prose** | name: beautiful-prose |
-| misc\unsorted\bill-gates | **bill-gates** | name: bill-gates |
-| misc\unsorted\business-analyst | **business-analyst** | name: business-analyst |
-| misc\unsorted\c-pro | **c-pro** | name: c-pro |
-| misc\unsorted\c4-architecture-c4-architecture | **c4-architecture-c4-architecture** | name: c4-architecture-c4-architecture |
-| misc\unsorted\c4-code | **c4-code** | name: c4-code |
-| misc\unsorted\c4-component | **c4-component** | name: c4-component |
-| misc\unsorted\c4-container | **c4-container** | name: c4-container |
-| misc\unsorted\c4-context | **c4-context** | name: c4-context |
-| misc\unsorted\canvas-design | **canvas-design** | name: canvas-design |
-| misc\unsorted\carrier-relationship-management | **carrier-relationship-management** | name: carrier-relationship-management |
-| misc\unsorted\cc-skill-backend-patterns | **cc-skill-backend-patterns** | name: cc-skill-backend-patterns |
-| misc\unsorted\cc-skill-clickhouse-io | **cc-skill-clickhouse-io** | name: cc-skill-clickhouse-io |
-| misc\unsorted\cc-skill-coding-standards | **cc-skill-coding-standards** | name: cc-skill-coding-standards |
-| misc\unsorted\cc-skill-continuous-learning | **cc-skill-continuous-learning** | name: cc-skill-continuous-learning |
-| misc\unsorted\cc-skill-frontend-patterns | **cc-skill-frontend-patterns** | name: cc-skill-frontend-patterns |
-| misc\unsorted\cc-skill-project-guidelines-example | **cc-skill-project-guidelines-example** | name: cc-skill-project-guidelines-example |
-| misc\unsorted\cc-skill-security-review | **cc-skill-security-review** | name: cc-skill-security-review |
-| misc\unsorted\cc-skill-strategic-compact | **cc-skill-strategic-compact** | name: cc-skill-strategic-compact |
-| misc\unsorted\cdk-patterns | **cdk-patterns** | name: cdk-patterns |
-| misc\unsorted\chat-widget | **chat-widget** | name: chat-widget |
-| misc\unsorted\chrome-extension-developer | **chrome-extension-developer** | name: chrome-extension-developer |
-| misc\unsorted\churn-prevention | **churn-prevention** | name: churn-prevention |
-| misc\unsorted\cirq | **cirq** | name: cirq |
-| misc\unsorted\citation-management | **citation-management** | name: citation-management |
-| misc\unsorted\claimable-postgres | **claimable-postgres** | name: claimable-postgres |
-| misc\unsorted\clarity-gate | **clarity-gate** | name: clarity-gate |
-| misc\unsorted\clarvia-aeo-check | **clarvia-aeo-check** | name: clarvia-aeo-check |
-| misc\unsorted\claude-ally-health | **claude-ally-health** | name: claude-ally-health |
-| misc\unsorted\claude-api | **claude-api** | name: claude-api |
-| misc\unsorted\claude-code-expert | **claude-code-expert** | name: claude-code-expert |
-| misc\unsorted\claude-code-guide | **claude-code-guide** | name: claude-code-guide |
-| misc\unsorted\claude-d3js-skill | **claude-d3js-skill** | name: claude-d3js-skill |
-| misc\unsorted\claude-in-chrome-troubleshooting | **claude-in-chrome-troubleshooting** | name: claude-in-chrome-troubleshooting |
-| misc\unsorted\claude-monitor | **claude-monitor** | name: claude-monitor |
-| misc\unsorted\claude-scientific-skills | **claude-scientific-skills** | name: claude-scientific-skills |
-| misc\unsorted\claude-settings-audit | **claude-settings-audit** | name: claude-settings-audit |
-| misc\unsorted\claude-speed-reader | **claude-speed-reader** | name: claude-speed-reader |
-| misc\unsorted\claude-win11-speckit-update-skill | **claude-win11-speckit-update-skill** | name: claude-win11-speckit-update-skill |
-| misc\unsorted\clean-code | **clean-code** | name: clean-code |
-| misc\unsorted\clerk-auth | **clerk-auth** | name: clerk-auth |
-| misc\unsorted\closed-loop-delivery | **closed-loop-delivery** | name: closed-loop-delivery |
-| misc\unsorted\cloud-architect | **cloud-architect** | name: cloud-architect |
-| misc\unsorted\cloud-devops | **cloud-devops** | name: cloud-devops |
-| misc\unsorted\cloud-penetration-testing | **cloud-penetration-testing** | name: cloud-penetration-testing |
-| misc\unsorted\cloudflare-workers-expert | **cloudflare-workers-expert** | name: cloudflare-workers-expert |
-| misc\unsorted\cloudformation-best-practices | **cloudformation-best-practices** | name: cloudformation-best-practices |
-| misc\unsorted\codebase-audit-pre-push | **codebase-audit-pre-push** | name: codebase-audit-pre-push |
-| misc\unsorted\codebase-cleanup-deps-audit | **codebase-cleanup-deps-audit** | name: codebase-cleanup-deps-audit |
-| misc\unsorted\codebase-cleanup-refactor-clean | **codebase-cleanup-refactor-clean** | name: codebase-cleanup-refactor-clean |
-| misc\unsorted\codebase-cleanup-tech-debt | **codebase-cleanup-tech-debt** | name: codebase-cleanup-tech-debt |
-| misc\unsorted\codex-review | **codex-review** | name: codex-review |
-| misc\unsorted\cold-email | **cold-email** | name: cold-email |
-| misc\unsorted\comfyui-gateway | **comfyui-gateway** | name: comfyui-gateway |
-| misc\unsorted\competitive-landscape | **competitive-landscape** | name: competitive-landscape |
-| misc\unsorted\competitor-alternatives | **competitor-alternatives** | name: competitor-alternatives |
-| misc\unsorted\comprehensive-review-full-review | **comprehensive-review-full-review** | name: comprehensive-review-full-review |
-| misc\unsorted\comprehensive-review-pr-enhance | **comprehensive-review-pr-enhance** | name: comprehensive-review-pr-enhance |
-| misc\unsorted\computer-use-agents | **computer-use-agents** | name: computer-use-agents |
-| misc\unsorted\computer-vision-expert | **computer-vision-expert** | name: computer-vision-expert |
-| misc\unsorted\concise-planning | **concise-planning** | name: concise-planning |
-| misc\unsorted\conductor-implement | **conductor-implement** | name: conductor-implement |
-| misc\unsorted\conductor-manage | **conductor-manage** | name: conductor-manage |
-| misc\unsorted\conductor-new-track | **conductor-new-track** | name: conductor-new-track |
-| misc\unsorted\conductor-revert | **conductor-revert** | name: conductor-revert |
-| misc\unsorted\conductor-setup | **conductor-setup** | name: conductor-setup |
-| misc\unsorted\conductor-status | **conductor-status** | name: conductor-status |
-| misc\unsorted\conductor-validator | **conductor-validator** | name: conductor-validator |
-| misc\unsorted\constant-time-analysis | **constant-time-analysis** | name: constant-time-analysis |
-| misc\unsorted\context7-auto-research | **context7-auto-research** | name: context7-auto-research |
-| misc\unsorted\conversation-memory | **conversation-memory** | name: conversation-memory |
-| misc\unsorted\convex | **convex** | name: convex |
-| misc\unsorted\copilot-sdk | **copilot-sdk** | name: copilot-sdk |
-| misc\unsorted\copy-editing | **copy-editing** | name: copy-editing |
-| misc\unsorted\core-components | **core-components** | name: core-components |
-| misc\unsorted\cost-optimization | **cost-optimization** | name: cost-optimization |
-| misc\unsorted\cpp-pro | **cpp-pro** | name: cpp-pro |
-| misc\unsorted\cqrs-implementation | **cqrs-implementation** | name: cqrs-implementation |
-| misc\unsorted\create-branch | **create-branch** | name: create-branch |
-| misc\unsorted\create-issue-gate | **create-issue-gate** | name: create-issue-gate |
-| misc\unsorted\create-pr | **create-pr** | name: create-pr |
-| misc\unsorted\cred-omega | **cred-omega** | name: cred-omega |
-| misc\unsorted\crewai | **crewai** | name: crewai |
-| misc\unsorted\crypto-bd-agent | **crypto-bd-agent** | name: crypto-bd-agent |
-| misc\unsorted\csharp-pro | **csharp-pro** | name: csharp-pro |
-| misc\unsorted\customer-support | **customer-support** | name: customer-support |
-| misc\unsorted\customs-trade-compliance | **customs-trade-compliance** | name: customs-trade-compliance |
-| misc\unsorted\daily | **daily** | name: daily |
-| misc\unsorted\daily-news-report | **daily-news-report** | name: daily-news-report |
-| misc\unsorted\data-engineer | **data-engineer** | name: data-engineer |
-| misc\unsorted\data-engineering-data-driven-feature | **data-engineering-data-driven-feature** | name: data-engineering-data-driven-feature |
-| misc\unsorted\data-engineering-data-pipeline | **data-engineering-data-pipeline** | name: data-engineering-data-pipeline |
-| misc\unsorted\data-quality-frameworks | **data-quality-frameworks** | name: data-quality-frameworks |
-| misc\unsorted\data-scientist | **data-scientist** | name: data-scientist |
-| misc\unsorted\data-storytelling | **data-storytelling** | name: data-storytelling |
-| misc\unsorted\data-structure-protocol | **data-structure-protocol** | name: data-structure-protocol |
-| misc\unsorted\dbos-golang | **dbos-golang** | name: dbos-golang |
-| misc\unsorted\dbos-python | **dbos-python** | name: dbos-python |
-| misc\unsorted\dbos-typescript | **dbos-typescript** | name: dbos-typescript |
-| misc\unsorted\dbt-transformation-patterns | **dbt-transformation-patterns** | name: dbt-transformation-patterns |
-| misc\unsorted\ddd-context-mapping | **ddd-context-mapping** | name: ddd-context-mapping |
-| misc\unsorted\ddd-strategic-design | **ddd-strategic-design** | name: ddd-strategic-design |
-| misc\unsorted\ddd-tactical-patterns | **ddd-tactical-patterns** | name: ddd-tactical-patterns |
-| misc\unsorted\debug-buttercup | **debug-buttercup** | name: debug-buttercup |
-| misc\unsorted\debugger | **debugger** | name: debugger |
-| misc\unsorted\debugging-strategies | **debugging-strategies** | name: debugging-strategies |
-| misc\unsorted\debugging-toolkit-smart-debug | **debugging-toolkit-smart-debug** | name: debugging-toolkit-smart-debug |
-| misc\unsorted\deep-research | **deep-research** | name: deep-research |
-| misc\unsorted\defi-protocol-templates | **defi-protocol-templates** | name: defi-protocol-templates |
-| misc\unsorted\defuddle | **defuddle** | name: defuddle |
-| misc\unsorted\dependency-management-deps-audit | **dependency-management-deps-audit** | name: dependency-management-deps-audit |
-| misc\unsorted\dependency-upgrade | **dependency-upgrade** | name: dependency-upgrade |
-| misc\unsorted\deployment-engineer | **deployment-engineer** | name: deployment-engineer |
-| misc\unsorted\deployment-pipeline-design | **deployment-pipeline-design** | name: deployment-pipeline-design |
-| misc\unsorted\deployment-procedures | **deployment-procedures** | name: deployment-procedures |
-| misc\unsorted\deployment-validation-config-validate | **deployment-validation-config-validate** | name: deployment-validation-config-validate |
-| misc\unsorted\design-md | **design-md** | name: design-md |
-| misc\unsorted\design-orchestration | **design-orchestration** | name: design-orchestration |
-| misc\unsorted\design-spells | **design-spells** | name: design-spells |
-| misc\unsorted\devcontainer-setup | **devcontainer-setup** | name: devcontainer-setup |
-| misc\unsorted\devops-deploy | **devops-deploy** | name: devops-deploy |
-| misc\unsorted\devops-troubleshooter | **devops-troubleshooter** | name: devops-troubleshooter |
-| misc\unsorted\diary | **diary** | name: diary |
-| misc\unsorted\differential-review | **differential-review** | name: differential-review |
-| misc\unsorted\dispatching-parallel-agents | **dispatching-parallel-agents** | name: dispatching-parallel-agents |
-| misc\unsorted\distributed-debugging-debug-trace | **distributed-debugging-debug-trace** | name: distributed-debugging-debug-trace |
-| misc\unsorted\distributed-tracing | **distributed-tracing** | name: distributed-tracing |
-| misc\unsorted\django-access-review | **django-access-review** | name: django-access-review |
-| misc\unsorted\django-perf-review | **django-perf-review** | name: django-perf-review |
-| misc\unsorted\django-pro | **django-pro** | name: django-pro |
-| misc\unsorted\doc-coauthoring | **doc-coauthoring** | name: doc-coauthoring |
-| misc\unsorted\docker-expert | **docker-expert** | name: docker-expert |
-| misc\unsorted\docs-architect | **docs-architect** | name: docs-architect |
-| misc\unsorted\documentation | **documentation** | name: documentation |
-| misc\unsorted\documentation-generation-doc-generate | **documentation-generation-doc-generate** | name: documentation-generation-doc-generate |
-| misc\unsorted\documentation-templates | **documentation-templates** | name: documentation-templates |
-| misc\unsorted\docx-official | **docx-official** | name: docx-official |
-| misc\unsorted\domain-driven-design | **domain-driven-design** | name: domain-driven-design |
-| misc\unsorted\dotnet-architect | **dotnet-architect** | name: dotnet-architect |
-| misc\unsorted\dotnet-backend | **dotnet-backend** | name: dotnet-backend |
-| misc\unsorted\dotnet-backend-patterns | **dotnet-backend-patterns** | name: dotnet-backend-patterns |
-| misc\unsorted\dwarf-expert | **dwarf-expert** | name: dwarf-expert |
-| misc\unsorted\dx-optimizer | **dx-optimizer** | name: dx-optimizer |
-| misc\unsorted\e2e-testing | **e2e-testing** | name: e2e-testing |
-| misc\unsorted\e2e-testing-patterns | **e2e-testing-patterns** | name: e2e-testing-patterns |
-| misc\unsorted\earllm-build | **earllm-build** | name: earllm-build |
-| misc\unsorted\electron-development | **electron-development** | name: electron-development |
-| misc\unsorted\email-systems | **email-systems** | name: email-systems |
-| misc\unsorted\embedding-strategies | **embedding-strategies** | name: embedding-strategies |
-| misc\unsorted\emblemai-crypto-wallet | **emblemai-crypto-wallet** | name: emblemai-crypto-wallet |
-| misc\unsorted\emergency-card | **emergency-card** | name: emergency-card |
-| misc\unsorted\employment-contract-templates | **employment-contract-templates** | name: employment-contract-templates |
-| misc\unsorted\energy-procurement | **energy-procurement** | name: energy-procurement |
-| misc\unsorted\enhance-prompt | **enhance-prompt** | name: enhance-prompt |
-| misc\unsorted\environment-setup-guide | **environment-setup-guide** | name: environment-setup-guide |
-| misc\unsorted\error-debugging-error-analysis | **error-debugging-error-analysis** | name: error-debugging-error-analysis |
-| misc\unsorted\error-debugging-error-trace | **error-debugging-error-trace** | name: error-debugging-error-trace |
-| misc\unsorted\error-debugging-multi-agent-review | **error-debugging-multi-agent-review** | name: error-debugging-multi-agent-review |
-| misc\unsorted\error-detective | **error-detective** | name: error-detective |
-| misc\unsorted\error-diagnostics-error-analysis | **error-diagnostics-error-analysis** | name: error-diagnostics-error-analysis |
-| misc\unsorted\error-diagnostics-error-trace | **error-diagnostics-error-trace** | name: error-diagnostics-error-trace |
-| misc\unsorted\error-diagnostics-smart-debug | **error-diagnostics-smart-debug** | name: error-diagnostics-smart-debug |
-| misc\unsorted\error-handling-patterns | **error-handling-patterns** | name: error-handling-patterns |
-| misc\unsorted\ethical-hacking-methodology | **ethical-hacking-methodology** | name: ethical-hacking-methodology |
-| misc\unsorted\evaluation | **evaluation** | name: evaluation |
-| misc\unsorted\event-sourcing-architect | **event-sourcing-architect** | name: event-sourcing-architect |
-| misc\unsorted\event-store-design | **event-store-design** | name: event-store-design |
-| misc\unsorted\evolution | **evolution** | name: evolution |
-| misc\unsorted\exa-search | **exa-search** | name: exa-search |
-| misc\unsorted\executing-plans | **executing-plans** | name: executing-plans |
-| misc\unsorted\explain-like-socrates | **explain-like-socrates** | name: explain-like-socrates |
-| misc\unsorted\fal-audio | **fal-audio** | name: fal-audio |
-| misc\unsorted\fal-generate | **fal-generate** | name: fal-generate |
-| misc\unsorted\fal-image-edit | **fal-image-edit** | name: fal-image-edit |
-| misc\unsorted\fal-platform | **fal-platform** | name: fal-platform |
-| misc\unsorted\fal-upscale | **fal-upscale** | name: fal-upscale |
-| misc\unsorted\fal-workflow | **fal-workflow** | name: fal-workflow |
-| misc\unsorted\family-health-analyzer | **family-health-analyzer** | name: family-health-analyzer |
-| misc\unsorted\favicon | **favicon** | name: favicon |
-| misc\unsorted\fda-food-safety-auditor | **fda-food-safety-auditor** | name: fda-food-safety-auditor |
-| misc\unsorted\fda-medtech-compliance-auditor | **fda-medtech-compliance-auditor** | name: fda-medtech-compliance-auditor |
-| misc\unsorted\file-organizer | **file-organizer** | name: file-organizer |
-| misc\unsorted\file-path-traversal | **file-path-traversal** | name: file-path-traversal |
-| misc\unsorted\file-uploads | **file-uploads** | name: file-uploads |
-| misc\unsorted\filesystem-context | **filesystem-context** | name: filesystem-context |
-| misc\unsorted\find-bugs | **find-bugs** | name: find-bugs |
-| misc\unsorted\finishing-a-development-branch | **finishing-a-development-branch** | name: finishing-a-development-branch |
-| misc\unsorted\firebase | **firebase** | name: firebase |
-| misc\unsorted\firecrawl-scraper | **firecrawl-scraper** | name: firecrawl-scraper |
-| misc\unsorted\firmware-analyst | **firmware-analyst** | name: firmware-analyst |
-| misc\unsorted\fitness-analyzer | **fitness-analyzer** | name: fitness-analyzer |
-| misc\unsorted\fix-review | **fix-review** | name: fix-review |
-| misc\unsorted\fixing-accessibility | **fixing-accessibility** | name: fixing-accessibility |
-| misc\unsorted\fixing-metadata | **fixing-metadata** | name: fixing-metadata |
-| misc\unsorted\fixing-motion-performance | **fixing-motion-performance** | name: fixing-motion-performance |
-| misc\unsorted\flutter-expert | **flutter-expert** | name: flutter-expert |
-| misc\unsorted\food-database-query | **food-database-query** | name: food-database-query |
-| misc\unsorted\form-cro | **form-cro** | name: form-cro |
-| misc\unsorted\fp-async | **fp-async** | name: fp-async |
-| misc\unsorted\fp-backend | **fp-backend** | name: fp-backend |
-| misc\unsorted\fp-data-transforms | **fp-data-transforms** | name: fp-data-transforms |
-| misc\unsorted\fp-either-ref | **fp-either-ref** | name: fp-either-ref |
-| misc\unsorted\fp-errors | **fp-errors** | name: fp-errors |
-| misc\unsorted\fp-option-ref | **fp-option-ref** | name: fp-option-ref |
-| misc\unsorted\fp-pipe-ref | **fp-pipe-ref** | name: fp-pipe-ref |
-| misc\unsorted\fp-pragmatic | **fp-pragmatic** | name: fp-pragmatic |
-| misc\unsorted\fp-react | **fp-react** | name: fp-react |
-| misc\unsorted\fp-refactor | **fp-refactor** | name: fp-refactor |
-| misc\unsorted\fp-taskeither-ref | **fp-taskeither-ref** | name: fp-taskeither-ref |
-| misc\unsorted\fp-ts-errors | **fp-ts-errors** | name: fp-ts-errors |
-| misc\unsorted\fp-ts-pragmatic | **fp-ts-pragmatic** | name: fp-ts-pragmatic |
-| misc\unsorted\fp-ts-react | **fp-ts-react** | name: fp-ts-react |
-| misc\unsorted\fp-types-ref | **fp-types-ref** | name: fp-types-ref |
-| misc\unsorted\framework-migration-code-migrate | **framework-migration-code-migrate** | name: framework-migration-code-migrate |
-| misc\unsorted\framework-migration-deps-upgrade | **framework-migration-deps-upgrade** | name: framework-migration-deps-upgrade |
-| misc\unsorted\framework-migration-legacy-modernize | **framework-migration-legacy-modernize** | name: framework-migration-legacy-modernize |
-| misc\unsorted\free-tool-strategy | **free-tool-strategy** | name: free-tool-strategy |
-| misc\unsorted\frontend-design | **frontend-design** | name: frontend-design |
-| misc\unsorted\frontend-dev-guidelines | **frontend-dev-guidelines** | name: frontend-dev-guidelines |
-| misc\unsorted\frontend-developer | **frontend-developer** | name: frontend-developer |
-| misc\unsorted\frontend-mobile-development-component-scaffold | **frontend-mobile-development-component-scaffold** | name: frontend-mobile-development-component-scaffold |
-| misc\unsorted\frontend-mobile-security-xss-scan | **frontend-mobile-security-xss-scan** | name: frontend-mobile-security-xss-scan |
-| misc\unsorted\frontend-security-coder | **frontend-security-coder** | name: frontend-security-coder |
-| misc\unsorted\frontend-slides | **frontend-slides** | name: frontend-slides |
-| misc\unsorted\frontend-ui-dark-ts | **frontend-ui-dark-ts** | name: frontend-ui-dark-ts |
-| misc\unsorted\full-stack-orchestration-full-stack-feature | **full-stack-orchestration-full-stack-feature** | name: full-stack-orchestration-full-stack-feature |
-| misc\unsorted\game-development | **game-development** | name: game-development |
-| misc\unsorted\game-development\2d-games | **2d-games** | name: 2d-games |
-| misc\unsorted\game-development\3d-games | **3d-games** | name: 3d-games |
-| misc\unsorted\game-development\game-art | **game-art** | name: game-art |
-| misc\unsorted\game-development\game-audio | **game-audio** | name: game-audio |
-| misc\unsorted\game-development\game-design | **game-design** | name: game-design |
-| misc\unsorted\game-development\mobile-games | **mobile-games** | name: mobile-games |
-| misc\unsorted\game-development\multiplayer | **multiplayer** | name: multiplayer |
-| misc\unsorted\game-development\pc-games | **pc-games** | name: pc-games |
-| misc\unsorted\game-development\vr-ar | **vr-ar** | name: vr-ar |
-| misc\unsorted\game-development\web-games | **web-games** | name: web-games |
-| misc\unsorted\gcp-cloud-run | **gcp-cloud-run** | name: gcp-cloud-run |
-| misc\unsorted\gdb-cli | **gdb-cli** | name: gdb-cli |
-| misc\unsorted\gdpr-data-handling | **gdpr-data-handling** | name: gdpr-data-handling |
-| misc\unsorted\gemini-api-dev | **gemini-api-dev** | name: gemini-api-dev |
-| misc\unsorted\gemini-api-integration | **gemini-api-integration** | name: gemini-api-integration |
-| misc\unsorted\geo-fundamentals | **geo-fundamentals** | name: geo-fundamentals |
-| misc\unsorted\gh-review-requests | **gh-review-requests** | name: gh-review-requests |
-| misc\unsorted\gha-security-review | **gha-security-review** | name: gha-security-review |
-| misc\unsorted\github | **github** | name: github |
-| misc\unsorted\github-actions-templates | **github-actions-templates** | name: github-actions-templates |
-| misc\unsorted\github-issue-creator | **github-issue-creator** | name: github-issue-creator |
-| misc\unsorted\gitlab-ci-patterns | **gitlab-ci-patterns** | name: gitlab-ci-patterns |
-| misc\unsorted\gitops-workflow | **gitops-workflow** | name: gitops-workflow |
-| misc\unsorted\go-concurrency-patterns | **go-concurrency-patterns** | name: go-concurrency-patterns |
-| misc\unsorted\go-playwright | **go-playwright** | name: go-playwright |
-| misc\unsorted\go-rod-master | **go-rod-master** | name: go-rod-master |
-| misc\unsorted\goal-analyzer | **goal-analyzer** | name: goal-analyzer |
-| misc\unsorted\godot-4-migration | **godot-4-migration** | name: godot-4-migration |
-| misc\unsorted\godot-gdscript-patterns | **godot-gdscript-patterns** | name: godot-gdscript-patterns |
-| misc\unsorted\grafana-dashboards | **grafana-dashboards** | name: grafana-dashboards |
-| misc\unsorted\graphql | **graphql** | name: graphql |
-| misc\unsorted\graphql-architect | **graphql-architect** | name: graphql-architect |
-| misc\unsorted\grpc-golang | **grpc-golang** | name: grpc-golang |
-| misc\unsorted\health-trend-analyzer | **health-trend-analyzer** | name: health-trend-analyzer |
-| misc\unsorted\helm-chart-scaffolding | **helm-chart-scaffolding** | name: helm-chart-scaffolding |
-| misc\unsorted\hierarchical-agent-memory | **hierarchical-agent-memory** | name: hierarchical-agent-memory |
-| misc\unsorted\hono | **hono** | name: hono |
-| misc\unsorted\hosted-agents | **hosted-agents** | name: hosted-agents |
-| misc\unsorted\hosted-agents-v2-py | **hosted-agents-v2-py** | name: hosted-agents-v2-py |
-| misc\unsorted\hr-pro | **hr-pro** | name: hr-pro |
-| misc\unsorted\html-injection-testing | **html-injection-testing** | name: html-injection-testing |
-| misc\unsorted\hybrid-cloud-architect | **hybrid-cloud-architect** | name: hybrid-cloud-architect |
-| misc\unsorted\hybrid-cloud-networking | **hybrid-cloud-networking** | name: hybrid-cloud-networking |
-| misc\unsorted\hybrid-search-implementation | **hybrid-search-implementation** | name: hybrid-search-implementation |
-| misc\unsorted\i18n-localization | **i18n-localization** | name: i18n-localization |
-| misc\unsorted\iconsax-library | **iconsax-library** | name: iconsax-library |
-| misc\unsorted\image-studio | **image-studio** | name: image-studio |
-| misc\unsorted\imagen | **imagen** | name: imagen |
-| misc\unsorted\incident-responder | **incident-responder** | name: incident-responder |
-| misc\unsorted\incident-response-incident-response | **incident-response-incident-response** | name: incident-response-incident-response |
-| misc\unsorted\incident-response-smart-fix | **incident-response-smart-fix** | name: incident-response-smart-fix |
-| misc\unsorted\incident-runbook-templates | **incident-runbook-templates** | name: incident-runbook-templates |
-| misc\unsorted\infinite-gratitude | **infinite-gratitude** | name: infinite-gratitude |
-| misc\unsorted\inngest | **inngest** | name: inngest |
-| misc\unsorted\instagram | **instagram** | name: instagram |
-| misc\unsorted\interactive-portfolio | **interactive-portfolio** | name: interactive-portfolio |
-| misc\unsorted\internal-comms | **internal-comms** | name: internal-comms |
-| misc\unsorted\internal-comms-anthropic | **internal-comms-anthropic** | name: internal-comms-anthropic |
-| misc\unsorted\internal-comms-community | **internal-comms-community** | name: internal-comms-community |
-| misc\unsorted\interview-coach | **interview-coach** | name: interview-coach |
-| misc\unsorted\inventory-demand-planning | **inventory-demand-planning** | name: inventory-demand-planning |
-| misc\unsorted\ios-debugger-agent | **ios-debugger-agent** | name: ios-debugger-agent |
-| misc\unsorted\ios-developer | **ios-developer** | name: ios-developer |
-| misc\unsorted\issues | **issues** | name: issues |
-| misc\unsorted\istio-traffic-management | **istio-traffic-management** | name: istio-traffic-management |
-| misc\unsorted\iterate-pr | **iterate-pr** | name: iterate-pr |
-| misc\unsorted\jobgpt | **jobgpt** | name: jobgpt |
-| misc\unsorted\jq | **jq** | name: jq |
-| misc\unsorted\json-canvas | **json-canvas** | name: json-canvas |
-| misc\unsorted\julia-pro | **julia-pro** | name: julia-pro |
-| misc\unsorted\junta-leiloeiros | **junta-leiloeiros** | name: junta-leiloeiros |
-| misc\unsorted\k6-load-testing | **k6-load-testing** | name: k6-load-testing |
-| misc\unsorted\k8s-manifest-generator | **k8s-manifest-generator** | name: k8s-manifest-generator |
-| misc\unsorted\k8s-security-policies | **k8s-security-policies** | name: k8s-security-policies |
-| misc\unsorted\kaizen | **kaizen** | name: kaizen |
-| misc\unsorted\keyword-extractor | **keyword-extractor** | name: keyword-extractor |
-| misc\unsorted\kotlin-coroutines-expert | **kotlin-coroutines-expert** | name: kotlin-coroutines-expert |
-| misc\unsorted\kpi-dashboard-design | **kpi-dashboard-design** | name: kpi-dashboard-design |
-| misc\unsorted\kubernetes-architect | **kubernetes-architect** | name: kubernetes-architect |
-| misc\unsorted\kubernetes-deployment | **kubernetes-deployment** | name: kubernetes-deployment |
-| misc\unsorted\landing-page-generator | **landing-page-generator** | name: "landing-page-generator" |
-| misc\unsorted\langchain-architecture | **langchain-architecture** | name: langchain-architecture |
-| misc\unsorted\langfuse | **langfuse** | name: langfuse |
-| misc\unsorted\langgraph | **langgraph** | name: langgraph |
-| misc\unsorted\laravel-expert | **laravel-expert** | name: laravel-expert |
-| misc\unsorted\laravel-security-audit | **laravel-security-audit** | name: laravel-security-audit |
-| misc\unsorted\last30days | **last30days** | name: last30days |
-| misc\unsorted\latex-paper-conversion | **latex-paper-conversion** | name: latex-paper-conversion |
-| misc\unsorted\launch-strategy | **launch-strategy** | name: launch-strategy |
-| misc\unsorted\legacy-modernizer | **legacy-modernizer** | name: legacy-modernizer |
-| misc\unsorted\legal-advisor | **legal-advisor** | name: legal-advisor |
-| misc\unsorted\leiloeiro-avaliacao | **leiloeiro-avaliacao** | name: leiloeiro-avaliacao |
-| misc\unsorted\leiloeiro-edital | **leiloeiro-edital** | name: leiloeiro-edital |
-| misc\unsorted\leiloeiro-ia | **leiloeiro-ia** | name: leiloeiro-ia |
-| misc\unsorted\leiloeiro-juridico | **leiloeiro-juridico** | name: leiloeiro-juridico |
-| misc\unsorted\leiloeiro-mercado | **leiloeiro-mercado** | name: leiloeiro-mercado |
-| misc\unsorted\leiloeiro-risco | **leiloeiro-risco** | name: leiloeiro-risco |
-| misc\unsorted\lex | **lex** | name: lex |
-| misc\unsorted\libreoffice\base | **base** | name: base |
-| misc\unsorted\libreoffice\calc | **calc** | name: calc |
-| misc\unsorted\libreoffice\draw | **draw** | name: draw |
-| misc\unsorted\libreoffice\impress | **impress** | name: impress |
-| misc\unsorted\libreoffice\writer | **writer** | name: writer |
-| misc\unsorted\lightning-architecture-review | **lightning-architecture-review** | name: lightning-architecture-review |
-| misc\unsorted\lightning-channel-factories | **lightning-channel-factories** | name: lightning-channel-factories |
-| misc\unsorted\lightning-factory-explainer | **lightning-factory-explainer** | name: lightning-factory-explainer |
-| misc\unsorted\linear-claude-skill | **linear-claude-skill** | name: linear-claude-skill |
-| misc\unsorted\linkedin-cli | **linkedin-cli** | name: linkedin-cli |
-| misc\unsorted\linkerd-patterns | **linkerd-patterns** | name: linkerd-patterns |
-| misc\unsorted\lint-and-validate | **lint-and-validate** | name: lint-and-validate |
-| misc\unsorted\linux-privilege-escalation | **linux-privilege-escalation** | name: linux-privilege-escalation |
-| misc\unsorted\linux-shell-scripting | **linux-shell-scripting** | name: linux-shell-scripting |
-| misc\unsorted\linux-troubleshooting | **linux-troubleshooting** | name: linux-troubleshooting |
-| misc\unsorted\local-legal-seo-audit | **local-legal-seo-audit** | name: local-legal-seo-audit |
-| misc\unsorted\local-llm-expert | **local-llm-expert** | name: local-llm-expert |
-| misc\unsorted\logistics-exception-management | **logistics-exception-management** | name: logistics-exception-management |
-| misc\unsorted\loki-mode | **loki-mode** | name: loki-mode |
-| misc\unsorted\m365-agents-dotnet | **m365-agents-dotnet** | name: m365-agents-dotnet |
-| misc\unsorted\m365-agents-py | **m365-agents-py** | name: m365-agents-py |
-| misc\unsorted\m365-agents-ts | **m365-agents-ts** | name: m365-agents-ts |
-| misc\unsorted\machine-learning-ops-ml-pipeline | **machine-learning-ops-ml-pipeline** | name: machine-learning-ops-ml-pipeline |
-| misc\unsorted\macos-menubar-tuist-app | **macos-menubar-tuist-app** | name: macos-menubar-tuist-app |
-| misc\unsorted\macos-spm-app-packaging | **macos-spm-app-packaging** | name: macos-spm-app-packaging |
-| misc\unsorted\magic-animator | **magic-animator** | name: magic-animator |
-| misc\unsorted\magic-ui-generator | **magic-ui-generator** | name: magic-ui-generator |
-| misc\unsorted\makepad-animation | **makepad-animation** | name: makepad-animation |
-| misc\unsorted\makepad-basics | **makepad-basics** | name: makepad-basics |
-| misc\unsorted\makepad-deployment | **makepad-deployment** | name: makepad-deployment |
-| misc\unsorted\makepad-dsl | **makepad-dsl** | name: makepad-dsl |
-| misc\unsorted\makepad-event-action | **makepad-event-action** | name: makepad-event-action |
-| misc\unsorted\makepad-font | **makepad-font** | name: makepad-font |
-| misc\unsorted\makepad-layout | **makepad-layout** | name: makepad-layout |
-| misc\unsorted\makepad-platform | **makepad-platform** | name: makepad-platform |
-| misc\unsorted\makepad-reference | **makepad-reference** | name: makepad-reference |
-| misc\unsorted\makepad-shaders | **makepad-shaders** | name: makepad-shaders |
-| misc\unsorted\makepad-skills | **makepad-skills** | name: makepad-skills |
-| misc\unsorted\makepad-splash | **makepad-splash** | name: makepad-splash |
-| misc\unsorted\makepad-widgets | **makepad-widgets** | name: makepad-widgets |
-| misc\unsorted\malware-analyst | **malware-analyst** | name: malware-analyst |
-| misc\unsorted\manifest | **manifest** | name: manifest |
-| misc\unsorted\market-sizing-analysis | **market-sizing-analysis** | name: market-sizing-analysis |
-| misc\unsorted\matematico-tao | **matematico-tao** | name: matematico-tao |
-| misc\unsorted\matplotlib | **matplotlib** | name: matplotlib |
-| misc\unsorted\maxia | **maxia** | name: maxia |
-| misc\unsorted\mcp-builder | **mcp-builder** | name: mcp-builder |
-| misc\unsorted\mcp-builder-ms | **mcp-builder-ms** | name: mcp-builder-ms |
-| misc\unsorted\mental-health-analyzer | **mental-health-analyzer** | name: mental-health-analyzer |
-| misc\unsorted\mermaid-expert | **mermaid-expert** | name: mermaid-expert |
-| misc\unsorted\metasploit-framework | **metasploit-framework** | name: metasploit-framework |
-| misc\unsorted\micro-saas-launcher | **micro-saas-launcher** | name: micro-saas-launcher |
-| misc\unsorted\microservices-patterns | **microservices-patterns** | name: microservices-patterns |
-| misc\unsorted\microsoft-azure-webjobs-extensions-authentication-events-dotnet | **microsoft-azure-webjobs-extensions-authentication-events-dotnet** | name: microsoft-azure-webjobs-extensions-authentication-events-dotnet |
-| misc\unsorted\minecraft-bukkit-pro | **minecraft-bukkit-pro** | name: minecraft-bukkit-pro |
-| misc\unsorted\mobile-design | **mobile-design** | name: mobile-design |
-| misc\unsorted\mobile-developer | **mobile-developer** | name: mobile-developer |
-| misc\unsorted\mobile-security-coder | **mobile-security-coder** | name: mobile-security-coder |
-| misc\unsorted\modern-javascript-patterns | **modern-javascript-patterns** | name: modern-javascript-patterns |
-| misc\unsorted\molykit | **molykit** | name: molykit |
-| misc\unsorted\monetization | **monetization** | name: monetization |
-| misc\unsorted\monorepo-architect | **monorepo-architect** | name: monorepo-architect |
-| misc\unsorted\monorepo-management | **monorepo-management** | name: monorepo-management |
-| misc\unsorted\moodle-external-api-development | **moodle-external-api-development** | name: moodle-external-api-development |
-| misc\unsorted\moyu | **moyu** | name: moyu |
-| misc\unsorted\mtls-configuration | **mtls-configuration** | name: mtls-configuration |
-| misc\unsorted\multi-advisor | **multi-advisor** | name: multi-advisor |
-| misc\unsorted\multi-agent-brainstorming | **multi-agent-brainstorming** | name: multi-agent-brainstorming |
-| misc\unsorted\multi-agent-patterns | **multi-agent-patterns** | name: multi-agent-patterns |
-| misc\unsorted\multi-cloud-architecture | **multi-cloud-architecture** | name: multi-cloud-architecture |
-| misc\unsorted\multi-platform-apps-multi-platform | **multi-platform-apps-multi-platform** | name: multi-platform-apps-multi-platform |
-| misc\unsorted\n8n-code-javascript | **n8n-code-javascript** | name: n8n-code-javascript |
-| misc\unsorted\n8n-code-python | **n8n-code-python** | name: n8n-code-python |
-| misc\unsorted\n8n-expression-syntax | **n8n-expression-syntax** | name: n8n-expression-syntax |
-| misc\unsorted\n8n-mcp-tools-expert | **n8n-mcp-tools-expert** | name: n8n-mcp-tools-expert |
-| misc\unsorted\n8n-node-configuration | **n8n-node-configuration** | name: n8n-node-configuration |
-| misc\unsorted\n8n-validation-expert | **n8n-validation-expert** | name: n8n-validation-expert |
-| misc\unsorted\n8n-workflow-patterns | **n8n-workflow-patterns** | name: n8n-workflow-patterns |
-| misc\unsorted\nanobanana-ppt-skills | **nanobanana-ppt-skills** | name: nanobanana-ppt-skills |
-| misc\unsorted\native-data-fetching | **native-data-fetching** | name: native-data-fetching |
-| misc\unsorted\neon-postgres | **neon-postgres** | name: neon-postgres |
-| misc\unsorted\nerdzao-elite | **nerdzao-elite** | name: nerdzao-elite |
-| misc\unsorted\nerdzao-elite-gemini-high | **nerdzao-elite-gemini-high** | name: nerdzao-elite-gemini-high |
-| misc\unsorted\nestjs-expert | **nestjs-expert** | name: nestjs-expert |
-| misc\unsorted\network-101 | **network-101** | name: network-101 |
-| misc\unsorted\network-engineer | **network-engineer** | name: network-engineer |
-| misc\unsorted\networkx | **networkx** | name: networkx |
-| misc\unsorted\new-rails-project | **new-rails-project** | name: new-rails-project |
-| misc\unsorted\nft-standards | **nft-standards** | name: nft-standards |
-| misc\unsorted\nosql-expert | **nosql-expert** | name: nosql-expert |
-| misc\unsorted\notebooklm | **notebooklm** | name: notebooklm |
-| misc\unsorted\nutrition-analyzer | **nutrition-analyzer** | name: nutrition-analyzer |
-| misc\unsorted\nx-workspace-patterns | **nx-workspace-patterns** | name: nx-workspace-patterns |
-| misc\unsorted\observability-engineer | **observability-engineer** | name: observability-engineer |
-| misc\unsorted\observability-monitoring-monitor-setup | **observability-monitoring-monitor-setup** | name: observability-monitoring-monitor-setup |
-| misc\unsorted\observability-monitoring-slo-implement | **observability-monitoring-slo-implement** | name: observability-monitoring-slo-implement |
-| misc\unsorted\obsidian-bases | **obsidian-bases** | name: obsidian-bases |
-| misc\unsorted\obsidian-cli | **obsidian-cli** | name: obsidian-cli |
-| misc\unsorted\obsidian-clipper-template-creator | **obsidian-clipper-template-creator** | name: obsidian-clipper-template-creator |
-| misc\unsorted\obsidian-markdown | **obsidian-markdown** | name: obsidian-markdown |
-| misc\unsorted\occupational-health-analyzer | **occupational-health-analyzer** | name: occupational-health-analyzer |
-| misc\unsorted\office-productivity | **office-productivity** | name: office-productivity |
-| misc\unsorted\on-call-handoff-patterns | **on-call-handoff-patterns** | name: on-call-handoff-patterns |
-| misc\unsorted\onboarding-cro | **onboarding-cro** | name: onboarding-cro |
-| misc\unsorted\openapi-spec-generation | **openapi-spec-generation** | name: openapi-spec-generation |
-| misc\unsorted\openclaw-github-repo-commander | **openclaw-github-repo-commander** | name: openclaw-github-repo-commander |
-| misc\unsorted\oral-health-analyzer | **oral-health-analyzer** | name: oral-health-analyzer |
-| misc\unsorted\orchestrate-batch-refactor | **orchestrate-batch-refactor** | name: "orchestrate-batch-refactor" |
-| misc\unsorted\os-scripting | **os-scripting** | name: os-scripting |
-| misc\unsorted\oss-hunter | **oss-hunter** | name: oss-hunter |
-| misc\unsorted\page-cro | **page-cro** | name: page-cro |
-| misc\unsorted\paid-ads | **paid-ads** | name: paid-ads |
-| misc\unsorted\pakistan-payments-stack | **pakistan-payments-stack** | name: pakistan-payments-stack |
-| misc\unsorted\parallel-agents | **parallel-agents** | name: parallel-agents |
-| misc\unsorted\payment-integration | **payment-integration** | name: payment-integration |
-| misc\unsorted\paywall-upgrade-cro | **paywall-upgrade-cro** | name: paywall-upgrade-cro |
-| misc\unsorted\pci-compliance | **pci-compliance** | name: pci-compliance |
-| misc\unsorted\pdf-official | **pdf-official** | name: pdf-official |
-| misc\unsorted\performance-engineer | **performance-engineer** | name: performance-engineer |
-| misc\unsorted\performance-optimizer | **performance-optimizer** | name: performance-optimizer |
-| misc\unsorted\performance-profiling | **performance-profiling** | name: performance-profiling |
-| misc\unsorted\performance-testing-review-ai-review | **performance-testing-review-ai-review** | name: performance-testing-review-ai-review |
-| misc\unsorted\performance-testing-review-multi-agent-review | **performance-testing-review-multi-agent-review** | name: performance-testing-review-multi-agent-review |
-| misc\unsorted\personal-tool-builder | **personal-tool-builder** | name: personal-tool-builder |
-| misc\unsorted\phase-gated-debugging | **phase-gated-debugging** | name: phase-gated-debugging |
-| misc\unsorted\pipecat-friday-agent | **pipecat-friday-agent** | name: pipecat-friday-agent |
-| misc\unsorted\plaid-fintech | **plaid-fintech** | name: plaid-fintech |
-| misc\unsorted\plan-writing | **plan-writing** | name: plan-writing |
-| misc\unsorted\planning-with-files | **planning-with-files** | name: planning-with-files |
-| misc\unsorted\playwright-java | **playwright-java** | name: playwright-java |
-| misc\unsorted\playwright-skill | **playwright-skill** | name: playwright-skill |
-| misc\unsorted\plotly | **plotly** | name: plotly |
-| misc\unsorted\podcast-generation | **podcast-generation** | name: podcast-generation |
-| misc\unsorted\polars | **polars** | name: polars |
-| misc\unsorted\popup-cro | **popup-cro** | name: popup-cro |
-| misc\unsorted\posix-shell-pro | **posix-shell-pro** | name: posix-shell-pro |
-| misc\unsorted\postmortem-writing | **postmortem-writing** | name: postmortem-writing |
-| misc\unsorted\powershell-windows | **powershell-windows** | name: powershell-windows |
-| misc\unsorted\pptx-official | **pptx-official** | name: pptx-official |
-| misc\unsorted\pr-writer | **pr-writer** | name: pr-writer |
-| misc\unsorted\pricing-strategy | **pricing-strategy** | name: pricing-strategy |
-| misc\unsorted\privacy-by-design | **privacy-by-design** | name: privacy-by-design |
-| misc\unsorted\privilege-escalation-methods | **privilege-escalation-methods** | name: privilege-escalation-methods |
-| misc\unsorted\product-design | **product-design** | name: product-design |
-| misc\unsorted\product-inventor | **product-inventor** | name: product-inventor |
-| misc\unsorted\product-manager | **product-manager** | name: product-manager |
-| misc\unsorted\product-manager-toolkit | **product-manager-toolkit** | name: product-manager-toolkit |
-| misc\unsorted\product-marketing-context | **product-marketing-context** | name: product-marketing-context |
-| misc\unsorted\production-code-audit | **production-code-audit** | name: production-code-audit |
-| misc\unsorted\production-scheduling | **production-scheduling** | name: production-scheduling |
-| misc\unsorted\professional-proofreader | **professional-proofreader** | name: professional-proofreader |
-| misc\unsorted\programmatic-seo | **programmatic-seo** | name: programmatic-seo |
-| misc\unsorted\progressive-estimation | **progressive-estimation** | name: progressive-estimation |
-| misc\unsorted\progressive-web-app | **progressive-web-app** | name: progressive-web-app |
-| misc\unsorted\project-development | **project-development** | name: project-development |
-| misc\unsorted\project-skill-audit | **project-skill-audit** | name: project-skill-audit |
-| misc\unsorted\projection-patterns | **projection-patterns** | name: projection-patterns |
-| misc\unsorted\prometheus-configuration | **prometheus-configuration** | name: prometheus-configuration |
-| misc\unsorted\prompt-caching | **prompt-caching** | name: prompt-caching |
-| misc\unsorted\prompt-engineer | **prompt-engineer** | name: prompt-engineer |
-| misc\unsorted\prompt-engineering | **prompt-engineering** | name: prompt-engineering |
-| misc\unsorted\prompt-engineering-patterns | **prompt-engineering-patterns** | name: prompt-engineering-patterns |
-| misc\unsorted\prompt-library | **prompt-library** | name: prompt-library |
-| misc\unsorted\protocol-reverse-engineering | **protocol-reverse-engineering** | name: protocol-reverse-engineering |
-| misc\unsorted\pubmed-database | **pubmed-database** | name: pubmed-database |
-| misc\unsorted\pypict-skill | **pypict-skill** | name: pypict-skill |
-| misc\unsorted\qiskit | **qiskit** | name: qiskit |
-| misc\unsorted\quality-nonconformance | **quality-nonconformance** | name: quality-nonconformance |
-| misc\unsorted\quant-analyst | **quant-analyst** | name: quant-analyst |
-| misc\unsorted\rag-engineer | **rag-engineer** | name: rag-engineer |
-| misc\unsorted\rag-implementation | **rag-implementation** | name: rag-implementation |
-| misc\unsorted\readme | **readme** | name: readme |
-| misc\unsorted\recallmax | **recallmax** | name: recallmax |
-| misc\unsorted\receiving-code-review | **receiving-code-review** | name: receiving-code-review |
-| misc\unsorted\red-team-tactics | **red-team-tactics** | name: red-team-tactics |
-| misc\unsorted\red-team-tools | **red-team-tools** | name: red-team-tools |
-| misc\unsorted\reference-builder | **reference-builder** | name: reference-builder |
-| misc\unsorted\referral-program | **referral-program** | name: referral-program |
-| misc\unsorted\rehabilitation-analyzer | **rehabilitation-analyzer** | name: rehabilitation-analyzer |
-| misc\unsorted\remotion | **remotion** | name: remotion |
-| misc\unsorted\remotion-best-practices | **remotion-best-practices** | name: remotion-best-practices |
-| misc\unsorted\requesting-code-review | **requesting-code-review** | name: requesting-code-review |
-| misc\unsorted\returns-reverse-logistics | **returns-reverse-logistics** | name: returns-reverse-logistics |
-| misc\unsorted\reverse-engineer | **reverse-engineer** | name: reverse-engineer |
-| misc\unsorted\revops | **revops** | name: revops |
-| misc\unsorted\risk-manager | **risk-manager** | name: risk-manager |
-| misc\unsorted\risk-metrics-calculation | **risk-metrics-calculation** | name: risk-metrics-calculation |
-| misc\unsorted\robius-app-architecture | **robius-app-architecture** | name: robius-app-architecture |
-| misc\unsorted\robius-event-action | **robius-event-action** | name: robius-event-action |
-| misc\unsorted\robius-matrix-integration | **robius-matrix-integration** | name: robius-matrix-integration |
-| misc\unsorted\robius-state-management | **robius-state-management** | name: robius-state-management |
-| misc\unsorted\robius-widget-patterns | **robius-widget-patterns** | name: robius-widget-patterns |
-| misc\unsorted\saas-multi-tenant | **saas-multi-tenant** | name: saas-multi-tenant |
-| misc\unsorted\saas-mvp-launcher | **saas-mvp-launcher** | name: saas-mvp-launcher |
-| misc\unsorted\saga-orchestration | **saga-orchestration** | name: saga-orchestration |
-| misc\unsorted\sales-automator | **sales-automator** | name: sales-automator |
-| misc\unsorted\sales-enablement | **sales-enablement** | name: sales-enablement |
-| misc\unsorted\salesforce-development | **salesforce-development** | name: salesforce-development |
-| misc\unsorted\sankhya-dashboard-html-jsp-custom-best-pratices | **sankhya-dashboard-html-jsp-custom-best-pratices** | name: sankhya-dashboard-html-jsp-custom-best-pratices |
-| misc\unsorted\sast-configuration | **sast-configuration** | name: sast-configuration |
-| misc\unsorted\scanning-tools | **scanning-tools** | name: scanning-tools |
-| misc\unsorted\scanpy | **scanpy** | name: scanpy |
-| misc\unsorted\schema-markup | **schema-markup** | name: schema-markup |
-| misc\unsorted\scientific-writing | **scientific-writing** | name: scientific-writing |
-| misc\unsorted\scikit-learn | **scikit-learn** | name: scikit-learn |
-| misc\unsorted\screen-reader-testing | **screen-reader-testing** | name: screen-reader-testing |
-| misc\unsorted\screenshots | **screenshots** | name: screenshots |
-| misc\unsorted\scroll-experience | **scroll-experience** | name: scroll-experience |
-| misc\unsorted\seaborn | **seaborn** | name: seaborn |
-| misc\unsorted\search-specialist | **search-specialist** | name: search-specialist |
-| misc\unsorted\secrets-management | **secrets-management** | name: secrets-management |
-| misc\unsorted\seek-and-analyze-video | **seek-and-analyze-video** | name: seek-and-analyze-video |
-| misc\unsorted\segment-cdp | **segment-cdp** | name: segment-cdp |
-| misc\unsorted\semgrep-rule-creator | **semgrep-rule-creator** | name: semgrep-rule-creator |
-| misc\unsorted\semgrep-rule-variant-creator | **semgrep-rule-variant-creator** | name: semgrep-rule-variant-creator |
-| misc\unsorted\senior-architect | **senior-architect** | name: senior-architect |
-| misc\unsorted\senior-frontend | **senior-frontend** | name: senior-frontend |
-| misc\unsorted\senior-fullstack | **senior-fullstack** | name: senior-fullstack |
-| misc\unsorted\seo | **seo** | name: seo |
-| misc\unsorted\server-management | **server-management** | name: server-management |
-| misc\unsorted\service-mesh-expert | **service-mesh-expert** | name: service-mesh-expert |
-| misc\unsorted\service-mesh-observability | **service-mesh-observability** | name: service-mesh-observability |
-| misc\unsorted\sexual-health-analyzer | **sexual-health-analyzer** | name: sexual-health-analyzer |
-| misc\unsorted\shader-programming-glsl | **shader-programming-glsl** | name: shader-programming-glsl |
-| misc\unsorted\sharp-edges | **sharp-edges** | name: sharp-edges |
-| misc\unsorted\shellcheck-configuration | **shellcheck-configuration** | name: shellcheck-configuration |
-| misc\unsorted\shodan-reconnaissance | **shodan-reconnaissance** | name: shodan-reconnaissance |
-| misc\unsorted\shopify-apps | **shopify-apps** | name: shopify-apps |
-| misc\unsorted\shopify-development | **shopify-development** | name: shopify-development |
-| misc\unsorted\signup-flow-cro | **signup-flow-cro** | name: signup-flow-cro |
-| misc\unsorted\similarity-search-patterns | **similarity-search-patterns** | name: similarity-search-patterns |
-| misc\unsorted\simplify-code | **simplify-code** | name: simplify-code |
-| misc\unsorted\site-architecture | **site-architecture** | name: site-architecture |
-| misc\unsorted\site-mirror | **site-mirror** | name: site-mirror |
-| misc\unsorted\skin-health-analyzer | **skin-health-analyzer** | name: skin-health-analyzer |
-| misc\unsorted\sleep-analyzer | **sleep-analyzer** | name: sleep-analyzer |
-| misc\unsorted\slo-implementation | **slo-implementation** | name: slo-implementation |
-| misc\unsorted\smtp-penetration-testing | **smtp-penetration-testing** | name: smtp-penetration-testing |
-| misc\unsorted\snowflake-development | **snowflake-development** | name: snowflake-development |
-| misc\unsorted\social-content | **social-content** | name: social-content |
-| misc\unsorted\social-orchestrator | **social-orchestrator** | name: social-orchestrator |
-| misc\unsorted\software-architecture | **software-architecture** | name: software-architecture |
-| misc\unsorted\solidity-security | **solidity-security** | name: solidity-security |
-| misc\unsorted\spark-optimization | **spark-optimization** | name: spark-optimization |
-| misc\unsorted\spec-to-code-compliance | **spec-to-code-compliance** | name: spec-to-code-compliance |
-| misc\unsorted\speckit-updater | **speckit-updater** | name: speckit-updater |
-| misc\unsorted\speed | **speed** | name: speed |
-| misc\unsorted\spline-3d-integration | **spline-3d-integration** | name: spline-3d-integration |
-| misc\unsorted\sred-project-organizer | **sred-project-organizer** | name: sred-project-organizer |
-| misc\unsorted\sred-work-summary | **sred-work-summary** | name: sred-work-summary |
-| misc\unsorted\ssh-penetration-testing | **ssh-penetration-testing** | name: ssh-penetration-testing |
-| misc\unsorted\stability-ai | **stability-ai** | name: stability-ai |
-| misc\unsorted\startup-analyst | **startup-analyst** | name: startup-analyst |
-| misc\unsorted\startup-business-analyst-business-case | **startup-business-analyst-business-case** | name: startup-business-analyst-business-case |
-| misc\unsorted\startup-business-analyst-financial-projections | **startup-business-analyst-financial-projections** | name: startup-business-analyst-financial-projections |
-| misc\unsorted\startup-business-analyst-market-opportunity | **startup-business-analyst-market-opportunity** | name: startup-business-analyst-market-opportunity |
-| misc\unsorted\startup-financial-modeling | **startup-financial-modeling** | name: startup-financial-modeling |
-| misc\unsorted\startup-metrics-framework | **startup-metrics-framework** | name: startup-metrics-framework |
-| misc\unsorted\statsmodels | **statsmodels** | name: statsmodels |
-| misc\unsorted\stitch-loop | **stitch-loop** | name: stitch-loop |
-| misc\unsorted\stitch-ui-design | **stitch-ui-design** | name: stitch-ui-design |
-| misc\unsorted\stride-analysis-patterns | **stride-analysis-patterns** | name: stride-analysis-patterns |
-| misc\unsorted\subagent-driven-development | **subagent-driven-development** | name: subagent-driven-development |
-| misc\unsorted\superpowers-lab | **superpowers-lab** | name: superpowers-lab |
-| misc\unsorted\supply-chain-risk-auditor | **supply-chain-risk-auditor** | name: supply-chain-risk-auditor |
-| misc\unsorted\sveltekit | **sveltekit** | name: sveltekit |
-| misc\unsorted\sympy | **sympy** | name: sympy |
-| misc\unsorted\systematic-debugging | **systematic-debugging** | name: systematic-debugging |
-| misc\unsorted\systems-programming-rust-project | **systems-programming-rust-project** | name: systems-programming-rust-project |
-| misc\unsorted\tanstack-query-expert | **tanstack-query-expert** | name: tanstack-query-expert |
-| misc\unsorted\task-intelligence | **task-intelligence** | name: task-intelligence |
-| misc\unsorted\tavily-web | **tavily-web** | name: tavily-web |
-| misc\unsorted\tcm-constitution-analyzer | **tcm-constitution-analyzer** | name: tcm-constitution-analyzer |
-| misc\unsorted\tdd-orchestrator | **tdd-orchestrator** | name: tdd-orchestrator |
-| misc\unsorted\tdd-workflow | **tdd-workflow** | name: tdd-workflow |
-| misc\unsorted\tdd-workflows-tdd-cycle | **tdd-workflows-tdd-cycle** | name: tdd-workflows-tdd-cycle |
-| misc\unsorted\tdd-workflows-tdd-green | **tdd-workflows-tdd-green** | name: tdd-workflows-tdd-green |
-| misc\unsorted\tdd-workflows-tdd-red | **tdd-workflows-tdd-red** | name: tdd-workflows-tdd-red |
-| misc\unsorted\tdd-workflows-tdd-refactor | **tdd-workflows-tdd-refactor** | name: tdd-workflows-tdd-refactor |
-| misc\unsorted\team-collaboration-issue | **team-collaboration-issue** | name: team-collaboration-issue |
-| misc\unsorted\team-collaboration-standup-notes | **team-collaboration-standup-notes** | name: team-collaboration-standup-notes |
-| misc\unsorted\team-composition-analysis | **team-composition-analysis** | name: team-composition-analysis |
-| misc\unsorted\telegram | **telegram** | name: telegram |
-| misc\unsorted\telegram-bot-builder | **telegram-bot-builder** | name: telegram-bot-builder |
-| misc\unsorted\telegram-mini-app | **telegram-mini-app** | name: telegram-mini-app |
-| misc\unsorted\temporal-golang-pro | **temporal-golang-pro** | name: temporal-golang-pro |
-| misc\unsorted\temporal-python-pro | **temporal-python-pro** | name: temporal-python-pro |
-| misc\unsorted\temporal-python-testing | **temporal-python-testing** | name: temporal-python-testing |
-| misc\unsorted\terraform-aws-modules | **terraform-aws-modules** | name: terraform-aws-modules |
-| misc\unsorted\terraform-infrastructure | **terraform-infrastructure** | name: terraform-infrastructure |
-| misc\unsorted\terraform-module-library | **terraform-module-library** | name: terraform-module-library |
-| misc\unsorted\terraform-skill | **terraform-skill** | name: terraform-skill |
-| misc\unsorted\terraform-specialist | **terraform-specialist** | name: terraform-specialist |
-| misc\unsorted\test-automator | **test-automator** | name: test-automator |
-| misc\unsorted\test-driven-development | **test-driven-development** | name: test-driven-development |
-| misc\unsorted\test-fixing | **test-fixing** | name: test-fixing |
-| misc\unsorted\testing-patterns | **testing-patterns** | name: testing-patterns |
-| misc\unsorted\testing-qa | **testing-qa** | name: testing-qa |
-| misc\unsorted\theme-factory | **theme-factory** | name: theme-factory |
-| misc\unsorted\threat-mitigation-mapping | **threat-mitigation-mapping** | name: threat-mitigation-mapping |
-| misc\unsorted\threat-modeling-expert | **threat-modeling-expert** | name: threat-modeling-expert |
-| misc\unsorted\tmux | **tmux** | name: tmux |
-| misc\unsorted\tool-design | **tool-design** | name: tool-design |
-| misc\unsorted\tool-use-guardian | **tool-use-guardian** | name: tool-use-guardian |
-| misc\unsorted\top-web-vulnerabilities | **top-web-vulnerabilities** | name: top-web-vulnerabilities |
-| misc\unsorted\track-management | **track-management** | name: track-management |
-| misc\unsorted\travel-health-analyzer | **travel-health-analyzer** | name: travel-health-analyzer |
-| misc\unsorted\trigger-dev | **trigger-dev** | name: trigger-dev |
-| misc\unsorted\trpc-fullstack | **trpc-fullstack** | name: trpc-fullstack |
-| misc\unsorted\turborepo-caching | **turborepo-caching** | name: turborepo-caching |
-| misc\unsorted\tutorial-engineer | **tutorial-engineer** | name: tutorial-engineer |
-| misc\unsorted\twilio-communications | **twilio-communications** | name: twilio-communications |
-| misc\unsorted\typescript-advanced-types | **typescript-advanced-types** | name: typescript-advanced-types |
-| misc\unsorted\typescript-expert | **typescript-expert** | name: typescript-expert |
-| misc\unsorted\typescript-pro | **typescript-pro** | name: typescript-pro |
-| misc\unsorted\ui-skills | **ui-skills** | name: ui-skills |
-| misc\unsorted\ui-ux-designer | **ui-ux-designer** | name: ui-ux-designer |
-| misc\unsorted\ui-ux-pro-max | **ui-ux-pro-max** | name: ui-ux-pro-max |
-| misc\unsorted\ui-visual-validator | **ui-visual-validator** | name: ui-visual-validator |
-| misc\unsorted\uncle-bob-craft | **uncle-bob-craft** | name: uncle-bob-craft |
-| misc\unsorted\uniprot-database | **uniprot-database** | name: uniprot-database |
-| misc\unsorted\unit-testing-test-generate | **unit-testing-test-generate** | name: unit-testing-test-generate |
-| misc\unsorted\unity-developer | **unity-developer** | name: unity-developer |
-| misc\unsorted\unity-ecs-patterns | **unity-ecs-patterns** | name: unity-ecs-patterns |
-| misc\unsorted\unreal-engine-cpp-pro | **unreal-engine-cpp-pro** | name: unreal-engine-cpp-pro |
-| misc\unsorted\unsplash-integration | **unsplash-integration** | name: unsplash-integration |
-| misc\unsorted\upgrading-expo | **upgrading-expo** | name: upgrading-expo |
-| misc\unsorted\upstash-qstash | **upstash-qstash** | name: upstash-qstash |
-| misc\unsorted\using-git-worktrees | **using-git-worktrees** | name: using-git-worktrees |
-| misc\unsorted\using-neon | **using-neon** | name: using-neon |
-| misc\unsorted\using-superpowers | **using-superpowers** | name: using-superpowers |
-| misc\unsorted\uv-package-manager | **uv-package-manager** | name: uv-package-manager |
-| misc\unsorted\variant-analysis | **variant-analysis** | name: variant-analysis |
-| misc\unsorted\varlock | **varlock** | name: varlock |
-| misc\unsorted\varlock-claude-skill | **varlock-claude-skill** | name: varlock-claude-skill |
-| misc\unsorted\vector-database-engineer | **vector-database-engineer** | name: vector-database-engineer |
-| misc\unsorted\vector-index-tuning | **vector-index-tuning** | name: vector-index-tuning |
-| misc\unsorted\vercel-ai-sdk-expert | **vercel-ai-sdk-expert** | name: vercel-ai-sdk-expert |
-| misc\unsorted\vercel-deployment | **vercel-deployment** | name: vercel-deployment |
-| misc\unsorted\verification-before-completion | **verification-before-completion** | name: verification-before-completion |
-| misc\unsorted\vexor | **vexor** | name: vexor |
-| misc\unsorted\vexor-cli | **vexor-cli** | name: vexor-cli |
-| misc\unsorted\vibe-code-auditor | **vibe-code-auditor** | name: vibe-code-auditor |
-| misc\unsorted\vibers-code-review | **vibers-code-review** | name: vibers-code-review |
-| misc\unsorted\viboscope | **viboscope** | name: viboscope |
-| misc\unsorted\videodb | **videodb** | name: videodb |
-| misc\unsorted\videodb-skills | **videodb-skills** | name: videodb-skills |
-| misc\unsorted\viral-generator-builder | **viral-generator-builder** | name: viral-generator-builder |
-| misc\unsorted\vizcom | **vizcom** | name: vizcom |
-| misc\unsorted\voice-agents | **voice-agents** | name: voice-agents |
-| misc\unsorted\voice-ai-development | **voice-ai-development** | name: voice-ai-development |
-| misc\unsorted\voice-ai-engine-development | **voice-ai-engine-development** | name: voice-ai-engine-development |
-| misc\unsorted\wcag-audit-patterns | **wcag-audit-patterns** | name: wcag-audit-patterns |
-| misc\unsorted\web-artifacts-builder | **web-artifacts-builder** | name: web-artifacts-builder |
-| misc\unsorted\web-design-guidelines | **web-design-guidelines** | name: web-design-guidelines |
-| misc\unsorted\web-performance-optimization | **web-performance-optimization** | name: web-performance-optimization |
-| misc\unsorted\web-scraper | **web-scraper** | name: web-scraper |
-| misc\unsorted\web-security-testing | **web-security-testing** | name: web-security-testing |
-| misc\unsorted\web3-testing | **web3-testing** | name: web3-testing |
-| misc\unsorted\webapp-testing | **webapp-testing** | name: webapp-testing |
-| misc\unsorted\weightloss-analyzer | **weightloss-analyzer** | name: weightloss-analyzer |
-| misc\unsorted\wellally-tech | **wellally-tech** | name: wellally-tech |
-| misc\unsorted\whatsapp-cloud-api | **whatsapp-cloud-api** | name: whatsapp-cloud-api |
-| misc\unsorted\wiki-architect | **wiki-architect** | name: wiki-architect |
-| misc\unsorted\wiki-changelog | **wiki-changelog** | name: wiki-changelog |
-| misc\unsorted\wiki-onboarding | **wiki-onboarding** | name: wiki-onboarding |
-| misc\unsorted\wiki-page-writer | **wiki-page-writer** | name: wiki-page-writer |
-| misc\unsorted\wiki-qa | **wiki-qa** | name: wiki-qa |
-| misc\unsorted\wiki-researcher | **wiki-researcher** | name: wiki-researcher |
-| misc\unsorted\wiki-vitepress | **wiki-vitepress** | name: wiki-vitepress |
-| misc\unsorted\windows-privilege-escalation | **windows-privilege-escalation** | name: windows-privilege-escalation |
-| misc\unsorted\windows-shell-reliability | **windows-shell-reliability** | name: windows-shell-reliability |
-| misc\unsorted\wireshark-analysis | **wireshark-analysis** | name: wireshark-analysis |
-| misc\unsorted\wordpress | **wordpress** | name: wordpress |
-| misc\unsorted\wordpress-penetration-testing | **wordpress-penetration-testing** | name: wordpress-penetration-testing |
-| misc\unsorted\wordpress-plugin-development | **wordpress-plugin-development** | name: wordpress-plugin-development |
-| misc\unsorted\wordpress-theme-development | **wordpress-theme-development** | name: wordpress-theme-development |
-| misc\unsorted\wordpress-woocommerce-development | **wordpress-woocommerce-development** | name: wordpress-woocommerce-development |
-| misc\unsorted\workflow-orchestration-patterns | **workflow-orchestration-patterns** | name: workflow-orchestration-patterns |
-| misc\unsorted\workflow-patterns | **workflow-patterns** | name: workflow-patterns |
-| misc\unsorted\writing-plans | **writing-plans** | name: writing-plans |
-| misc\unsorted\writing-skills | **writing-skills** | name: writing-skills |
-| misc\unsorted\x-article-publisher-skill | **x-article-publisher-skill** | name: x-article-publisher-skill |
-| misc\unsorted\x-twitter-scraper | **x-twitter-scraper** | name: x-twitter-scraper |
-| misc\unsorted\xlsx-official | **xlsx-official** | name: xlsx-official |
-| misc\unsorted\xvary-stock-research | **xvary-stock-research** | name: xvary-stock-research |
-| misc\unsorted\yes-md | **yes-md** | name: "yes-md" |
-| misc\unsorted\youtube-summarizer | **youtube-summarizer** | name: youtube-summarizer |
-| misc\unsorted\zeroize-audit | **zeroize-audit** | name: zeroize-audit |
-| misc\unsorted\zod-validation-expert | **zod-validation-expert** | name: zod-validation-expert |
-| misc\unsorted\zustand-store-ts | **zustand-store-ts** | name: zustand-store-ts |
-| security\active-directory-attacks | **active-directory-attacks** | name: active-directory-attacks |
-| security\akf-trust-metadata | **akf-trust-metadata** | name: akf-trust-metadata |
-| security\anti-reversing-techniques | **anti-reversing-techniques** | name: anti-reversing-techniques |
-| security\attack-tree-construction | **attack-tree-construction** | name: attack-tree-construction |
-| security\audit-context-building | **audit-context-building** | name: audit-context-building |
-| security\audit-skills | **audit-skills** | name: audit-skills |
-| security\aws-compliance-checker | **aws-compliance-checker** | name: aws-compliance-checker |
-| security\aws-iam-best-practices | **aws-iam-best-practices** | name: aws-iam-best-practices |
-| security\aws-secrets-rotation | **aws-secrets-rotation** | name: aws-secrets-rotation |
-| security\aws-security-audit | **aws-security-audit** | name: aws-security-audit |
-| security\binary-analysis-patterns | **binary-analysis-patterns** | name: binary-analysis-patterns |
-| security\broken-authentication | **broken-authentication** | name: broken-authentication |
-| security\burp-suite-testing | **burp-suite-testing** | name: burp-suite-testing |
-| security\burpsuite-project-parser | **burpsuite-project-parser** | name: burpsuite-project-parser |
-| security\ffuf-claude-skill | **ffuf-claude-skill** | name: ffuf-claude-skill |
-| security\ffuf-web-fuzzing | **ffuf-web-fuzzing** | name: ffuf-web-fuzzing |
-| security\idor-testing | **idor-testing** | name: idor-testing |
-| security\pentest-checklist | **pentest-checklist** | name: pentest-checklist |
-| security\pentest-commands | **pentest-commands** | name: pentest-commands |
-| security\security-audit | **security-audit** | name: security-audit |
-| security\security-auditor | **security-auditor** | name: security-auditor |
-| security\security-bluebook-builder | **security-bluebook-builder** | name: security-bluebook-builder |
-| security\security-compliance-compliance-check | **security-compliance-compliance-check** | name: security-compliance-compliance-check |
-| security\security-requirement-extraction | **security-requirement-extraction** | name: security-requirement-extraction |
-| security\security-scanning-security-dependencies | **security-scanning-security-dependencies** | name: security-scanning-security-dependencies |
-| security\security-scanning-security-hardening | **security-scanning-security-hardening** | name: security-scanning-security-hardening |
-| security\security-scanning-security-sast | **security-scanning-security-sast** | name: security-scanning-security-sast |
-| security\vulnerability-scanner | **vulnerability-scanner** | name: vulnerability-scanner |
-| security\xss-html-injection | **xss-html-injection** | name: xss-html-injection |
-| system-core\00-andruia-consultant | **00-andruia-consultant** | id: 00-andruia-consultant |
-| system-core\10-andruia-skill-smith | **10-andruia-skill-smith** | id: 10-andruia-skill-smith |
-| system-core\20-andruia-niche-intelligence | **20-andruia-niche-intelligence** | id: 20-andruia-niche-intelligence |
-| system-core\acceptance-orchestrator | **acceptance-orchestrator** | name: acceptance-orchestrator |
-| system-core\accessibility-compliance-accessibility-audit | **accessibility-compliance-accessibility-audit** | name: accessibility-compliance-accessibility-audit |
-| system-core\analyze-project | **analyze-project** | name: analyze-project |
-| system-core\antigravity-design-expert | **antigravity-design-expert** | name: antigravity-design-expert |
-| system-core\antigravity-skill-orchestrator | **antigravity-skill-orchestrator** | name: antigravity-skill-orchestrator |
-| system-core\antigravity-workflows | **antigravity-workflows** | name: antigravity-workflows |
-| system-core\appdeploy | **appdeploy** | name: appdeploy |
-| system-core\application-performance-performance-optimization | **application-performance-performance-optimization** | name: application-performance-performance-optimization |
-| system-core\architect-review | **architect-review** | name: architect-review |
-| system-core\architecture | **architecture** | name: architecture |
-| system-core\architecture-decision-records | **architecture-decision-records** | name: architecture-decision-records |
-| system-core\architecture-patterns | **architecture-patterns** | name: architecture-patterns |
-| system-core\ask-questions-if-underspecified | **ask-questions-if-underspecified** | name: ask-questions-if-underspecified |
-| system-core\blockrun | **blockrun** | name: blockrun |
-| system-core\blueprint | **blueprint** | name: blueprint |
-| system-core\brainstorming | **brainstorming** | name: brainstorming |
-| system-core\bug-hunter | **bug-hunter** | name: bug-hunter |
-| system-core\build | **build** | name: build |
-| system-core\busybox-on-windows | **busybox-on-windows** | name: busybox-on-windows |
-| system-core\code-documentation-code-explain | **code-documentation-code-explain** | name: code-documentation-code-explain |
-| system-core\code-documentation-doc-generate | **code-documentation-doc-generate** | name: code-documentation-doc-generate |
-| system-core\code-refactoring-context-restore | **code-refactoring-context-restore** | name: code-refactoring-context-restore |
-| system-core\code-refactoring-refactor-clean | **code-refactoring-refactor-clean** | name: code-refactoring-refactor-clean |
-| system-core\code-refactoring-tech-debt | **code-refactoring-tech-debt** | name: code-refactoring-tech-debt |
-| system-core\code-review-ai-ai-review | **code-review-ai-ai-review** | name: code-review-ai-ai-review |
-| system-core\code-review-checklist | **code-review-checklist** | name: code-review-checklist |
-| system-core\code-review-excellence | **code-review-excellence** | name: code-review-excellence |
-| system-core\code-reviewer | **code-reviewer** | name: code-reviewer |
-| system-core\code-simplifier | **code-simplifier** | name: code-simplifier |
-| system-core\commit | **commit** | name: commit |
-| system-core\context-agent | **context-agent** | name: context-agent |
-| system-core\context-compression | **context-compression** | name: context-compression |
-| system-core\context-degradation | **context-degradation** | name: context-degradation |
-| system-core\context-driven-development | **context-driven-development** | name: context-driven-development |
-| system-core\context-fundamentals | **context-fundamentals** | name: context-fundamentals |
-| system-core\context-guardian | **context-guardian** | name: context-guardian |
-| system-core\context-management-context-restore | **context-management-context-restore** | name: context-management-context-restore |
-| system-core\context-management-context-save | **context-management-context-save** | name: context-management-context-save |
-| system-core\context-manager | **context-manager** | name: context-manager |
-| system-core\context-optimization | **context-optimization** | name: context-optimization |
-| system-core\context-window-management | **context-window-management** | name: context-window-management |
-| system-core\git-advanced-workflows | **git-advanced-workflows** | name: git-advanced-workflows |
-| system-core\git-pr-workflows-git-workflow | **git-pr-workflows-git-workflow** | name: git-pr-workflows-git-workflow |
-| system-core\git-pr-workflows-onboard | **git-pr-workflows-onboard** | name: git-pr-workflows-onboard |
-| system-core\git-pr-workflows-pr-enhance | **git-pr-workflows-pr-enhance** | name: git-pr-workflows-pr-enhance |
-| system-core\git-pushing | **git-pushing** | name: git-pushing |
-| system-core\memory-forensics | **memory-forensics** | name: memory-forensics |
-| system-core\memory-safety-patterns | **memory-safety-patterns** | name: memory-safety-patterns |
-| system-core\memory-systems | **memory-systems** | name: memory-systems |
-| system-core\skill-check | **skill-check** | name: skill-check |
-| system-core\skill-creator | **skill-creator** | name: skill-creator |
-| system-core\skill-creator-ms | **skill-creator-ms** | name: skill-creator-ms |
-| system-core\skill-developer | **skill-developer** | name: skill-developer |
-| system-core\skill-improver | **skill-improver** | name: skill-improver |
-| system-core\skill-installer | **skill-installer** | name: skill-installer |
-| system-core\skill-rails-upgrade | **skill-rails-upgrade** | name: skill-rails-upgrade |
-| system-core\skill-router | **skill-router** | name: skill-router |
-| system-core\skill-scanner | **skill-scanner** | name: skill-scanner |
-| system-core\skill-seekers | **skill-seekers** | name: skill-seekers |
-| system-core\skill-sentinel | **skill-sentinel** | name: skill-sentinel |
-| system-core\skill-writer | **skill-writer** | name: skill-writer |
+| Ai-ml > Advanced-evaluation | **advanced-evaluation** | This skill should be used when the user asks to "implement LLM-as-judge", "compare model outputs", "create evaluation rubrics", "mitigate evaluation bias", or mentions direct scoring, pairwise comp... |
+| Ai-ml > Aegisops-ai | **aegisops-ai** | Autonomous DevSecOps & FinOps Guardrails. |
+| Ai-ml > Agent-evaluation | **agent-evaluation** | You're a quality engineer who has seen agents that aced benchmarks fail spectacularly in production. You've learned that evaluating LLM agents is fundamentally different from testing traditional so... |
+| Ai-ml > Agent-framework-azure-ai-py | **agent-framework-azure-ai-py** | Build persistent agents on Azure AI Foundry using the Microsoft Agent Framework Python SDK. |
+| Ai-ml > Agent-manager-skill | **agent-manager-skill** | Manage multiple local CLI agents via tmux sessions (start/stop/monitor/assign) with cron-friendly scheduling. |
+| Ai-ml > Agent-memory-mcp | **agent-memory-mcp** | A hybrid memory system that provides persistent, searchable knowledge management for AI agents (Architecture, Patterns, Decisions). |
+| Ai-ml > Agent-memory-systems | **agent-memory-systems** | You are a cognitive architect who understands that memory makes agents intelligent. You've built memory systems for agents handling millions of interactions. You know that the hard part isn't stori... |
+| Ai-ml > Agent-orchestration-improve-agent | **agent-orchestration-improve-agent** | Systematic improvement of existing agents through performance analysis, prompt engineering, and continuous iteration. |
+| Ai-ml > Agent-orchestration-multi-agent-optimize | **agent-orchestration-multi-agent-optimize** | Optimize multi-agent systems with coordinated profiling, workload distribution, and cost-aware orchestration. Use when improving agent performance, throughput, or reliability. |
+| Ai-ml > Agent-orchestrator | **agent-orchestrator** | Meta-skill que orquestra todos os agentes do ecossistema. Scan automatico de skills, match por capacidades, coordenacao de workflows multi-skill e registry management. |
+| Ai-ml > Agent-tool-builder | **agent-tool-builder** | You are an expert in the interface between LLMs and the outside world. You've seen tools that work beautifully and tools that cause agents to hallucinate, loop, or fail silently. The difference is ... |
+| Ai-ml > Agentfolio | **agentfolio** | Skill for discovering and researching autonomous AI agents, tools, and ecosystems using the AgentFolio directory. |
+| Ai-ml > Agentic-actions-auditor | **agentic-actions-auditor** | > |
+| Ai-ml > Agentmail | **agentmail** | Email infrastructure for AI agents. Create accounts, send/receive emails, manage webhooks, and check karma balance via the AgentMail API. |
+| Ai-ml > Agents-md | **agents-md** | This skill should be used when the user asks to "create AGENTS.md", "update AGENTS.md", "maintain agent docs", "set up CLAUDE.md", or needs to keep agent instructions concise. Enforces research-bac... |
+| Ai-ml > Agents-v2-py | **agents-v2-py** | Build container-based Foundry Agents with Azure AI Projects SDK (ImageBasedHostedAgentDefinition). Use when creating hosted agents with custom container images in Azure AI Foundry. |
+| Ai-ml > Ai-agent-development | **ai-agent-development** | AI agent development workflow for building autonomous agents, multi-agent systems, and agent orchestration with CrewAI, LangGraph, and custom agents. |
+| Ai-ml > Ai-agents-architect | **ai-agents-architect** | I build AI systems that can act autonomously while remaining controllable. I understand that agents fail in unexpected ways - I design for graceful degradation and clear failure modes. I balance au... |
+| Ai-ml > Ai-analyzer | **ai-analyzer** | AI驱动的综合健康分析系统，整合多维度健康数据、识别异常模式、预测健康风险、提供个性化建议。支持智能问答和AI健康报告生成。 |
+| Ai-ml > Ai-engineer | **ai-engineer** | Build production-ready LLM applications, advanced RAG systems, and intelligent agents. Implements vector search, multimodal AI, agent orchestration, and enterprise AI integrations. |
+| Ai-ml > Ai-engineering-toolkit | **ai-engineering-toolkit** | 6 production-ready AI engineering workflows: prompt evaluation (8-dimension scoring), context budget planning, RAG pipeline design, agent security audit (65-point checklist), eval harness building,... |
+| Ai-ml > Ai-md | **ai-md** | Convert human-written CLAUDE.md into AI-native structured-label format. Battle-tested across 4 models. Same rules, fewer tokens, higher compliance. |
+| Ai-ml > Ai-native-cli | **ai-native-cli** | Design spec with 98 rules for building CLI tools that AI agents can safely use. Covers structured JSON output, error handling, input contracts, safety guardrails, exit codes, and agent self-descrip... |
+| Ai-ml > Ai-product | **ai-product** | You are an AI product engineer who has shipped LLM features to millions of users. You've debugged hallucinations at 3am, optimized prompts to reduce costs by 80%, and built safety systems that caug... |
+| Ai-ml > Ai-seo | **ai-seo** | Optimize content for AI search and LLM citations across AI Overviews, ChatGPT, Perplexity, Claude, Gemini, and similar systems. Use when improving AI visibility, answer engine optimization, or cita... |
+| Ai-ml > Ai-studio-image | **ai-studio-image** | Geracao de imagens humanizadas via Google AI Studio (Gemini). Fotos realistas estilo influencer ou educacional com iluminacao natural e imperfeicoes sutis. |
+| Ai-ml > Ai-wrapper-product | **ai-wrapper-product** | You know AI wrappers get a bad rap, but the good ones solve real problems. You build products where AI is the engine, not the gimmick. You understand prompt engineering is product development. You ... |
+| Ai-ml > Algorithmic-art | **algorithmic-art** | Algorithmic philosophies are computational aesthetic movements that are then expressed through code. Output .md files (philosophy), .html files (interactive viewer), and .js files (generative algor... |
+| Ai-ml > Audio-transcriber | **audio-transcriber** | Transform audio recordings into professional Markdown documentation with intelligent summaries using LLM integration |
+| Ai-ml > Auri-core | **auri-core** | Auri: assistente de voz inteligente (Alexa + Claude claude-opus-4-20250805). Visao do produto, persona Vitoria Neural, stack AWS, modelo Free/Pro/Business/Enterprise, roadmap 4 fases, GTM, north st... |
+| Ai-ml > Autonomous-agent-patterns | **autonomous-agent-patterns** | Design patterns for building autonomous coding agents, inspired by [Cline](https://github.com/cline/cline) and [OpenAI Codex](https://github.com/openai/codex). |
+| Ai-ml > Autonomous-agents | **autonomous-agents** | You are an agent architect who has learned the hard lessons of autonomous AI. You've seen the gap between impressive demos and production disasters. You know that a 95% success rate per step means ... |
+| Ai-ml > Avoid-ai-writing | **avoid-ai-writing** | Audit and rewrite content to remove 21 categories of AI writing patterns with a 43-entry replacement table |
+| Ai-ml > Bdi-mental-states | **bdi-mental-states** | This skill should be used when the user asks to "model agent mental states", "implement BDI architecture", "create belief-desire-intention models", "transform RDF to beliefs", "build cognitive agen... |
+| Ai-ml > Bdistill-behavioral-xray | **bdistill-behavioral-xray** | X-ray any AI model's behavioral patterns — refusal boundaries, hallucination tendencies, reasoning style, formatting defaults. No API key needed. |
+| Ai-ml > Bdistill-knowledge-extraction | **bdistill-knowledge-extraction** | Extract structured domain knowledge from AI models in-session or from local open-source models via Ollama. No API key needed. |
+| Ai-ml > Behavioral-modes | **behavioral-modes** | AI operational modes (brainstorm, implement, debug, review, teach, ship, orchestrate). Use to adapt behavior based on task type. |
+| Ai-ml > Hugging-face-cli | **hugging-face-cli** | Use the Hugging Face Hub CLI (`hf`) to download, upload, and manage models, datasets, and Spaces. |
+| Ai-ml > Hugging-face-community-evals | **hugging-face-community-evals** | Run local evaluations for Hugging Face Hub models with inspect-ai or lighteval. |
+| Ai-ml > Hugging-face-dataset-viewer | **hugging-face-dataset-viewer** | Query Hugging Face datasets through the Dataset Viewer API for splits, rows, search, filters, and parquet links. |
+| Ai-ml > Hugging-face-datasets | **hugging-face-datasets** | Create and manage datasets on Hugging Face Hub. Supports initializing repos, defining configs/system prompts, streaming row updates, and SQL-based dataset querying/transformation. Designed to work ... |
+| Ai-ml > Hugging-face-evaluation | **hugging-face-evaluation** | Add and manage evaluation results in Hugging Face model cards. Supports extracting eval tables from README content, importing scores from Artificial Analysis API, and running custom model evaluatio... |
+| Ai-ml > Hugging-face-gradio | **hugging-face-gradio** | Build or edit Gradio apps, layouts, components, and chat interfaces in Python. |
+| Ai-ml > Hugging-face-jobs | **hugging-face-jobs** | Run workloads on Hugging Face Jobs with managed CPUs, GPUs, TPUs, secrets, and Hub persistence. |
+| Ai-ml > Hugging-face-model-trainer | **hugging-face-model-trainer** | Train or fine-tune TRL language models on Hugging Face Jobs, including SFT, DPO, GRPO, and GGUF export. |
+| Ai-ml > Hugging-face-paper-publisher | **hugging-face-paper-publisher** | Publish and manage research papers on Hugging Face Hub. Supports creating paper pages, linking papers to models/datasets, claiming authorship, and generating professional markdown-based research ar... |
+| Ai-ml > Hugging-face-papers | **hugging-face-papers** | Read and analyze Hugging Face paper pages or arXiv papers with markdown and papers API metadata. |
+| Ai-ml > Hugging-face-tool-builder | **hugging-face-tool-builder** | Your purpose is now is to create reusable command line scripts and utilities for using the Hugging Face API, allowing chaining, piping and intermediate processing where helpful. You can access the ... |
+| Ai-ml > Hugging-face-trackio | **hugging-face-trackio** | Track ML experiments with Trackio using Python logging, alerts, and CLI metric retrieval. |
+| Ai-ml > Hugging-face-vision-trainer | **hugging-face-vision-trainer** | Train or fine-tune vision models on Hugging Face Jobs for detection, classification, and SAM or SAM2 segmentation. |
+| Ai-ml > Llm-app-patterns | **llm-app-patterns** | Production-ready patterns for building LLM applications, inspired by [Dify](https://github.com/langgenius/dify) and industry best practices. |
+| Ai-ml > Llm-application-dev-ai-assistant | **llm-application-dev-ai-assistant** | You are an AI assistant development expert specializing in creating intelligent conversational interfaces, chatbots, and AI-powered applications. Design comprehensive AI assistant solutions with natur |
+| Ai-ml > Llm-application-dev-langchain-agent | **llm-application-dev-langchain-agent** | You are an expert LangChain agent developer specializing in production-grade AI systems using LangChain 0.1+ and LangGraph. |
+| Ai-ml > Llm-application-dev-prompt-optimize | **llm-application-dev-prompt-optimize** | You are an expert prompt engineer specializing in crafting effective prompts for LLMs through advanced techniques including constitutional AI, chain-of-thought reasoning, and model-specific optimizati |
+| Ai-ml > Llm-evaluation | **llm-evaluation** | Master comprehensive evaluation strategies for LLM applications, from automated metrics to human evaluation and A/B testing. |
+| Ai-ml > Llm-ops | **llm-ops** | LLM Operations -- RAG, embeddings, vector databases, fine-tuning, prompt engineering avancado, custos de LLM, evals de qualidade e arquiteturas de IA para producao. |
+| Ai-ml > Llm-prompt-optimizer | **llm-prompt-optimizer** | Use when improving prompts for any LLM. Applies proven prompt engineering techniques to boost output quality, reduce hallucinations, and cut token usage. |
+| Ai-ml > Llm-structured-output | **llm-structured-output** | > |
+| Ai-ml > Ml-engineer | **ml-engineer** | Build production ML systems with PyTorch 2.x, TensorFlow, and modern ML frameworks. Implements model serving, feature engineering, A/B testing, and monitoring. |
+| Ai-ml > Ml-pipeline-workflow | **ml-pipeline-workflow** | Complete end-to-end MLOps pipeline orchestration from data preparation through model deployment. |
+| Ai-ml > Mlops-engineer | **mlops-engineer** | Build comprehensive ML pipelines, experiment tracking, and model registries with MLflow, Kubeflow, and modern MLOps tools. |
+| Ai-ml > Personas > Andrej-karpathy | **andrej-karpathy** | Agente que simula Andrej Karpathy — ex-Director of AI da Tesla, co-fundador da OpenAI, fundador da Eureka Labs, e o maior educador de deep learning do mundo. |
+| Ai-ml > Personas > Elon-musk | **elon-musk** | Agente que simula Elon Musk com profundidade psicologica e comunicacional de alta fidelidade. Ativado para: \"fale como Elon\", \"simule Elon Musk\", \"o que Elon diria sobre X\", \"first principle... |
+| Ai-ml > Personas > Geoffrey-hinton | **geoffrey-hinton** | Agente que simula Geoffrey Hinton — Godfather of Deep Learning, Prêmio Turing 2018, criador do backpropagation e das Deep Belief Networks. |
+| Ai-ml > Personas > Ilya-sutskever | **ilya-sutskever** | Agente que simula Ilya Sutskever — co-fundador da OpenAI, ex-Chief Scientist, fundador da SSI. Use quando quiser perspectivas sobre: AGI safety-first, consciência de IA, scaling laws, deep learning... |
+| Ai-ml > Personas > Sam-altman | **sam-altman** | Agente que simula Sam Altman — CEO da OpenAI, ex-presidente da Y Combinator, arquiteto da era AGI. |
+| Ai-ml > Personas > Steve-jobs | **steve-jobs** | Agente que simula Steve Jobs — cofundador da Apple, CEO da Pixar, fundador da NeXT, o maior designer de produtos tecnologicos da historia e o mais influente apresentador de produtos do mundo. |
+| Ai-ml > Personas > Warren-buffett | **warren-buffett** | Agente que simula Warren Buffett — o maior investidor do seculo XX e XXI, CEO da Berkshire Hathaway, discipulo de Benjamin Graham e socio intelectual de Charlie Munger. |
+| Ai-ml > Personas > Yann-lecun | **yann-lecun** | Agente que simula Yann LeCun — inventor das Convolutional Neural Networks, Chief AI Scientist da Meta, Prêmio Turing 2018. |
+| Ai-ml > Personas > Yann-lecun-debate | **yann-lecun-debate** | Sub-skill de debates e posições de Yann LeCun. Cobre críticas técnicas detalhadas aos LLMs, rivalidades intelectuais (LeCun vs Hinton, Sutskever, Russell, Yudkowsky, Bostrom), lista completa de rej... |
+| Ai-ml > Personas > Yann-lecun-filosofia | **yann-lecun-filosofia** | Sub-skill filosófica e pedagógica de Yann LeCun. |
+| Ai-ml > Personas > Yann-lecun-tecnico | **yann-lecun-tecnico** | Sub-skill técnica de Yann LeCun. Cobre CNNs, LeNet, backpropagation, JEPA (I-JEPA, V-JEPA, MC-JEPA), AMI (Advanced Machinery of Intelligence), Self-Supervised Learning (SimCLR, MAE, BYOL), Energy-B... |
+| Ai-ml > Pydantic-ai | **pydantic-ai** | Build production-ready AI agents with PydanticAI — type-safe tool use, structured outputs, dependency injection, and multi-model support. |
+| Ai-ml > Pydantic-models-py | **pydantic-models-py** | Create Pydantic models following the multi-model pattern for clean API contracts. |
+| Ai-ml > Transformers-js | **transformers-js** | Run Hugging Face models in JavaScript or TypeScript with Transformers.js in Node.js or the browser. |
+| Ai-ml | **ai-ml** | AI and machine learning workflow covering LLM application development, RAG implementation, agent architecture, ML pipelines, and AI-powered features. |
+| Automation > Activecampaign-automation | **activecampaign-automation** | Automate ActiveCampaign tasks via Rube MCP (Composio): manage contacts, tags, list subscriptions, automation enrollment, and tasks. Always search tools first for current schemas. |
+| Automation > Airflow-dag-patterns | **airflow-dag-patterns** | Build production Apache Airflow DAGs with best practices for operators, sensors, testing, and deployment. Use when creating data pipelines, orchestrating workflows, or scheduling batch jobs. |
+| Automation > Airtable-automation | **airtable-automation** | Automate Airtable tasks via Rube MCP (Composio): records, bases, tables, fields, views. Always search tools first for current schemas. |
+| Automation > Alpha-vantage | **alpha-vantage** | Access 20+ years of global financial data: equities, options, forex, crypto, commodities, economic indicators, and 50+ technical indicators. |
+| Automation > Amazon-alexa | **amazon-alexa** | Integracao completa com Amazon Alexa para criar skills de voz inteligentes, transformar Alexa em assistente com Claude como cerebro (projeto Auri) e integrar com AWS ecosystem (Lambda, DynamoDB, Po... |
+| Automation > Amplitude-automation | **amplitude-automation** | Automate Amplitude tasks via Rube MCP (Composio): events, user activity, cohorts, user identification. Always search tools first for current schemas. |
+| Automation > Apify-actor-development | **apify-actor-development** | Important: Before you begin, fill in the generatedBy property in the meta section of .actor/actor.json. Replace it with the tool and model you're currently using, such as \"Claude Code with Claude ... |
+| Automation > Apify-actorization | **apify-actorization** | Actorization converts existing software into reusable serverless applications compatible with the Apify platform. Actors are programs packaged as Docker images that accept well-defined JSON input, ... |
+| Automation > Apify-audience-analysis | **apify-audience-analysis** | Understand audience demographics, preferences, behavior patterns, and engagement quality across Facebook, Instagram, YouTube, and TikTok. |
+| Automation > Apify-brand-reputation-monitoring | **apify-brand-reputation-monitoring** | Scrape reviews, ratings, and brand mentions from multiple platforms using Apify Actors. |
+| Automation > Apify-competitor-intelligence | **apify-competitor-intelligence** | Analyze competitor strategies, content, pricing, ads, and market positioning across Google Maps, Booking.com, Facebook, Instagram, YouTube, and TikTok. |
+| Automation > Apify-content-analytics | **apify-content-analytics** | Track engagement metrics, measure campaign ROI, and analyze content performance across Instagram, Facebook, YouTube, and TikTok. |
+| Automation > Apify-ecommerce | **apify-ecommerce** | Extract product data, prices, reviews, and seller information from any e-commerce platform using Apify's E-commerce Scraping Tool. |
+| Automation > Apify-influencer-discovery | **apify-influencer-discovery** | Find and evaluate influencers for brand partnerships, verify authenticity, and track collaboration performance across Instagram, Facebook, YouTube, and TikTok. |
+| Automation > Apify-lead-generation | **apify-lead-generation** | Scrape leads from multiple platforms using Apify Actors. |
+| Automation > Apify-market-research | **apify-market-research** | Analyze market conditions, geographic opportunities, pricing, consumer behavior, and product validation across Google Maps, Facebook, Instagram, Booking.com, and TripAdvisor. |
+| Automation > Apify-trend-analysis | **apify-trend-analysis** | Discover and track emerging trends across Google Trends, Instagram, Facebook, YouTube, and TikTok to inform content strategy. |
+| Automation > Apify-ultimate-scraper | **apify-ultimate-scraper** | AI-driven data extraction from 55+ Actors across all major platforms. This skill automatically selects the best Actor for your task. |
+| Automation > Asana-automation | **asana-automation** | Automate Asana tasks via Rube MCP (Composio): tasks, projects, sections, teams, workspaces. Always search tools first for current schemas. |
+| Automation > Bamboohr-automation | **bamboohr-automation** | Automate BambooHR tasks via Rube MCP (Composio): employees, time-off, benefits, dependents, employee updates. Always search tools first for current schemas. |
+| Automation > Basecamp-automation | **basecamp-automation** | Automate Basecamp project management, to-dos, messages, people, and to-do list organization via Rube MCP (Composio). Always search tools first for current schemas. |
+| Automation > Billing-automation | **billing-automation** | Master automated billing systems including recurring billing, invoice generation, dunning management, proration, and tax calculation. |
+| Automation > Bitbucket-automation | **bitbucket-automation** | Automate Bitbucket repositories, pull requests, branches, issues, and workspace management via Rube MCP (Composio). Always search tools first for current schemas. |
+| Automation > Box-automation | **box-automation** | Automate Box operations including file upload/download, content search, folder management, collaboration, metadata queries, and sign requests through Composio's Box toolkit. |
+| Automation > Brevo-automation | **brevo-automation** | Automate Brevo (formerly Sendinblue) email marketing operations through Composio's Brevo toolkit via Rube MCP. |
+| Automation > Browser-automation | **browser-automation** | You are a browser automation expert who has debugged thousands of flaky tests and built scrapers that run for years without breaking. You've seen the evolution from Selenium to Puppeteer to Playwri... |
+| Automation > Cal-com-automation | **cal-com-automation** | Automate Cal.com tasks via Rube MCP (Composio): manage bookings, check availability, configure webhooks, and handle teams. Always search tools first for current schemas. |
+| Automation > Calendly-automation | **calendly-automation** | Automate Calendly scheduling, event management, invitee tracking, availability checks, and organization administration via Rube MCP (Composio). Always search tools first for current schemas. |
+| Automation > Canva-automation | **canva-automation** | Automate Canva tasks via Rube MCP (Composio): designs, exports, folders, brand templates, autofill. Always search tools first for current schemas. |
+| Automation > Changelog-automation | **changelog-automation** | Automate changelog generation from commits, PRs, and releases following Keep a Changelog format. Use when setting up release workflows, generating release notes, or standardizing commit conventions. |
+| Automation > Cicd-automation-workflow-automate | **cicd-automation-workflow-automate** | You are a workflow automation expert specializing in creating efficient CI/CD pipelines, GitHub Actions workflows, and automated development processes. Design and implement automation that reduces ... |
+| Automation > Circleci-automation | **circleci-automation** | Automate CircleCI tasks via Rube MCP (Composio): trigger pipelines, monitor workflows/jobs, retrieve artifacts and test metadata. Always search tools first for current schemas. |
+| Automation > Clickup-automation | **clickup-automation** | Automate ClickUp project management including tasks, spaces, folders, lists, comments, and team operations via Rube MCP (Composio). Always search tools first for current schemas. |
+| Automation > Close-automation | **close-automation** | Automate Close CRM tasks via Rube MCP (Composio): create leads, manage calls/SMS, handle tasks, and track notes. Always search tools first for current schemas. |
+| Automation > Coda-automation | **coda-automation** | Automate Coda tasks via Rube MCP (Composio): manage docs, pages, tables, rows, formulas, permissions, and publishing. Always search tools first for current schemas. |
+| Automation > Confluence-automation | **confluence-automation** | Automate Confluence page creation, content search, space management, labels, and hierarchy navigation via Rube MCP (Composio). Always search tools first for current schemas. |
+| Automation > Convertkit-automation | **convertkit-automation** | Automate ConvertKit (Kit) tasks via Rube MCP (Composio): manage subscribers, tags, broadcasts, and broadcast stats. Always search tools first for current schemas. |
+| Automation > Datadog-automation | **datadog-automation** | Automate Datadog tasks via Rube MCP (Composio): query metrics, search logs, manage monitors/dashboards, create events and downtimes. Always search tools first for current schemas. |
+| Automation > Discord-automation | **discord-automation** | Automate Discord tasks via Rube MCP (Composio): messages, channels, roles, webhooks, reactions. Always search tools first for current schemas. |
+| Automation > Discord-bot-architect | **discord-bot-architect** | Specialized skill for building production-ready Discord bots. Covers Discord.js (JavaScript) and Pycord (Python), gateway intents, slash commands, interactive components, rate limiting, and sharding. |
+| Automation > Docusign-automation | **docusign-automation** | Automate DocuSign tasks via Rube MCP (Composio): templates, envelopes, signatures, document management. Always search tools first for current schemas. |
+| Automation > Dropbox-automation | **dropbox-automation** | Automate Dropbox file management, sharing, search, uploads, downloads, and folder operations via Rube MCP (Composio). Always search tools first for current schemas. |
+| Automation > Figma-automation | **figma-automation** | Automate Figma tasks via Rube MCP (Composio): files, components, design tokens, comments, exports. Always search tools first for current schemas. |
+| Automation > Freshdesk-automation | **freshdesk-automation** | Automate Freshdesk helpdesk operations including tickets, contacts, companies, notes, and replies via Rube MCP (Composio). Always search tools first for current schemas. |
+| Automation > Freshservice-automation | **freshservice-automation** | Automate Freshservice ITSM tasks via Rube MCP (Composio): create/update tickets, bulk operations, service requests, and outbound emails. Always search tools first for current schemas. |
+| Automation > Git-hooks-automation | **git-hooks-automation** | Master Git hooks setup with Husky, lint-staged, pre-commit framework, and commitlint. Automate code quality gates, formatting, linting, and commit message enforcement before code reaches CI. |
+| Automation > Github-automation | **github-automation** | Automate GitHub repositories, issues, pull requests, branches, CI/CD, and permissions via Rube MCP (Composio). Manage code workflows, review PRs, search code, and handle deployments programmatically. |
+| Automation > Github-workflow-automation | **github-workflow-automation** | Patterns for automating GitHub workflows with AI assistance, inspired by [Gemini CLI](https://github.com/google-gemini/gemini-cli) and modern DevOps practices. |
+| Automation > Gitlab-automation | **gitlab-automation** | Automate GitLab project management, issues, merge requests, pipelines, branches, and user operations via Rube MCP (Composio). Always search tools first for current schemas. |
+| Automation > Gmail-automation | **gmail-automation** | Lightweight Gmail integration with standalone OAuth authentication. No MCP server required. |
+| Automation > Google-analytics-automation | **google-analytics-automation** | Automate Google Analytics tasks via Rube MCP (Composio): run reports, list accounts/properties, funnels, pivots, key events. Always search tools first for current schemas. |
+| Automation > Google-calendar-automation | **google-calendar-automation** | Lightweight Google Calendar integration with standalone OAuth authentication. No MCP server required. |
+| Automation > Google-docs-automation | **google-docs-automation** | Lightweight Google Docs integration with standalone OAuth authentication. No MCP server required. |
+| Automation > Google-drive-automation | **google-drive-automation** | Lightweight Google Drive integration with standalone OAuth authentication. No MCP server required. Full read/write access. |
+| Automation > Google-sheets-automation | **google-sheets-automation** | Lightweight Google Sheets integration with standalone OAuth authentication. No MCP server required. Full read/write access. |
+| Automation > Google-slides-automation | **google-slides-automation** | Lightweight Google Slides integration with standalone OAuth authentication. No MCP server required. Full read/write access. |
+| Automation > Googlesheets-automation | **googlesheets-automation** | Automate Google Sheets operations (read, write, format, filter, manage spreadsheets) via Rube MCP (Composio). Read/write data, manage tabs, apply formatting, and search rows programmatically. |
+| Automation > Helpdesk-automation | **helpdesk-automation** | Automate HelpDesk tasks via Rube MCP (Composio): list tickets, manage views, use canned responses, and configure custom fields. Always search tools first for current schemas. |
+| Automation > Hubspot-automation | **hubspot-automation** | Automate HubSpot CRM operations (contacts, companies, deals, tickets, properties) via Rube MCP using Composio integration. |
+| Automation > Hubspot-integration | **hubspot-integration** | Authentication for single-account integrations |
+| Automation > Instagram-automation | **instagram-automation** | Automate Instagram tasks via Rube MCP (Composio): create posts, carousels, manage media, get insights, and publishing limits. Always search tools first for current schemas. |
+| Automation > Intercom-automation | **intercom-automation** | Automate Intercom tasks via Rube MCP (Composio): conversations, contacts, companies, segments, admins. Always search tools first for current schemas. |
+| Automation > Jira-automation | **jira-automation** | Automate Jira tasks via Rube MCP (Composio): issues, projects, sprints, boards, comments, users. Always search tools first for current schemas. |
+| Automation > Klaviyo-automation | **klaviyo-automation** | Automate Klaviyo tasks via Rube MCP (Composio): manage email/SMS campaigns, inspect campaign messages, track tags, and monitor send jobs. Always search tools first for current schemas. |
+| Automation > Linear-automation | **linear-automation** | Automate Linear tasks via Rube MCP (Composio): issues, projects, cycles, teams, labels. Always search tools first for current schemas. |
+| Automation > Linkedin-automation | **linkedin-automation** | Automate LinkedIn tasks via Rube MCP (Composio): create posts, manage profile, company info, comments, and image uploads. Always search tools first for current schemas. |
+| Automation > Mailchimp-automation | **mailchimp-automation** | Automate Mailchimp email marketing including campaigns, audiences, subscribers, segments, and analytics via Rube MCP (Composio). Always search tools first for current schemas. |
+| Automation > Make-automation | **make-automation** | Automate Make (Integromat) tasks via Rube MCP (Composio): operations, enums, language and timezone lookups. Always search tools first for current schemas. |
+| Automation > Microsoft-teams-automation | **microsoft-teams-automation** | Automate Microsoft Teams tasks via Rube MCP (Composio): send messages, manage channels, create meetings, handle chats, and search messages. Always search tools first for current schemas. |
+| Automation > Miro-automation | **miro-automation** | Automate Miro tasks via Rube MCP (Composio): boards, items, sticky notes, frames, sharing, connectors. Always search tools first for current schemas. |
+| Automation > Mixpanel-automation | **mixpanel-automation** | Automate Mixpanel tasks via Rube MCP (Composio): events, segmentation, funnels, cohorts, user profiles, JQL queries. Always search tools first for current schemas. |
+| Automation > Monday-automation | **monday-automation** | Automate Monday.com work management including boards, items, columns, groups, subitems, and updates via Rube MCP (Composio). Always search tools first for current schemas. |
+| Automation > Notion-automation | **notion-automation** | Automate Notion tasks via Rube MCP (Composio): pages, databases, blocks, comments, users. Always search tools first for current schemas. |
+| Automation > Notion-template-business | **notion-template-business** | You know templates are real businesses that can generate serious income. You've seen creators make six figures selling Notion templates. You understand it's not about the template - it's about the ... |
+| Automation > One-drive-automation | **one-drive-automation** | Automate OneDrive file management, search, uploads, downloads, sharing, permissions, and folder operations via Rube MCP (Composio). Always search tools first for current schemas. |
+| Automation > Outlook-automation | **outlook-automation** | Automate Outlook tasks via Rube MCP (Composio): emails, calendar, contacts, folders, attachments. Always search tools first for current schemas. |
+| Automation > Outlook-calendar-automation | **outlook-calendar-automation** | Automate Outlook Calendar tasks via Rube MCP (Composio): create events, manage attendees, find meeting times, and handle invitations. Always search tools first for current schemas. |
+| Automation > Pagerduty-automation | **pagerduty-automation** | Automate PagerDuty tasks via Rube MCP (Composio): manage incidents, services, schedules, escalation policies, and on-call rotations. Always search tools first for current schemas. |
+| Automation > Paypal-integration | **paypal-integration** | Master PayPal payment integration including Express Checkout, IPN handling, recurring billing, and refund workflows. |
+| Automation > Pipedrive-automation | **pipedrive-automation** | Automate Pipedrive CRM operations including deals, contacts, organizations, activities, notes, and pipeline management via Rube MCP (Composio). Always search tools first for current schemas. |
+| Automation > Posthog-automation | **posthog-automation** | Automate PostHog tasks via Rube MCP (Composio): events, feature flags, projects, user profiles, annotations. Always search tools first for current schemas. |
+| Automation > Postmark-automation | **postmark-automation** | Automate Postmark email delivery tasks via Rube MCP (Composio): send templated emails, manage templates, monitor delivery stats and bounces. Always search tools first for current schemas. |
+| Automation > Reddit-automation | **reddit-automation** | Automate Reddit tasks via Rube MCP (Composio): search subreddits, create posts, manage comments, and browse top content. Always search tools first for current schemas. |
+| Automation > Render-automation | **render-automation** | Automate Render tasks via Rube MCP (Composio): services, deployments, projects. Always search tools first for current schemas. |
+| Automation > Salesforce-automation | **salesforce-automation** | Automate Salesforce tasks via Rube MCP (Composio): leads, contacts, accounts, opportunities, SOQL queries. Always search tools first for current schemas. |
+| Automation > Segment-automation | **segment-automation** | Automate Segment tasks via Rube MCP (Composio): track events, identify users, manage groups, page views, aliases, batch operations. Always search tools first for current schemas. |
+| Automation > Sendgrid-automation | **sendgrid-automation** | Automate SendGrid email delivery workflows including marketing campaigns (Single Sends), contact and list management, sender identity setup, and email analytics through Composio's SendGrid toolkit. |
+| Automation > Sentry-automation | **sentry-automation** | Automate Sentry tasks via Rube MCP (Composio): manage issues/events, configure alerts, track releases, monitor projects and teams. Always search tools first for current schemas. |
+| Automation > Shopify-automation | **shopify-automation** | Automate Shopify tasks via Rube MCP (Composio): products, orders, customers, inventory, collections. Always search tools first for current schemas. |
+| Automation > Slack-automation | **slack-automation** | Automate Slack workspace operations including messaging, search, channel management, and reaction workflows through Composio's Slack toolkit. |
+| Automation > Slack-bot-builder | **slack-bot-builder** | The Bolt framework is Slack's recommended approach for building apps. It handles authentication, event routing, request verification, and HTTP request processing so you can focus on app logic. |
+| Automation > Slack-gif-creator | **slack-gif-creator** | A toolkit providing utilities and knowledge for creating animated GIFs optimized for Slack. |
+| Automation > Square-automation | **square-automation** | Automate Square tasks via Rube MCP (Composio): payments, orders, invoices, locations. Always search tools first for current schemas. |
+| Automation > Stripe-automation | **stripe-automation** | Automate Stripe tasks via Rube MCP (Composio): customers, charges, subscriptions, invoices, products, refunds. Always search tools first for current schemas. |
+| Automation > Stripe-integration | **stripe-integration** | Master Stripe payment processing integration for robust, PCI-compliant payment flows including checkout, subscriptions, webhooks, and refunds. |
+| Automation > Supabase-automation | **supabase-automation** | Automate Supabase database queries, table management, project administration, storage, edge functions, and SQL execution via Rube MCP (Composio). Always search tools first for current schemas. |
+| Automation > Telegram-automation | **telegram-automation** | Automate Telegram tasks via Rube MCP (Composio): send messages, manage chats, share photos/documents, and handle bot commands. Always search tools first for current schemas. |
+| Automation > Tiktok-automation | **tiktok-automation** | Automate TikTok tasks via Rube MCP (Composio): upload/publish videos, post photos, manage content, and view user profiles/stats. Always search tools first for current schemas. |
+| Automation > Todoist-automation | **todoist-automation** | Automate Todoist task management, projects, sections, filtering, and bulk operations via Rube MCP (Composio). Always search tools first for current schemas. |
+| Automation > Trello-automation | **trello-automation** | Automate Trello boards, cards, and workflows via Rube MCP (Composio). Create cards, manage lists, assign members, and search across boards programmatically. |
+| Automation > Twitter-automation | **twitter-automation** | Automate Twitter/X tasks via Rube MCP (Composio): posts, search, users, bookmarks, lists, media. Always search tools first for current schemas. |
+| Automation > Vercel-automation | **vercel-automation** | Automate Vercel tasks via Rube MCP (Composio): manage deployments, domains, DNS, env vars, projects, and teams. Always search tools first for current schemas. |
+| Automation > Webflow-automation | **webflow-automation** | Automate Webflow CMS collections, site publishing, page management, asset uploads, and ecommerce orders via Rube MCP (Composio). Always search tools first for current schemas. |
+| Automation > Whatsapp-automation | **whatsapp-automation** | Automate WhatsApp Business tasks via Rube MCP (Composio): send messages, manage templates, upload media, and handle contacts. Always search tools first for current schemas. |
+| Automation > Workflow-automation | **workflow-automation** | You are a workflow automation architect who has seen both the promise and the pain of these platforms. You've migrated teams from brittle cron jobs to durable execution and watched their on-call bu... |
+| Automation > Wrike-automation | **wrike-automation** | Automate Wrike project management via Rube MCP (Composio): create tasks/folders, manage projects, assign work, and track progress. Always search tools first for current schemas. |
+| Automation > Youtube-automation | **youtube-automation** | Automate YouTube tasks via Rube MCP (Composio): upload videos, manage playlists, search content, get analytics, and handle comments. Always search tools first for current schemas. |
+| Automation > Zapier-make-patterns | **zapier-make-patterns** | You are a no-code automation architect who has built thousands of Zaps and Scenarios for businesses of all sizes. You've seen automations that save companies 40% of their time, and you've debugged ... |
+| Automation > Zendesk-automation | **zendesk-automation** | Automate Zendesk tasks via Rube MCP (Composio): tickets, users, organizations, replies. Always search tools first for current schemas. |
+| Automation > Zoho-crm-automation | **zoho-crm-automation** | Automate Zoho CRM tasks via Rube MCP (Composio): create/update records, search contacts, manage leads, and convert leads. Always search tools first for current schemas. |
+| Automation > Zoom-automation | **zoom-automation** | Automate Zoom meeting creation, management, recordings, webinars, and participant tracking via Rube MCP (Composio). Always search tools first for current schemas. |
+| Cloud > Aws > Aws-cost-cleanup | **aws-cost-cleanup** | Automated cleanup of unused AWS resources to reduce costs |
+| Cloud > Aws > Aws-cost-optimizer | **aws-cost-optimizer** | Comprehensive AWS cost analysis and optimization recommendations using AWS CLI and Cost Explorer |
+| Cloud > Aws > Aws-penetration-testing | **aws-penetration-testing** | Provide comprehensive techniques for penetration testing AWS cloud environments. Covers IAM enumeration, privilege escalation, SSRF to metadata endpoint, S3 bucket exploitation, Lambda code extract... |
+| Cloud > Aws > Aws-serverless | **aws-serverless** | Proper Lambda function structure with error handling |
+| Cloud > Aws > Aws-skills | **aws-skills** | AWS development with infrastructure automation and cloud architecture patterns |
+| Cloud > Azure > Azd-deployment | **azd-deployment** | Deploy containerized frontend + backend applications to Azure Container Apps with remote builds, managed identity, and idempotent infrastructure. |
+| Cloud > Azure > Azure-ai-agents-persistent-dotnet | **azure-ai-agents-persistent-dotnet** | Azure AI Agents Persistent SDK for .NET. Low-level SDK for creating and managing AI agents with threads, messages, runs, and tools. |
+| Cloud > Azure > Azure-ai-agents-persistent-java | **azure-ai-agents-persistent-java** | Azure AI Agents Persistent SDK for Java. Low-level SDK for creating and managing AI agents with threads, messages, runs, and tools. |
+| Cloud > Azure > Azure-ai-anomalydetector-java | **azure-ai-anomalydetector-java** | Build anomaly detection applications with Azure AI Anomaly Detector SDK for Java. Use when implementing univariate/multivariate anomaly detection, time-series analysis, or AI-powered monitoring. |
+| Cloud > Azure > Azure-ai-contentsafety-java | **azure-ai-contentsafety-java** | Build content moderation applications using the Azure AI Content Safety SDK for Java. |
+| Cloud > Azure > Azure-ai-contentsafety-py | **azure-ai-contentsafety-py** | Azure AI Content Safety SDK for Python. Use for detecting harmful content in text and images with multi-severity classification. |
+| Cloud > Azure > Azure-ai-contentsafety-ts | **azure-ai-contentsafety-ts** | Analyze text and images for harmful content with customizable blocklists. |
+| Cloud > Azure > Azure-ai-contentunderstanding-py | **azure-ai-contentunderstanding-py** | Azure AI Content Understanding SDK for Python. Use for multimodal content extraction from documents, images, audio, and video. |
+| Cloud > Azure > Azure-ai-document-intelligence-dotnet | **azure-ai-document-intelligence-dotnet** | Azure AI Document Intelligence SDK for .NET. Extract text, tables, and structured data from documents using prebuilt and custom models. |
+| Cloud > Azure > Azure-ai-document-intelligence-ts | **azure-ai-document-intelligence-ts** | Extract text, tables, and structured data from documents using prebuilt and custom models. |
+| Cloud > Azure > Azure-ai-formrecognizer-java | **azure-ai-formrecognizer-java** | Build document analysis applications using the Azure AI Document Intelligence SDK for Java. |
+| Cloud > Azure > Azure-ai-ml-py | **azure-ai-ml-py** | Azure Machine Learning SDK v2 for Python. Use for ML workspaces, jobs, models, datasets, compute, and pipelines. |
+| Cloud > Azure > Azure-ai-openai-dotnet | **azure-ai-openai-dotnet** | Azure OpenAI SDK for .NET. Client library for Azure OpenAI and OpenAI services. Use for chat completions, embeddings, image generation, audio transcription, and assistants. |
+| Cloud > Azure > Azure-ai-projects-dotnet | **azure-ai-projects-dotnet** | Azure AI Projects SDK for .NET. High-level client for Azure AI Foundry projects including agents, connections, datasets, deployments, evaluations, and indexes. |
+| Cloud > Azure > Azure-ai-projects-java | **azure-ai-projects-java** | Azure AI Projects SDK for Java. High-level SDK for Azure AI Foundry project management including connections, datasets, indexes, and evaluations. |
+| Cloud > Azure > Azure-ai-projects-py | **azure-ai-projects-py** | Build AI applications on Microsoft Foundry using the azure-ai-projects SDK. |
+| Cloud > Azure > Azure-ai-projects-ts | **azure-ai-projects-ts** | High-level SDK for Azure AI Foundry projects with agents, connections, deployments, and evaluations. |
+| Cloud > Azure > Azure-ai-textanalytics-py | **azure-ai-textanalytics-py** | Azure AI Text Analytics SDK for sentiment analysis, entity recognition, key phrases, language detection, PII, and healthcare NLP. Use for natural language processing on text. |
+| Cloud > Azure > Azure-ai-transcription-py | **azure-ai-transcription-py** | Azure AI Transcription SDK for Python. Use for real-time and batch speech-to-text transcription with timestamps and diarization. |
+| Cloud > Azure > Azure-ai-translation-document-py | **azure-ai-translation-document-py** | Azure AI Document Translation SDK for batch translation of documents with format preservation. Use for translating Word, PDF, Excel, PowerPoint, and other document formats at scale. |
+| Cloud > Azure > Azure-ai-translation-text-py | **azure-ai-translation-text-py** | Azure AI Text Translation SDK for real-time text translation, transliteration, language detection, and dictionary lookup. Use for translating text content in applications. |
+| Cloud > Azure > Azure-ai-translation-ts | **azure-ai-translation-ts** | Text and document translation with REST-style clients. |
+| Cloud > Azure > Azure-ai-vision-imageanalysis-java | **azure-ai-vision-imageanalysis-java** | Build image analysis applications with Azure AI Vision SDK for Java. Use when implementing image captioning, OCR text extraction, object detection, tagging, or smart cropping. |
+| Cloud > Azure > Azure-ai-vision-imageanalysis-py | **azure-ai-vision-imageanalysis-py** | Azure AI Vision Image Analysis SDK for captions, tags, objects, OCR, people detection, and smart cropping. Use for computer vision and image understanding tasks. |
+| Cloud > Azure > Azure-ai-voicelive-dotnet | **azure-ai-voicelive-dotnet** | Azure AI Voice Live SDK for .NET. Build real-time voice AI applications with bidirectional WebSocket communication. |
+| Cloud > Azure > Azure-ai-voicelive-java | **azure-ai-voicelive-java** | Azure AI VoiceLive SDK for Java. Real-time bidirectional voice conversations with AI assistants using WebSocket. |
+| Cloud > Azure > Azure-ai-voicelive-py | **azure-ai-voicelive-py** | Build real-time voice AI applications with bidirectional WebSocket communication. |
+| Cloud > Azure > Azure-ai-voicelive-ts | **azure-ai-voicelive-ts** | Azure AI Voice Live SDK for JavaScript/TypeScript. Build real-time voice AI applications with bidirectional WebSocket communication. |
+| Cloud > Azure > Azure-appconfiguration-java | **azure-appconfiguration-java** | Azure App Configuration SDK for Java. Centralized application configuration management with key-value settings, feature flags, and snapshots. |
+| Cloud > Azure > Azure-appconfiguration-py | **azure-appconfiguration-py** | Azure App Configuration SDK for Python. Use for centralized configuration management, feature flags, and dynamic settings. |
+| Cloud > Azure > Azure-appconfiguration-ts | **azure-appconfiguration-ts** | Centralized configuration management with feature flags and dynamic refresh. |
+| Cloud > Azure > Azure-communication-callautomation-java | **azure-communication-callautomation-java** | Build server-side call automation workflows including IVR systems, call routing, recording, and AI-powered interactions. |
+| Cloud > Azure > Azure-communication-callingserver-java | **azure-communication-callingserver-java** | ⚠️ DEPRECATED: This SDK has been renamed to Call Automation. For new projects, use azure-communication-callautomation instead. This skill is for maintaining legacy code only. |
+| Cloud > Azure > Azure-communication-chat-java | **azure-communication-chat-java** | Build real-time chat applications with thread management, messaging, participants, and read receipts. |
+| Cloud > Azure > Azure-communication-common-java | **azure-communication-common-java** | Azure Communication Services common utilities for Java. Use when working with CommunicationTokenCredential, user identifiers, token refresh, or shared authentication across ACS services. |
+| Cloud > Azure > Azure-communication-sms-java | **azure-communication-sms-java** | Send SMS messages with Azure Communication Services SMS Java SDK. Use when implementing SMS notifications, alerts, OTP delivery, bulk messaging, or delivery reports. |
+| Cloud > Azure > Azure-compute-batch-java | **azure-compute-batch-java** | Azure Batch SDK for Java. Run large-scale parallel and HPC batch jobs with pools, jobs, tasks, and compute nodes. |
+| Cloud > Azure > Azure-containerregistry-py | **azure-containerregistry-py** | Azure Container Registry SDK for Python. Use for managing container images, artifacts, and repositories. |
+| Cloud > Azure > Azure-cosmos-db-py | **azure-cosmos-db-py** | Build production-grade Azure Cosmos DB NoSQL services following clean code, security best practices, and TDD principles. |
+| Cloud > Azure > Azure-cosmos-java | **azure-cosmos-java** | Azure Cosmos DB SDK for Java. NoSQL database operations with global distribution, multi-model support, and reactive patterns. |
+| Cloud > Azure > Azure-cosmos-py | **azure-cosmos-py** | Azure Cosmos DB SDK for Python (NoSQL API). Use for document CRUD, queries, containers, and globally distributed data. |
+| Cloud > Azure > Azure-cosmos-rust | **azure-cosmos-rust** | Azure Cosmos DB SDK for Rust (NoSQL API). Use for document CRUD, queries, containers, and globally distributed data. |
+| Cloud > Azure > Azure-cosmos-ts | **azure-cosmos-ts** | Azure Cosmos DB JavaScript/TypeScript SDK (@azure/cosmos) for data plane operations. Use for CRUD operations on documents, queries, bulk operations, and container management. |
+| Cloud > Azure > Azure-data-tables-java | **azure-data-tables-java** | Build table storage applications using the Azure Tables SDK for Java. Works with both Azure Table Storage and Cosmos DB Table API. |
+| Cloud > Azure > Azure-data-tables-py | **azure-data-tables-py** | Azure Tables SDK for Python (Storage and Cosmos DB). Use for NoSQL key-value storage, entity CRUD, and batch operations. |
+| Cloud > Azure > Azure-eventgrid-dotnet | **azure-eventgrid-dotnet** | Azure Event Grid SDK for .NET. Client library for publishing and consuming events with Azure Event Grid. Use for event-driven architectures, pub/sub messaging, CloudEvents, and EventGridEvents. |
+| Cloud > Azure > Azure-eventgrid-java | **azure-eventgrid-java** | Build event-driven applications with Azure Event Grid SDK for Java. Use when publishing events, implementing pub/sub patterns, or integrating with Azure services via events. |
+| Cloud > Azure > Azure-eventgrid-py | **azure-eventgrid-py** | Azure Event Grid SDK for Python. Use for publishing events, handling CloudEvents, and event-driven architectures. |
+| Cloud > Azure > Azure-eventhub-dotnet | **azure-eventhub-dotnet** | Azure Event Hubs SDK for .NET. |
+| Cloud > Azure > Azure-eventhub-java | **azure-eventhub-java** | Build real-time streaming applications with Azure Event Hubs SDK for Java. Use when implementing event streaming, high-throughput data ingestion, or building event-driven architectures. |
+| Cloud > Azure > Azure-eventhub-py | **azure-eventhub-py** | Azure Event Hubs SDK for Python streaming. Use for high-throughput event ingestion, producers, consumers, and checkpointing. |
+| Cloud > Azure > Azure-eventhub-rust | **azure-eventhub-rust** | Azure Event Hubs SDK for Rust. Use for sending and receiving events, streaming data ingestion. |
+| Cloud > Azure > Azure-eventhub-ts | **azure-eventhub-ts** | High-throughput event streaming and real-time data ingestion. |
+| Cloud > Azure > Azure-functions | **azure-functions** | Modern .NET execution model with process isolation |
+| Cloud > Azure > Azure-identity-dotnet | **azure-identity-dotnet** | Azure Identity SDK for .NET. Authentication library for Azure SDK clients using Microsoft Entra ID. Use for DefaultAzureCredential, managed identity, service principals, and developer credentials. |
+| Cloud > Azure > Azure-identity-java | **azure-identity-java** | Authenticate Java applications with Azure services using Microsoft Entra ID (Azure AD). |
+| Cloud > Azure > Azure-identity-py | **azure-identity-py** | Azure Identity SDK for Python authentication. Use for DefaultAzureCredential, managed identity, service principals, and token caching. |
+| Cloud > Azure > Azure-identity-rust | **azure-identity-rust** | Azure Identity SDK for Rust authentication. Use for DeveloperToolsCredential, ManagedIdentityCredential, ClientSecretCredential, and token-based authentication. |
+| Cloud > Azure > Azure-identity-ts | **azure-identity-ts** | Authenticate to Azure services with various credential types. |
+| Cloud > Azure > Azure-keyvault-certificates-rust | **azure-keyvault-certificates-rust** | Azure Key Vault Certificates SDK for Rust. Use for creating, importing, and managing certificates. |
+| Cloud > Azure > Azure-keyvault-keys-rust | **azure-keyvault-keys-rust** | Azure Key Vault Keys SDK for Rust. Use for creating, managing, and using cryptographic keys. Triggers: "keyvault keys rust", "KeyClient rust", "create key rust", "encrypt rust", "sign rust". |
+| Cloud > Azure > Azure-keyvault-keys-ts | **azure-keyvault-keys-ts** | Manage cryptographic keys using Azure Key Vault Keys SDK for JavaScript (@azure/keyvault-keys). Use when creating, encrypting/decrypting, signing, or rotating keys. |
+| Cloud > Azure > Azure-keyvault-py | **azure-keyvault-py** | Azure Key Vault SDK for Python. Use for secrets, keys, and certificates management with secure storage. |
+| Cloud > Azure > Azure-keyvault-secrets-rust | **azure-keyvault-secrets-rust** | Azure Key Vault Secrets SDK for Rust. Use for storing and retrieving secrets, passwords, and API keys. Triggers: "keyvault secrets rust", "SecretClient rust", "get secret rust", "set secret rust". |
+| Cloud > Azure > Azure-keyvault-secrets-ts | **azure-keyvault-secrets-ts** | Manage secrets using Azure Key Vault Secrets SDK for JavaScript (@azure/keyvault-secrets). Use when storing and retrieving application secrets or configuration values. |
+| Cloud > Azure > Azure-maps-search-dotnet | **azure-maps-search-dotnet** | Azure Maps SDK for .NET. Location-based services including geocoding, routing, rendering, geolocation, and weather. Use for address search, directions, map tiles, IP geolocation, and weather data. |
+| Cloud > Azure > Azure-messaging-webpubsub-java | **azure-messaging-webpubsub-java** | Build real-time web applications with Azure Web PubSub SDK for Java. Use when implementing WebSocket-based messaging, live updates, chat applications, or server-to-client push notifications. |
+| Cloud > Azure > Azure-messaging-webpubsubservice-py | **azure-messaging-webpubsubservice-py** | Azure Web PubSub Service SDK for Python. Use for real-time messaging, WebSocket connections, and pub/sub patterns. |
+| Cloud > Azure > Azure-mgmt-apicenter-dotnet | **azure-mgmt-apicenter-dotnet** | Azure API Center SDK for .NET. Centralized API inventory management with governance, versioning, and discovery. |
+| Cloud > Azure > Azure-mgmt-apicenter-py | **azure-mgmt-apicenter-py** | Azure API Center Management SDK for Python. Use for managing API inventory, metadata, and governance across your organization. |
+| Cloud > Azure > Azure-mgmt-apimanagement-dotnet | **azure-mgmt-apimanagement-dotnet** | Azure Resource Manager SDK for API Management in .NET. |
+| Cloud > Azure > Azure-mgmt-apimanagement-py | **azure-mgmt-apimanagement-py** | Azure API Management SDK for Python. Use for managing APIM services, APIs, products, subscriptions, and policies. |
+| Cloud > Azure > Azure-mgmt-applicationinsights-dotnet | **azure-mgmt-applicationinsights-dotnet** | Azure Application Insights SDK for .NET. Application performance monitoring and observability resource management. |
+| Cloud > Azure > Azure-mgmt-arizeaiobservabilityeval-dotnet | **azure-mgmt-arizeaiobservabilityeval-dotnet** | Azure Resource Manager SDK for Arize AI Observability and Evaluation (.NET). |
+| Cloud > Azure > Azure-mgmt-botservice-dotnet | **azure-mgmt-botservice-dotnet** | Azure Resource Manager SDK for Bot Service in .NET. Management plane operations for creating and managing Azure Bot resources, channels (Teams, DirectLine, Slack), and connection settings. |
+| Cloud > Azure > Azure-mgmt-botservice-py | **azure-mgmt-botservice-py** | Azure Bot Service Management SDK for Python. Use for creating, managing, and configuring Azure Bot Service resources. |
+| Cloud > Azure > Azure-mgmt-fabric-dotnet | **azure-mgmt-fabric-dotnet** | Azure Resource Manager SDK for Fabric in .NET. |
+| Cloud > Azure > Azure-mgmt-fabric-py | **azure-mgmt-fabric-py** | Azure Fabric Management SDK for Python. Use for managing Microsoft Fabric capacities and resources. |
+| Cloud > Azure > Azure-mgmt-mongodbatlas-dotnet | **azure-mgmt-mongodbatlas-dotnet** | Manage MongoDB Atlas Organizations as Azure ARM resources with unified billing through Azure Marketplace. |
+| Cloud > Azure > Azure-mgmt-weightsandbiases-dotnet | **azure-mgmt-weightsandbiases-dotnet** | Azure Weights & Biases SDK for .NET. ML experiment tracking and model management via Azure Marketplace. Use for creating W&B instances, managing SSO, marketplace integration, and ML observability. |
+| Cloud > Azure > Azure-microsoft-playwright-testing-ts | **azure-microsoft-playwright-testing-ts** | Run Playwright tests at scale with cloud-hosted browsers and integrated Azure portal reporting. |
+| Cloud > Azure > Azure-monitor-ingestion-java | **azure-monitor-ingestion-java** | Azure Monitor Ingestion SDK for Java. Send custom logs to Azure Monitor via Data Collection Rules (DCR) and Data Collection Endpoints (DCE). |
+| Cloud > Azure > Azure-monitor-ingestion-py | **azure-monitor-ingestion-py** | Azure Monitor Ingestion SDK for Python. Use for sending custom logs to Log Analytics workspace via Logs Ingestion API. |
+| Cloud > Azure > Azure-monitor-opentelemetry-exporter-java | **azure-monitor-opentelemetry-exporter-java** | Azure Monitor OpenTelemetry Exporter for Java. Export OpenTelemetry traces, metrics, and logs to Azure Monitor/Application Insights. |
+| Cloud > Azure > Azure-monitor-opentelemetry-exporter-py | **azure-monitor-opentelemetry-exporter-py** | Azure Monitor OpenTelemetry Exporter for Python. Use for low-level OpenTelemetry export to Application Insights. |
+| Cloud > Azure > Azure-monitor-opentelemetry-py | **azure-monitor-opentelemetry-py** | Azure Monitor OpenTelemetry Distro for Python. Use for one-line Application Insights setup with auto-instrumentation. |
+| Cloud > Azure > Azure-monitor-opentelemetry-ts | **azure-monitor-opentelemetry-ts** | Auto-instrument Node.js applications with distributed tracing, metrics, and logs. |
+| Cloud > Azure > Azure-monitor-query-java | **azure-monitor-query-java** | Azure Monitor Query SDK for Java. Execute Kusto queries against Log Analytics workspaces and query metrics from Azure resources. |
+| Cloud > Azure > Azure-monitor-query-py | **azure-monitor-query-py** | Azure Monitor Query SDK for Python. Use for querying Log Analytics workspaces and Azure Monitor metrics. |
+| Cloud > Azure > Azure-postgres-ts | **azure-postgres-ts** | Connect to Azure Database for PostgreSQL Flexible Server from Node.js/TypeScript using the pg (node-postgres) package. |
+| Cloud > Azure > Azure-resource-manager-cosmosdb-dotnet | **azure-resource-manager-cosmosdb-dotnet** | Azure Resource Manager SDK for Cosmos DB in .NET. |
+| Cloud > Azure > Azure-resource-manager-durabletask-dotnet | **azure-resource-manager-durabletask-dotnet** | Azure Resource Manager SDK for Durable Task Scheduler in .NET. |
+| Cloud > Azure > Azure-resource-manager-mysql-dotnet | **azure-resource-manager-mysql-dotnet** | Azure MySQL Flexible Server SDK for .NET. Database management for MySQL Flexible Server deployments. |
+| Cloud > Azure > Azure-resource-manager-playwright-dotnet | **azure-resource-manager-playwright-dotnet** | Azure Resource Manager SDK for Microsoft Playwright Testing in .NET. |
+| Cloud > Azure > Azure-resource-manager-postgresql-dotnet | **azure-resource-manager-postgresql-dotnet** | Azure PostgreSQL Flexible Server SDK for .NET. Database management for PostgreSQL Flexible Server deployments. |
+| Cloud > Azure > Azure-resource-manager-redis-dotnet | **azure-resource-manager-redis-dotnet** | Azure Resource Manager SDK for Redis in .NET. |
+| Cloud > Azure > Azure-resource-manager-sql-dotnet | **azure-resource-manager-sql-dotnet** | Azure Resource Manager SDK for Azure SQL in .NET. |
+| Cloud > Azure > Azure-search-documents-dotnet | **azure-search-documents-dotnet** | Azure AI Search SDK for .NET (Azure.Search.Documents). Use for building search applications with full-text, vector, semantic, and hybrid search. |
+| Cloud > Azure > Azure-search-documents-py | **azure-search-documents-py** | Azure AI Search SDK for Python. Use for vector search, hybrid search, semantic ranking, indexing, and skillsets. |
+| Cloud > Azure > Azure-search-documents-ts | **azure-search-documents-ts** | Build search applications with vector, hybrid, and semantic search capabilities. |
+| Cloud > Azure > Azure-security-keyvault-keys-dotnet | **azure-security-keyvault-keys-dotnet** | Azure Key Vault Keys SDK for .NET. Client library for managing cryptographic keys in Azure Key Vault and Managed HSM. Use for key creation, rotation, encryption, decryption, signing, and verification. |
+| Cloud > Azure > Azure-security-keyvault-keys-java | **azure-security-keyvault-keys-java** | Azure Key Vault Keys Java SDK for cryptographic key management. Use when creating, managing, or using RSA/EC keys, performing encrypt/decrypt/sign/verify operations, or working with HSM-backed keys. |
+| Cloud > Azure > Azure-security-keyvault-secrets-java | **azure-security-keyvault-secrets-java** | Azure Key Vault Secrets Java SDK for secret management. Use when storing, retrieving, or managing passwords, API keys, connection strings, or other sensitive configuration data. |
+| Cloud > Azure > Azure-servicebus-dotnet | **azure-servicebus-dotnet** | Azure Service Bus SDK for .NET. Enterprise messaging with queues, topics, subscriptions, and sessions. |
+| Cloud > Azure > Azure-servicebus-py | **azure-servicebus-py** | Azure Service Bus SDK for Python messaging. Use for queues, topics, subscriptions, and enterprise messaging patterns. |
+| Cloud > Azure > Azure-servicebus-ts | **azure-servicebus-ts** | Enterprise messaging with queues, topics, and subscriptions. |
+| Cloud > Azure > Azure-speech-to-text-rest-py | **azure-speech-to-text-rest-py** | Azure Speech to Text REST API for short audio (Python). Use for simple speech recognition of audio files up to 60 seconds without the Speech SDK. |
+| Cloud > Azure > Azure-storage-blob-java | **azure-storage-blob-java** | Build blob storage applications using the Azure Storage Blob SDK for Java. |
+| Cloud > Azure > Azure-storage-blob-py | **azure-storage-blob-py** | Azure Blob Storage SDK for Python. Use for uploading, downloading, listing blobs, managing containers, and blob lifecycle. |
+| Cloud > Azure > Azure-storage-blob-rust | **azure-storage-blob-rust** | Azure Blob Storage SDK for Rust. Use for uploading, downloading, and managing blobs and containers. |
+| Cloud > Azure > Azure-storage-blob-ts | **azure-storage-blob-ts** | Azure Blob Storage JavaScript/TypeScript SDK (@azure/storage-blob) for blob operations. Use for uploading, downloading, listing, and managing blobs and containers. |
+| Cloud > Azure > Azure-storage-file-datalake-py | **azure-storage-file-datalake-py** | Azure Data Lake Storage Gen2 SDK for Python. Use for hierarchical file systems, big data analytics, and file/directory operations. |
+| Cloud > Azure > Azure-storage-file-share-py | **azure-storage-file-share-py** | Azure Storage File Share SDK for Python. Use for SMB file shares, directories, and file operations in the cloud. |
+| Cloud > Azure > Azure-storage-file-share-ts | **azure-storage-file-share-ts** | Azure File Share JavaScript/TypeScript SDK (@azure/storage-file-share) for SMB file share operations. |
+| Cloud > Azure > Azure-storage-queue-py | **azure-storage-queue-py** | Azure Queue Storage SDK for Python. Use for reliable message queuing, task distribution, and asynchronous processing. |
+| Cloud > Azure > Azure-storage-queue-ts | **azure-storage-queue-ts** | Azure Queue Storage JavaScript/TypeScript SDK (@azure/storage-queue) for message queue operations. Use for sending, receiving, peeking, and deleting messages in queues. |
+| Cloud > Azure > Azure-web-pubsub-ts | **azure-web-pubsub-ts** | Real-time messaging with WebSocket connections and pub/sub patterns. |
+| Development > Backend > Api-design-principles | **api-design-principles** | Master REST and GraphQL API design principles to build intuitive, scalable, and maintainable APIs that delight developers and stand the test of time. |
+| Development > Backend > Api-documentation | **api-documentation** | API documentation workflow for generating OpenAPI specs, creating developer guides, and maintaining comprehensive API documentation. |
+| Development > Backend > Api-documentation-generator | **api-documentation-generator** | Generate comprehensive, developer-friendly API documentation from code, including endpoints, parameters, examples, and best practices |
+| Development > Backend > Api-documenter | **api-documenter** | Master API documentation with OpenAPI 3.1, AI-powered tools, and modern developer experience practices. Create interactive docs, generate SDKs, and build comprehensive developer portals. |
+| Development > Backend > Api-endpoint-builder | **api-endpoint-builder** | Builds production-ready REST API endpoints with validation, error handling, authentication, and documentation. Follows best practices for security and scalability. |
+| Development > Backend > Api-fuzzing-bug-bounty | **api-fuzzing-bug-bounty** | Provide comprehensive techniques for testing REST, SOAP, and GraphQL APIs during bug bounty hunting and penetration testing engagements. Covers vulnerability discovery, authentication bypass, IDOR ... |
+| Development > Backend > Api-patterns | **api-patterns** | API design principles and decision-making. REST vs GraphQL vs tRPC selection, response formats, versioning, pagination. |
+| Development > Backend > Api-security-best-practices | **api-security-best-practices** | Implement secure API design patterns including authentication, authorization, input validation, rate limiting, and protection against common API vulnerabilities |
+| Development > Backend > Api-security-testing | **api-security-testing** | API security testing workflow for REST and GraphQL APIs covering authentication, authorization, rate limiting, input validation, and security best practices. |
+| Development > Backend > Api-testing-observability-api-mock | **api-testing-observability-api-mock** | You are an API mocking expert specializing in realistic mock services for development, testing, and demos. Design mocks that simulate real API behavior and enable parallel development. |
+| Development > Backend > Arm-cortex-expert | **arm-cortex-expert** | Senior embedded software engineer specializing in firmware and driver development for ARM Cortex-M microcontrollers (Teensy, STM32, nRF52, SAMD). |
+| Development > Backend > Async-python-patterns | **async-python-patterns** | Comprehensive guidance for implementing asynchronous Python applications using asyncio, concurrent programming patterns, and async/await for building high-performance, non-blocking systems. |
+| Development > Backend > Backend-architect | **backend-architect** | Expert backend architect specializing in scalable API design, microservices architecture, and distributed systems. |
+| Development > Backend > Backend-dev-guidelines | **backend-dev-guidelines** | You are a senior backend engineer operating production-grade services under strict architectural and reliability constraints. Use when routes, controllers, services, repositories, express middlewar... |
+| Development > Backend > Backend-development-feature-development | **backend-development-feature-development** | Orchestrate end-to-end backend feature development from requirements to deployment. Use when coordinating multi-phase feature delivery across teams and services. |
+| Development > Backend > Backend-security-coder | **backend-security-coder** | Expert in secure backend coding practices specializing in input validation, authentication, and API security. Use PROACTIVELY for backend security implementations or security code reviews. |
+| Development > Backend > Bevy-ecs-expert | **bevy-ecs-expert** | Master Bevy's Entity Component System (ECS) in Rust, covering Systems, Queries, Resources, and parallel scheduling. |
+| Development > Backend > Blockchain-developer | **blockchain-developer** | Build production-ready Web3 applications, smart contracts, and decentralized systems. Implements DeFi protocols, NFT platforms, DAOs, and enterprise blockchain integrations. |
+| Development > Backend > Bullmq-specialist | **bullmq-specialist** | BullMQ expert for Redis-backed job queues, background processing, and reliable async execution in Node.js/TypeScript applications. Use when: bullmq, bull queue, redis queue, background job, job queue. |
+| Development > Backend > Bun-development | **bun-development** | Fast, modern JavaScript/TypeScript development with the Bun runtime, inspired by [oven-sh/bun](https://github.com/oven-sh/bun). |
+| Development > Backend > Elixir-pro | **elixir-pro** | Write idiomatic Elixir code with OTP patterns, supervision trees, and Phoenix LiveView. Masters concurrency, fault tolerance, and distributed systems. |
+| Development > Backend > Fastapi-pro | **fastapi-pro** | Build high-performance async APIs with FastAPI, SQLAlchemy 2.0, and Pydantic V2. Master microservices, WebSockets, and modern Python async patterns. |
+| Development > Backend > Fastapi-router-py | **fastapi-router-py** | Create FastAPI routers following established patterns with proper authentication, response models, and HTTP status codes. |
+| Development > Backend > Fastapi-templates | **fastapi-templates** | Create production-ready FastAPI projects with async patterns, dependency injection, and comprehensive error handling. Use when building new FastAPI applications or setting up backend API projects. |
+| Development > Backend > Golang-pro | **golang-pro** | Master Go 1.21+ with modern patterns, advanced concurrency, performance optimization, and production-ready microservices. |
+| Development > Backend > Haskell-pro | **haskell-pro** | Expert Haskell engineer specializing in advanced type systems, pure |
+| Development > Backend > Java-pro | **java-pro** | Master Java 21+ with modern features like virtual threads, pattern matching, and Spring Boot 3.x. Expert in the latest Java ecosystem including GraalVM, Project Loom, and cloud-native patterns. |
+| Development > Backend > Javascript-mastery | **javascript-mastery** | 33+ essential JavaScript concepts every developer should know, inspired by [33-js-concepts](https://github.com/leonardomso/33-js-concepts). |
+| Development > Backend > Javascript-pro | **javascript-pro** | Master modern JavaScript with ES6+, async patterns, and Node.js APIs. Handles promises, event loops, and browser/Node compatibility. |
+| Development > Backend > Javascript-testing-patterns | **javascript-testing-patterns** | Comprehensive guide for implementing robust testing strategies in JavaScript/TypeScript applications using modern testing frameworks and best practices. |
+| Development > Backend > Javascript-typescript-typescript-scaffold | **javascript-typescript-typescript-scaffold** | You are a TypeScript project architecture expert specializing in scaffolding production-ready Node.js and frontend applications. Generate complete project structures with modern tooling (pnpm, Vite, N |
+| Development > Backend > Nodejs-backend-patterns | **nodejs-backend-patterns** | Comprehensive guidance for building scalable, maintainable, and production-ready Node.js backend applications with modern frameworks, architectural patterns, and best practices. |
+| Development > Backend > Nodejs-best-practices | **nodejs-best-practices** | Node.js development principles and decision-making. Framework selection, async patterns, security, and architecture. Teaches thinking, not copying. |
+| Development > Backend > Php-pro | **php-pro** | Write idiomatic PHP code with generators, iterators, SPL data |
+| Development > Backend > Python-development-python-scaffold | **python-development-python-scaffold** | You are a Python project architecture expert specializing in scaffolding production-ready Python applications. Generate complete project structures with modern tooling (uv, FastAPI, Django), type hint |
+| Development > Backend > Python-fastapi-development | **python-fastapi-development** | Python FastAPI backend development with async patterns, SQLAlchemy, Pydantic, authentication, and production API patterns. |
+| Development > Backend > Python-packaging | **python-packaging** | Comprehensive guide to creating, structuring, and distributing Python packages using modern packaging tools, pyproject.toml, and publishing to PyPI. |
+| Development > Backend > Python-patterns | **python-patterns** | Python development principles and decision-making. Framework selection, async patterns, type hints, project structure. Teaches thinking, not copying. |
+| Development > Backend > Python-performance-optimization | **python-performance-optimization** | Profile and optimize Python code using cProfile, memory profilers, and performance best practices. Use when debugging slow Python code, optimizing bottlenecks, or improving application performance. |
+| Development > Backend > Python-pro | **python-pro** | Master Python 3.12+ with modern features, async programming, performance optimization, and production-ready practices. Expert in the latest Python ecosystem including uv, ruff, pydantic, and FastAPI. |
+| Development > Backend > Python-testing-patterns | **python-testing-patterns** | Implement comprehensive testing strategies with pytest, fixtures, mocking, and test-driven development. Use when writing Python tests, setting up test suites, or implementing testing best practices. |
+| Development > Backend > Ruby-pro | **ruby-pro** | Write idiomatic Ruby code with metaprogramming, Rails patterns, and performance optimization. Specializes in Ruby on Rails, gem development, and testing frameworks. |
+| Development > Backend > Rust-async-patterns | **rust-async-patterns** | Master Rust async programming with Tokio, async traits, error handling, and concurrent patterns. Use when building async Rust applications, implementing concurrent systems, or debugging async code. |
+| Development > Backend > Rust-pro | **rust-pro** | Master Rust 1.75+ with modern async patterns, advanced type system features, and production-ready systems programming. |
+| Development > Backend > Scala-pro | **scala-pro** | Master enterprise-grade Scala development with functional programming, distributed systems, and big data processing. Expert in Apache Pekko, Akka, Spark, ZIO/Cats Effect, and reactive architectures. |
+| Development > Database > Database | **database** | Database development and operations workflow covering SQL, NoSQL, database design, migrations, optimization, and data engineering. |
+| Development > Database > Database-admin | **database-admin** | Expert database administrator specializing in modern cloud databases, automation, and reliability engineering. |
+| Development > Database > Database-architect | **database-architect** | Expert database architect specializing in data layer design from scratch, technology selection, schema modeling, and scalable database architectures. |
+| Development > Database > Database-cloud-optimization-cost-optimize | **database-cloud-optimization-cost-optimize** | You are a cloud cost optimization expert specializing in reducing infrastructure expenses while maintaining performance and reliability. Analyze cloud spending, identify savings opportunities, and ... |
+| Development > Database > Database-design | **database-design** | Database design principles and decision-making. Schema design, indexing strategy, ORM selection, serverless databases. |
+| Development > Database > Database-migration | **database-migration** | Master database schema and data migrations across ORMs (Sequelize, TypeORM, Prisma), including rollback strategies and zero-downtime deployments. |
+| Development > Database > Database-migrations-migration-observability | **database-migrations-migration-observability** | Migration monitoring, CDC, and observability infrastructure |
+| Development > Database > Database-migrations-sql-migrations | **database-migrations-sql-migrations** | SQL database migrations with zero-downtime strategies for PostgreSQL, MySQL, and SQL Server. Focus on data integrity and rollback plans. |
+| Development > Database > Database-optimizer | **database-optimizer** | Expert database optimizer specializing in modern performance tuning, query optimization, and scalable architectures. |
+| Development > Database > Drizzle-orm-expert | **drizzle-orm-expert** | Expert in Drizzle ORM for TypeScript — schema design, relational queries, migrations, and serverless database integration. Use when building type-safe database layers with Drizzle. |
+| Development > Database > Postgres-best-practices | **postgres-best-practices** | Postgres performance optimization and best practices from Supabase. Use this skill when writing, reviewing, or optimizing Postgres queries, schema designs, or database configurations. |
+| Development > Database > Postgresql | **postgresql** | Design a PostgreSQL-specific schema. Covers best-practices, data types, indexing, constraints, performance patterns, and advanced features |
+| Development > Database > Postgresql-optimization | **postgresql-optimization** | PostgreSQL database optimization workflow for query tuning, indexing strategies, performance analysis, and production database management. |
+| Development > Database > Prisma-expert | **prisma-expert** | You are an expert in Prisma ORM with deep knowledge of schema design, migrations, query optimization, relations modeling, and database operations across PostgreSQL, MySQL, and SQLite. |
+| Development > Database > Sql-injection-testing | **sql-injection-testing** | Execute comprehensive SQL injection vulnerability assessments on web applications to identify database security flaws, demonstrate exploitation techniques, and validate input sanitization mechanisms. |
+| Development > Database > Sql-optimization-patterns | **sql-optimization-patterns** | Transform slow database queries into lightning-fast operations through systematic optimization, proper indexing, and query plan analysis. |
+| Development > Database > Sql-pro | **sql-pro** | Master modern SQL with cloud-native databases, OLTP/OLAP optimization, and advanced query techniques. Expert in performance tuning, data modeling, and hybrid analytical systems. |
+| Development > Database > Sqlmap-database-pentesting | **sqlmap-database-pentesting** | Provide systematic methodologies for automated SQL injection detection and exploitation using SQLMap. |
+| Development > Frontend > 3d-web-experience | **3d-web-experience** | You bring the third dimension to the web. You know when 3D enhances and when it's just showing off. You balance visual impact with performance. You make 3D accessible to users who've never touched ... |
+| Development > Frontend > Angular | **angular** | Modern Angular (v20+) expert with deep knowledge of Signals, Standalone Components, Zoneless applications, SSR/Hydration, and reactive patterns. |
+| Development > Frontend > Angular-best-practices | **angular-best-practices** | Angular performance optimization and best practices guide. Use when writing, reviewing, or refactoring Angular code for optimal performance, bundle size, and rendering efficiency. |
+| Development > Frontend > Angular-migration | **angular-migration** | Master AngularJS to Angular migration, including hybrid apps, component conversion, dependency injection changes, and routing migration. |
+| Development > Frontend > Angular-state-management | **angular-state-management** | Master modern Angular state management with Signals, NgRx, and RxJS. Use when setting up global state, managing component stores, choosing between state solutions, or migrating from legacy patterns. |
+| Development > Frontend > Angular-ui-patterns | **angular-ui-patterns** | Modern Angular UI patterns for loading states, error handling, and data display. Use when building UI components, handling async data, or managing component states. |
+| Development > Frontend > Animejs-animation | **animejs-animation** | Advanced JavaScript animation library skill for creating complex, high-performance web animations. |
+| Development > Frontend > Astro | **astro** | Build content-focused websites with Astro — zero JS by default, islands architecture, multi-framework components, and Markdown/MDX support. |
+| Development > Frontend > Avalonia-layout-zafiro | **avalonia-layout-zafiro** | Guidelines for modern Avalonia UI layout using Zafiro.Avalonia, emphasizing shared styles, generic components, and avoiding XAML redundancy. |
+| Development > Frontend > Avalonia-viewmodels-zafiro | **avalonia-viewmodels-zafiro** | Optimal ViewModel and Wizard creation patterns for Avalonia using Zafiro and ReactiveUI. |
+| Development > Frontend > Avalonia-zafiro-development | **avalonia-zafiro-development** | Mandatory skills, conventions, and behavioral rules for Avalonia UI development using the Zafiro toolkit. |
+| Development > Frontend > Baseline-ui | **baseline-ui** | Validates animation durations, enforces typography scale, checks component accessibility, and prevents layout anti-patterns in Tailwind CSS projects. Use when building UI components, reviewing CSS ... |
+| Development > Frontend > Browser-extension-builder | **browser-extension-builder** | You extend the browser to give users superpowers. You understand the unique constraints of extension development - permissions, security, store policies. You build extensions that people install an... |
+| Development > Frontend > Nextjs-app-router-patterns | **nextjs-app-router-patterns** | Comprehensive patterns for Next.js 14+ App Router architecture, Server Components, and modern full-stack React development. |
+| Development > Frontend > Nextjs-best-practices | **nextjs-best-practices** | Next.js App Router principles. Server Components, data fetching, routing patterns. |
+| Development > Frontend > Nextjs-supabase-auth | **nextjs-supabase-auth** | Expert integration of Supabase Auth with Next.js App Router Use when: supabase auth next, authentication next.js, login supabase, auth middleware, protected route. |
+| Development > Frontend > Radix-ui-design-system | **radix-ui-design-system** | Build accessible design systems with Radix UI primitives. Headless component customization, theming strategies, and compound component patterns for production-grade UI libraries. |
+| Development > Frontend > React-best-practices | **react-best-practices** | Comprehensive performance optimization guide for React and Next.js applications, maintained by Vercel. Use when writing new React components or Next.js pages, implementing data fetching (client or ... |
+| Development > Frontend > React-component-performance | **react-component-performance** | Diagnose slow React components and suggest targeted performance fixes. |
+| Development > Frontend > React-flow-architect | **react-flow-architect** | Build production-ready ReactFlow applications with hierarchical navigation, performance optimization, and advanced state management. |
+| Development > Frontend > React-flow-node-ts | **react-flow-node-ts** | Create React Flow node components following established patterns with proper TypeScript types and store integration. |
+| Development > Frontend > React-modernization | **react-modernization** | Master React version upgrades, class to hooks migration, concurrent features adoption, and codemods for automated transformation. |
+| Development > Frontend > React-native-architecture | **react-native-architecture** | Production-ready patterns for React Native development with Expo, including navigation, state management, native modules, and offline-first architecture. |
+| Development > Frontend > React-nextjs-development | **react-nextjs-development** | React and Next.js 14+ application development with App Router, Server Components, TypeScript, Tailwind CSS, and modern frontend patterns. |
+| Development > Frontend > React-patterns | **react-patterns** | Modern React patterns and principles. Hooks, composition, performance, TypeScript best practices. |
+| Development > Frontend > React-state-management | **react-state-management** | Master modern React state management with Redux Toolkit, Zustand, Jotai, and React Query. Use when setting up global state, managing server state, or choosing between state management solutions. |
+| Development > Frontend > React-ui-patterns | **react-ui-patterns** | Modern React UI patterns for loading states, error handling, and data fetching. Use when building UI components, handling async data, or managing UI states. |
+| Development > Frontend > Shadcn | **shadcn** | Manages shadcn/ui components and projects, providing context, documentation, and usage patterns for building modern design systems. |
+| Development > Frontend > Tailwind-design-system | **tailwind-design-system** | Build production-ready design systems with Tailwind CSS, including design tokens, component variants, responsive patterns, and accessibility. |
+| Development > Frontend > Tailwind-patterns | **tailwind-patterns** | Tailwind CSS v4 principles. CSS-first configuration, container queries, modern patterns, design token architecture. |
+| Development > Frontend > Threejs-animation | **threejs-animation** | Three.js animation - keyframe animation, skeletal animation, morph targets, animation mixing. Use when animating objects, playing GLTF animations, creating procedural motion, or blending animations. |
+| Development > Frontend > Threejs-fundamentals | **threejs-fundamentals** | Three.js scene setup, cameras, renderer, Object3D hierarchy, coordinate systems. Use when setting up 3D scenes, creating cameras, configuring renderers, managing object hierarchies, or working with... |
+| Development > Frontend > Threejs-geometry | **threejs-geometry** | Three.js geometry creation - built-in shapes, BufferGeometry, custom geometry, instancing. Use when creating 3D shapes, working with vertices, building custom meshes, or optimizing with instanced r... |
+| Development > Frontend > Threejs-interaction | **threejs-interaction** | Three.js interaction - raycasting, controls, mouse/touch input, object selection. Use when handling user input, implementing click detection, adding camera controls, or creating interactive 3D expe... |
+| Development > Frontend > Threejs-lighting | **threejs-lighting** | Three.js lighting - light types, shadows, environment lighting. Use when adding lights, configuring shadows, setting up IBL, or optimizing lighting performance. |
+| Development > Frontend > Threejs-loaders | **threejs-loaders** | Three.js asset loading - GLTF, textures, images, models, async patterns. Use when loading 3D models, textures, HDR environments, or managing loading progress. |
+| Development > Frontend > Threejs-materials | **threejs-materials** | Three.js materials - PBR, basic, phong, shader materials, material properties. Use when styling meshes, working with textures, creating custom shaders, or optimizing material performance. |
+| Development > Frontend > Threejs-postprocessing | **threejs-postprocessing** | Three.js post-processing - EffectComposer, bloom, DOF, screen effects. Use when adding visual effects, color grading, blur, glow, or creating custom screen-space shaders. |
+| Development > Frontend > Threejs-shaders | **threejs-shaders** | Three.js shaders - GLSL, ShaderMaterial, uniforms, custom effects. Use when creating custom visual effects, modifying vertices, writing fragment shaders, or extending built-in materials. |
+| Development > Frontend > Threejs-skills | **threejs-skills** | Create 3D scenes, interactive experiences, and visual effects using Three.js. Use when user requests 3D graphics, WebGL experiences, 3D visualizations, animations, or interactive 3D elements. |
+| Development > Frontend > Threejs-textures | **threejs-textures** | Three.js textures - texture types, UV mapping, environment maps, texture settings. Use when working with images, UV coordinates, cubemaps, HDR environments, or texture optimization. |
+| Development > Mobile > Android-jetpack-compose-expert | **android-jetpack-compose-expert** | Expert guidance for building modern Android UIs with Jetpack Compose, covering state management, navigation, performance, and Material Design 3. |
+| Development > Mobile > Android_ui_verification | **android_ui_verification** | Automated end-to-end UI testing and verification on an Android Emulator using ADB. |
+| Development > Mobile > Building-native-ui | **building-native-ui** | Complete guide for building beautiful apps with Expo Router. Covers fundamentals, styling, components, navigation, animations, patterns, and native tabs. |
+| Development > Mobile > Expo-api-routes | **expo-api-routes** | Guidelines for creating API routes in Expo Router with EAS Hosting |
+| Development > Mobile > Expo-cicd-workflows | **expo-cicd-workflows** | Helps understand and write EAS workflow YAML files for Expo projects. Use this skill when the user asks about CI/CD or workflows in an Expo or EAS context, mentions .eas/workflows/, or wants help w... |
+| Development > Mobile > Expo-deployment | **expo-deployment** | Deploy Expo apps to production |
+| Development > Mobile > Expo-dev-client | **expo-dev-client** | Build and distribute Expo development clients locally or via TestFlight |
+| Development > Mobile > Expo-tailwind-setup | **expo-tailwind-setup** | Set up Tailwind CSS v4 in Expo with react-native-css and NativeWind v5 for universal styling |
+| Development > Mobile > Expo-ui-jetpack-compose | **expo-ui-jetpack-compose** | expo-ui-jetpack-compose |
+| Development > Mobile > Expo-ui-swift-ui | **expo-ui-swift-ui** | expo-ui-swift-ui |
+| Development > Mobile > Hig-components-content | **hig-components-content** | Apple Human Interface Guidelines for content display components. |
+| Development > Mobile > Hig-components-controls | **hig-components-controls** | Check for .claude/apple-design-context.md before asking questions. Use existing context and only ask for information not already covered. |
+| Development > Mobile > Hig-components-dialogs | **hig-components-dialogs** | Apple HIG guidance for presentation components including alerts, action sheets, popovers, sheets, and digit entry views. |
+| Development > Mobile > Hig-components-layout | **hig-components-layout** | Apple Human Interface Guidelines for layout and navigation components. |
+| Development > Mobile > Hig-components-menus | **hig-components-menus** | Check for .claude/apple-design-context.md before asking questions. Use existing context and only ask for information not already covered. |
+| Development > Mobile > Hig-components-search | **hig-components-search** | Apple HIG guidance for navigation-related components including search fields, page controls, and path controls. |
+| Development > Mobile > Hig-components-status | **hig-components-status** | Apple HIG guidance for status and progress UI components including progress indicators, status bars, and activity rings. |
+| Development > Mobile > Hig-components-system | **hig-components-system** | Apple HIG guidance for system experience components: widgets, live activities, notifications, complications, home screen quick actions, top shelf, watch faces, app clips, and app shortcuts. |
+| Development > Mobile > Hig-foundations | **hig-foundations** | Apple Human Interface Guidelines design foundations. |
+| Development > Mobile > Hig-inputs | **hig-inputs** | Check for .claude/apple-design-context.md before asking questions. Use existing context and only ask for information not already covered. |
+| Development > Mobile > Hig-patterns | **hig-patterns** | Apple Human Interface Guidelines interaction and UX patterns. |
+| Development > Mobile > Hig-platforms | **hig-platforms** | Apple Human Interface Guidelines for platform-specific design. |
+| Development > Mobile > Hig-project-context | **hig-project-context** | Create or update a shared Apple design context document that other HIG skills use to tailor guidance. |
+| Development > Mobile > Hig-technologies | **hig-technologies** | Check for .claude/apple-design-context.md before asking questions. Use existing context and only ask for information not already covered. |
+| Development > Mobile > Swift-concurrency-expert | **swift-concurrency-expert** | Review and fix Swift concurrency issues such as actor isolation and Sendable violations. |
+| Development > Mobile > Swiftui-expert-skill | **swiftui-expert-skill** | Write, review, or improve SwiftUI code following best practices for state management, view composition, performance, and iOS 26+ Liquid Glass adoption. Use when building new SwiftUI features, refac... |
+| Development > Mobile > Swiftui-liquid-glass | **swiftui-liquid-glass** | Implement or review SwiftUI Liquid Glass APIs with correct fallbacks and modifier order. |
+| Development > Mobile > Swiftui-performance-audit | **swiftui-performance-audit** | Audit SwiftUI performance issues from code review and profiling evidence. |
+| Development > Mobile > Swiftui-ui-patterns | **swiftui-ui-patterns** | Apply proven SwiftUI UI patterns for navigation, sheets, async state, and reusable screens. |
+| Development > Mobile > Swiftui-view-refactor | **swiftui-view-refactor** | Refactor SwiftUI views into smaller components with stable, explicit data flow. |
+| Development > Testing > Awt-e2e-testing | **awt-e2e-testing** | AI-powered E2E web testing — eyes and hands for AI coding tools. Declarative YAML scenarios, Playwright execution, visual matching (OpenCV + OCR), platform auto-detection (Flutter/React/Vue), learn... |
+| Development > Testing > Bats-testing-patterns | **bats-testing-patterns** | Master Bash Automated Testing System (Bats) for comprehensive shell script testing. Use when writing tests for shell scripts, CI/CD pipelines, or requiring test-driven development of shell utilities. |
+| Development > Tools > Bazel-build-optimization | **bazel-build-optimization** | Optimize Bazel builds for large-scale monorepos. Use when configuring Bazel, implementing remote execution, or optimizing build performance for enterprise codebases. |
+| Development | **development** | Comprehensive web, mobile, and backend development workflow bundling frontend, backend, full-stack, and mobile development skills for end-to-end application delivery. |
+| Erp > Odoo > Odoo-accounting-setup | **odoo-accounting-setup** | Expert guide for configuring Odoo Accounting: chart of accounts, journals, fiscal positions, taxes, payment terms, and bank reconciliation. |
+| Erp > Odoo > Odoo-automated-tests | **odoo-automated-tests** | Write and run Odoo automated tests using TransactionCase, HttpCase, and browser tour tests. Covers test data setup, mocking, and CI integration. |
+| Erp > Odoo > Odoo-backup-strategy | **odoo-backup-strategy** | Complete Odoo backup and restore strategy: database dumps, filestore backup, automated scheduling, cloud storage upload, and tested restore procedures. |
+| Erp > Odoo > Odoo-docker-deployment | **odoo-docker-deployment** | Production-ready Docker and docker-compose setup for Odoo with PostgreSQL, persistent volumes, environment-based configuration, and Nginx reverse proxy. |
+| Erp > Odoo > Odoo-ecommerce-configurator | **odoo-ecommerce-configurator** | Expert guide for Odoo eCommerce and Website: product catalog, payment providers, shipping methods, SEO, and order-to-fulfillment workflow. |
+| Erp > Odoo > Odoo-edi-connector | **odoo-edi-connector** | Guide for implementing EDI (Electronic Data Interchange) with Odoo: X12, EDIFACT document mapping, partner onboarding, and automated order processing. |
+| Erp > Odoo > Odoo-hr-payroll-setup | **odoo-hr-payroll-setup** | Expert guide for Odoo HR and Payroll: salary structures, payslip rules, leave policies, employee contracts, and payroll journal entries. |
+| Erp > Odoo > Odoo-inventory-optimizer | **odoo-inventory-optimizer** | Expert guide for Odoo Inventory: stock valuation (FIFO/AVCO), reordering rules, putaway strategies, routes, and multi-warehouse configuration. |
+| Erp > Odoo > Odoo-l10n-compliance | **odoo-l10n-compliance** | Country-specific Odoo localization: tax configuration, e-invoicing (CFDI, FatturaPA, SAF-T), fiscal reporting, and country chart of accounts setup. |
+| Erp > Odoo > Odoo-manufacturing-advisor | **odoo-manufacturing-advisor** | Expert guide for Odoo Manufacturing: Bills of Materials (BoM), Work Centers, routings, MRP planning, and production order workflows. |
+| Erp > Odoo > Odoo-migration-helper | **odoo-migration-helper** | Step-by-step guide for migrating Odoo custom modules between versions (v14→v15→v16→v17). Covers API changes, deprecated methods, and view migration. |
+| Erp > Odoo > Odoo-module-developer | **odoo-module-developer** | Expert guide for creating custom Odoo modules. Covers __manifest__.py, model inheritance, ORM patterns, and module structure best practices. |
+| Erp > Odoo > Odoo-orm-expert | **odoo-orm-expert** | Master Odoo ORM patterns: search, browse, create, write, domain filters, computed fields, and performance-safe query techniques. |
+| Erp > Odoo > Odoo-performance-tuner | **odoo-performance-tuner** | Expert guide for diagnosing and fixing Odoo performance issues: slow queries, worker configuration, memory limits, PostgreSQL tuning, and profiling tools. |
+| Erp > Odoo > Odoo-project-timesheet | **odoo-project-timesheet** | Expert guide for Odoo Project and Timesheets: task stages, billable time tracking, timesheet approval, budget alerts, and invoicing from timesheets. |
+| Erp > Odoo > Odoo-purchase-workflow | **odoo-purchase-workflow** | Expert guide for Odoo Purchase: RFQ → PO → Receipt → Vendor Bill workflow, purchase agreements, vendor price lists, and 3-way matching. |
+| Erp > Odoo > Odoo-qweb-templates | **odoo-qweb-templates** | Expert in Odoo QWeb templating for PDF reports, email templates, and website pages. Covers t-if, t-foreach, t-field, and report actions. |
+| Erp > Odoo > Odoo-rpc-api | **odoo-rpc-api** | Expert on Odoo's external JSON-RPC and XML-RPC APIs. Covers authentication, model calls, record CRUD, and real-world integration examples in Python, JavaScript, and curl. |
+| Erp > Odoo > Odoo-sales-crm-expert | **odoo-sales-crm-expert** | Expert guide for Odoo Sales and CRM: pipeline stages, quotation templates, pricelists, sales teams, lead scoring, and forecasting. |
+| Erp > Odoo > Odoo-security-rules | **odoo-security-rules** | Expert in Odoo access control: ir.model.access.csv, record rules (ir.rule), groups, and multi-company security patterns. |
+| Erp > Odoo > Odoo-shopify-integration | **odoo-shopify-integration** | Connect Odoo with Shopify: sync products, inventory, orders, and customers using the Shopify API and Odoo's external API or connector modules. |
+| Erp > Odoo > Odoo-upgrade-advisor | **odoo-upgrade-advisor** | Step-by-step Odoo version upgrade advisor: pre-upgrade checklist, community vs enterprise upgrade path, OCA module compatibility, and post-upgrade validation. |
+| Erp > Odoo > Odoo-woocommerce-bridge | **odoo-woocommerce-bridge** | Sync Odoo with WooCommerce: products, inventory, orders, and customers via WooCommerce REST API and Odoo external API. |
+| Erp > Odoo > Odoo-xml-views-builder | **odoo-xml-views-builder** | Expert at building Odoo XML views: Form, List, Kanban, Search, Calendar, and Graph. Generates correct XML for Odoo 14-17 with proper visibility syntax. |
+| Marketing-seo > Ab-test-setup | **ab-test-setup** | Structured guide for setting up A/B tests with mandatory gates for hypothesis, metrics, and execution readiness. |
+| Marketing-seo > Ad-creative | **ad-creative** | Create, iterate, and scale paid ad creative for Google Ads, Meta, LinkedIn, TikTok, and similar platforms. Use when generating headlines, descriptions, primary text, or large sets of ad variations ... |
+| Marketing-seo > Analytics-product | **analytics-product** | Analytics de produto — PostHog, Mixpanel, eventos, funnels, cohorts, retencao, north star metric, OKRs e dashboards de produto. |
+| Marketing-seo > Analytics-tracking | **analytics-tracking** | Design, audit, and improve analytics tracking systems that produce reliable, decision-ready data. |
+| Marketing-seo > Blog-writing-guide | **blog-writing-guide** | This skill enforces Sentry's blog writing standards across every post — whether you're helping an engineer write their first blog post or a marketer draft a product announcement. |
+| Marketing-seo > Brand-guidelines | **brand-guidelines** | Write copy following Sentry brand guidelines. Use when writing UI text, error messages, empty states, onboarding flows, 404 pages, documentation, marketing copy, or any user-facing content. Covers ... |
+| Marketing-seo > Brand-guidelines-anthropic | **brand-guidelines-anthropic** | To access Anthropic's official brand identity and style resources, use this skill. |
+| Marketing-seo > Brand-guidelines-community | **brand-guidelines-community** | To access Anthropic's official brand identity and style resources, use this skill. |
+| Marketing-seo > Content-creator | **content-creator** | Professional-grade brand voice analysis, SEO optimization, and platform-specific content frameworks. |
+| Marketing-seo > Content-marketer | **content-marketer** | Elite content marketing strategist specializing in AI-powered content creation, omnichannel distribution, SEO optimization, and data-driven performance marketing. |
+| Marketing-seo > Content-strategy | **content-strategy** | Plan a content strategy, topic clusters, editorial roadmap, and content mix for traffic, authority, and lead generation. Use when deciding what to publish, what topics to prioritize, or how to stru... |
+| Marketing-seo > Copywriting | **copywriting** | Write rigorous, conversion-focused marketing copy for landing pages and emails. Enforces brief confirmation and strict no-fabrication rules. |
+| Marketing-seo > Email-sequence | **email-sequence** | You are an expert in email marketing and automation. Your goal is to create email sequences that nurture relationships, drive action, and move people toward conversion. |
+| Marketing-seo > Growth-engine | **growth-engine** | Motor de crescimento para produtos digitais -- growth hacking, SEO, ASO, viral loops, email marketing, CRM, referral programs e aquisicao organica. |
+| Marketing-seo > Lead-magnets | **lead-magnets** | Plan and optimize lead magnets for email capture and lead generation. Use when designing gated content, checklists, templates, downloadable resources, or other offers that convert visitors into sub... |
+| Marketing-seo > Marketing-ideas | **marketing-ideas** | Provide proven marketing strategies and growth ideas for SaaS and software products, prioritized using a marketing feasibility scoring system. |
+| Marketing-seo > Marketing-psychology | **marketing-psychology** | Apply behavioral science and mental models to marketing decisions, prioritized using a psychological leverage and feasibility scoring system. |
+| Marketing-seo > Seo-audit | **seo-audit** | Diagnose and audit SEO issues affecting crawlability, indexation, rankings, and organic performance. |
+| Marketing-seo > Seo-authority-builder | **seo-authority-builder** | Analyzes content for E-E-A-T signals and suggests improvements to |
+| Marketing-seo > Seo-cannibalization-detector | **seo-cannibalization-detector** | Analyzes multiple provided pages to identify keyword overlap and potential cannibalization issues. Suggests differentiation strategies. Use PROACTIVELY when reviewing similar content. |
+| Marketing-seo > Seo-competitor-pages | **seo-competitor-pages** | > |
+| Marketing-seo > Seo-content | **seo-content** | > |
+| Marketing-seo > Seo-content-auditor | **seo-content-auditor** | Analyzes provided content for quality, E-E-A-T signals, and SEO best practices. Scores content and provides improvement recommendations based on established guidelines. |
+| Marketing-seo > Seo-content-planner | **seo-content-planner** | Creates comprehensive content outlines and topic clusters for SEO. |
+| Marketing-seo > Seo-content-refresher | **seo-content-refresher** | Identifies outdated elements in provided content and suggests updates to maintain freshness. Finds statistics, dates, and examples that need updating. Use PROACTIVELY for older content. |
+| Marketing-seo > Seo-content-writer | **seo-content-writer** | Writes SEO-optimized content based on provided keywords and topic briefs. Creates engaging, comprehensive content following best practices. Use PROACTIVELY for content creation tasks. |
+| Marketing-seo > Seo-dataforseo | **seo-dataforseo** | Use DataForSEO for live SERPs, keyword metrics, backlinks, competitor analysis, on-page checks, and AI visibility data. Trigger when the user needs real SEO data rather than static guidance. |
+| Marketing-seo > Seo-forensic-incident-response | **seo-forensic-incident-response** | Investigate sudden drops in organic traffic or rankings and run a structured forensic SEO incident response with triage, root-cause analysis and recovery plan. |
+| Marketing-seo > Seo-fundamentals | **seo-fundamentals** | Core principles of SEO including E-E-A-T, Core Web Vitals, technical foundations, content quality, and how modern search engines evaluate pages. |
+| Marketing-seo > Seo-geo | **seo-geo** | Optimize content for AI Overviews, ChatGPT, Perplexity, and other AI search systems. Use when improving GEO, AI citations, llms.txt readiness, crawler accessibility, and passage-level citability. |
+| Marketing-seo > Seo-hreflang | **seo-hreflang** | > |
+| Marketing-seo > Seo-image-gen | **seo-image-gen** | Generate SEO-focused images such as OG cards, hero images, schema assets, product visuals, and infographics. Use when image generation is part of an SEO workflow or content publishing task. |
+| Marketing-seo > Seo-images | **seo-images** | > |
+| Marketing-seo > Seo-keyword-strategist | **seo-keyword-strategist** | Analyzes keyword usage in provided content, calculates density, suggests semantic variations and LSI keywords based on the topic. Prevents over-optimization. Use PROACTIVELY for content optimization. |
+| Marketing-seo > Seo-meta-optimizer | **seo-meta-optimizer** | Creates optimized meta titles, descriptions, and URL suggestions based on character limits and best practices. Generates compelling, keyword-rich metadata. Use PROACTIVELY for new content. |
+| Marketing-seo > Seo-page | **seo-page** | > |
+| Marketing-seo > Seo-plan | **seo-plan** | > |
+| Marketing-seo > Seo-programmatic | **seo-programmatic** | Plan and audit programmatic SEO pages generated at scale from structured data. Use when designing templates, URL systems, internal linking, quality gates, and index-bloat safeguards for pages at sc... |
+| Marketing-seo > Seo-schema | **seo-schema** | > |
+| Marketing-seo > Seo-sitemap | **seo-sitemap** | > |
+| Marketing-seo > Seo-snippet-hunter | **seo-snippet-hunter** | Formats content to be eligible for featured snippets and SERP features. Creates snippet-optimized content blocks based on best practices. Use PROACTIVELY for question-based content. |
+| Marketing-seo > Seo-structure-architect | **seo-structure-architect** | Analyzes and optimizes content structure including header hierarchy, suggests schema markup, and internal linking opportunities. Creates search-friendly content organization. |
+| Marketing-seo > Seo-technical | **seo-technical** | Audit technical SEO across crawlability, indexability, security, URLs, mobile, Core Web Vitals, structured data, JavaScript rendering, and related platform signals like robots.txt and AI crawler ac... |
+| Misc > Address-github-comments | **address-github-comments** | Use when you need to address review or issue comments on an open GitHub Pull Request using the gh CLI. |
+| Misc > Adhx | **adhx** | Fetch any X/Twitter post as clean LLM-friendly JSON. Converts x.com, twitter.com, or adhx.com links into structured data with full article content, author info, and engagement metrics. No scraping ... |
+| Misc > Legal > Advogado-criminal | **advogado-criminal** | Advogado criminalista especializado em Maria da Penha, violencia domestica, feminicidio, direito penal brasileiro, medidas protetivas, inquerito policial e acao penal. |
+| Misc > Legal > Advogado-especialista | **advogado-especialista** | Advogado especialista em todas as areas do Direito brasileiro: familia, criminal, trabalhista, tributario, consumidor, imobiliario, empresarial, civil e constitucional. |
+| Misc > Science > Astropy | **astropy** | Astropy is the core Python package for astronomy, providing essential functionality for astronomical research and data analysis. |
+| Misc > Science > Biopython | **biopython** | Biopython is a comprehensive set of freely available Python tools for biological computation. It provides functionality for sequence manipulation, file I/O, database access, structural bioinformati... |
+| Security > Active-directory-attacks | **active-directory-attacks** | Provide comprehensive techniques for attacking Microsoft Active Directory environments. Covers reconnaissance, credential harvesting, Kerberos attacks, lateral movement, privilege escalation, and d... |
+| Security > Akf-trust-metadata | **akf-trust-metadata** | The AI native file format. EXIF for AI — stamps every file with trust scores, source provenance, and compliance metadata. Embeds into 20+ formats (DOCX, PDF, images, code). EU AI Act, SOX, HIPAA au... |
+| Security > Anti-reversing-techniques | **anti-reversing-techniques** | AUTHORIZED USE ONLY: This skill contains dual-use security techniques. Before proceeding with any bypass or analysis: > 1. |
+| Security > Attack-tree-construction | **attack-tree-construction** | Build comprehensive attack trees to visualize threat paths. Use when mapping attack scenarios, identifying defense gaps, or communicating security risks to stakeholders. |
+| Security > Audit-context-building | **audit-context-building** | Enables ultra-granular, line-by-line code analysis to build deep architectural context before vulnerability or bug finding. |
+| Security > Audit-skills | **audit-skills** | Expert security auditor for AI Skills and Bundles. Performs non-intrusive static analysis to identify malicious patterns, data leaks, system stability risks, and obfuscated payloads across Windows,... |
+| Security > Aws-compliance-checker | **aws-compliance-checker** | Automated compliance checking against CIS, PCI-DSS, HIPAA, and SOC 2 benchmarks |
+| Security > Aws-iam-best-practices | **aws-iam-best-practices** | IAM policy review, hardening, and least privilege implementation |
+| Security > Aws-secrets-rotation | **aws-secrets-rotation** | Automate AWS secrets rotation for RDS, API keys, and credentials |
+| Security > Aws-security-audit | **aws-security-audit** | Comprehensive AWS security posture assessment using AWS CLI and security best practices |
+| Security > Binary-analysis-patterns | **binary-analysis-patterns** | Comprehensive patterns and techniques for analyzing compiled binaries, understanding assembly code, and reconstructing program logic. |
+| Security > Broken-authentication | **broken-authentication** | Identify and exploit authentication and session management vulnerabilities in web applications. Broken authentication consistently ranks in the OWASP Top 10 and can lead to account takeover, identi... |
+| Security > Burp-suite-testing | **burp-suite-testing** | Execute comprehensive web application security testing using Burp Suite's integrated toolset, including HTTP traffic interception and modification, request analysis and replay, automated vulnerabil... |
+| Security > Burpsuite-project-parser | **burpsuite-project-parser** | Searches and explores Burp Suite project files (.burp) from the command line. Use when searching response headers or bodies with regex patterns, extracting security audit findings, dumping proxy hi... |
+| Security > Ffuf-claude-skill | **ffuf-claude-skill** | Web fuzzing with ffuf |
+| Security > Ffuf-web-fuzzing | **ffuf-web-fuzzing** | Expert guidance for ffuf web fuzzing during penetration testing, including authenticated fuzzing with raw requests, auto-calibration, and result analysis |
+| Security > Idor-testing | **idor-testing** | Provide systematic methodologies for identifying and exploiting Insecure Direct Object Reference (IDOR) vulnerabilities in web applications. |
+| Security > Pentest-checklist | **pentest-checklist** | Provide a comprehensive checklist for planning, executing, and following up on penetration tests. Ensure thorough preparation, proper scoping, and effective remediation of discovered vulnerabilities. |
+| Security > Pentest-commands | **pentest-commands** | Provide a comprehensive command reference for penetration testing tools including network scanning, exploitation, password cracking, and web application testing. Enable quick command lookup during ... |
+| Security > Security-audit | **security-audit** | Comprehensive security auditing workflow covering web application testing, API security, penetration testing, vulnerability scanning, and security hardening. |
+| Security > Security-auditor | **security-auditor** | Expert security auditor specializing in DevSecOps, comprehensive cybersecurity, and compliance frameworks. |
+| Security > Security-bluebook-builder | **security-bluebook-builder** | Build a minimal but real security policy for sensitive apps. The output is a single, coherent Blue Book document using MUST/SHOULD/CAN language, with explicit assumptions, scope, and security gates. |
+| Security > Security-compliance-compliance-check | **security-compliance-compliance-check** | You are a compliance expert specializing in regulatory requirements for software systems including GDPR, HIPAA, SOC2, PCI-DSS, and other industry standards. Perform comprehensive compliance audits ... |
+| Security > Security-requirement-extraction | **security-requirement-extraction** | Derive security requirements from threat models and business context. Use when translating threats into actionable requirements, creating security user stories, or building security test cases. |
+| Security > Security-scanning-security-dependencies | **security-scanning-security-dependencies** | You are a security expert specializing in dependency vulnerability analysis, SBOM generation, and supply chain security. Scan project dependencies across multiple ecosystems to identify vulnerabili... |
+| Security > Security-scanning-security-hardening | **security-scanning-security-hardening** | Coordinate multi-layer security scanning and hardening across application, infrastructure, and compliance controls. |
+| Security > Security-scanning-security-sast | **security-scanning-security-sast** | Static Application Security Testing (SAST) for code vulnerability |
+| Security > Vulnerability-scanner | **vulnerability-scanner** | Advanced vulnerability analysis principles. OWASP 2025, Supply Chain Security, attack surface mapping, risk prioritization. |
+| Security > Xss-html-injection | **xss-html-injection** | Execute comprehensive client-side injection vulnerability assessments on web applications to identify XSS and HTML injection flaws, demonstrate exploitation techniques for session hijacking and cre... |
+| System-core > 00-andruia-consultant | **00-andruia-consultant** | Arquitecto de Soluciones Principal y Consultor Tecnológico de Andru.ia. Diagnostica y traza la hoja de ruta óptima para proyectos de IA en español. |
+| System-core > 10-andruia-skill-smith | **10-andruia-skill-smith** | Ingeniero de Sistemas de Andru.ia. Diseña, redacta y despliega nuevas habilidades (skills) dentro del repositorio siguiendo el Estándar de Diamante. |
+| System-core > 20-andruia-niche-intelligence | **20-andruia-niche-intelligence** | Estratega de Inteligencia de Dominio de Andru.ia. Analiza el nicho específico de un proyecto para inyectar conocimientos, regulaciones y estándares únicos del sector. Actívalo tras definir el nicho. |
+| System-core > Acceptance-orchestrator | **acceptance-orchestrator** | Use when a coding task should be driven end-to-end from issue intake through implementation, review, deployment, and acceptance verification with minimal human re-intervention. |
+| System-core > Accessibility-compliance-accessibility-audit | **accessibility-compliance-accessibility-audit** | You are an accessibility expert specializing in WCAG compliance, inclusive design, and assistive technology compatibility. Conduct audits, identify barriers, and provide remediation guidance. |
+| System-core > Analyze-project | **analyze-project** | Forensic root cause analyzer for Antigravity sessions. Classifies scope deltas, rework patterns, root causes, hotspots, and auto-improves prompts/health. |
+| System-core > Antigravity-design-expert | **antigravity-design-expert** | Core UI/UX engineering skill for building highly interactive, spatial, weightless, and glassmorphism-based web interfaces using GSAP and 3D CSS. |
+| System-core > Antigravity-skill-orchestrator | **antigravity-skill-orchestrator** | A meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks. |
+| System-core > Antigravity-workflows | **antigravity-workflows** | Orchestrate multiple Antigravity skills through guided workflows for SaaS MVP delivery, security audits, AI agent builds, and browser QA. |
+| System-core > Appdeploy | **appdeploy** | Deploy web apps with backend APIs, database, and file storage. Use when the user asks to deploy or publish a website or web app and wants a public URL. Uses HTTP API via curl. |
+| System-core > Application-performance-performance-optimization | **application-performance-performance-optimization** | Optimize end-to-end application performance with profiling, observability, and backend/frontend tuning. Use when coordinating performance optimization across the stack. |
+| System-core > Architect-review | **architect-review** | Master software architect specializing in modern architecture |
+| System-core > Architecture | **architecture** | Architectural decision-making framework. Requirements analysis, trade-off evaluation, ADR documentation. Use when making architecture decisions or analyzing system design. |
+| System-core > Architecture-decision-records | **architecture-decision-records** | Comprehensive patterns for creating, maintaining, and managing Architecture Decision Records (ADRs) that capture the context and rationale behind significant technical decisions. |
+| System-core > Architecture-patterns | **architecture-patterns** | Master proven backend architecture patterns including Clean Architecture, Hexagonal Architecture, and Domain-Driven Design to build maintainable, testable, and scalable systems. |
+| System-core > Ask-questions-if-underspecified | **ask-questions-if-underspecified** | Clarify requirements before implementing. Use when serious doubts arise. |
+| System-core > Blockrun | **blockrun** | BlockRun works with Claude Code and Google Antigravity. |
+| System-core > Blueprint | **blueprint** | Turn a one-line objective into a step-by-step construction plan any coding agent can execute cold. Each step has a self-contained context brief — a fresh agent in a new session can pick up any step... |
+| System-core > Brainstorming | **brainstorming** | Use before creative or constructive work (features, architecture, behavior). Transforms vague ideas into validated designs through disciplined reasoning and collaboration. |
+| System-core > Bug-hunter | **bug-hunter** | Systematically finds and fixes bugs using proven debugging techniques. Traces from symptoms to root cause, implements fixes, and prevents regression. |
+| System-core > Build | **build** | build |
+| System-core > Busybox-on-windows | **busybox-on-windows** | How to use a Win32 build of BusyBox to run many of the standard UNIX command line tools on Windows. |
+| System-core > Code-documentation-code-explain | **code-documentation-code-explain** | You are a code education expert specializing in explaining complex code through clear narratives, visual diagrams, and step-by-step breakdowns. Transform difficult concepts into understandable expl... |
+| System-core > Code-documentation-doc-generate | **code-documentation-doc-generate** | You are a documentation expert specializing in creating comprehensive, maintainable documentation from code. Generate API docs, architecture diagrams, user guides, and technical references using AI... |
+| System-core > Code-refactoring-context-restore | **code-refactoring-context-restore** | Use when working with code refactoring context restore |
+| System-core > Code-refactoring-refactor-clean | **code-refactoring-refactor-clean** | You are a code refactoring expert specializing in clean code principles, SOLID design patterns, and modern software engineering best practices. Analyze and refactor the provided code to improve its... |
+| System-core > Code-refactoring-tech-debt | **code-refactoring-tech-debt** | You are a technical debt expert specializing in identifying, quantifying, and prioritizing technical debt in software projects. Analyze the codebase to uncover debt, assess its impact, and create acti |
+| System-core > Code-review-ai-ai-review | **code-review-ai-ai-review** | You are an expert AI-powered code review specialist combining automated static analysis, intelligent pattern recognition, and modern DevOps practices. Leverage AI tools (GitHub Copilot, Qodo, GPT-5, C |
+| System-core > Code-review-checklist | **code-review-checklist** | Comprehensive checklist for conducting thorough code reviews covering functionality, security, performance, and maintainability |
+| System-core > Code-review-excellence | **code-review-excellence** | Transform code reviews from gatekeeping to knowledge sharing through constructive feedback, systematic analysis, and collaborative improvement. |
+| System-core > Code-reviewer | **code-reviewer** | Elite code review expert specializing in modern AI-powered code |
+| System-core > Code-simplifier | **code-simplifier** | Simplifies and refines code for clarity, consistency, and maintainability while preserving all functionality. Use when asked to "simplify code", "clean up code", "refactor for clarity", "improve re... |
+| System-core > Commit | **commit** | ALWAYS use this skill when committing code changes — never commit directly without it. Creates commits following Sentry conventions with proper conventional commit format and issue references. Trig... |
+| System-core > Context-agent | **context-agent** | Agente de contexto para continuidade entre sessoes. Salva resumos, decisoes, tarefas pendentes e carrega briefing automatico na sessao seguinte. |
+| System-core > Context-compression | **context-compression** | When agent sessions generate millions of tokens of conversation history, compression becomes mandatory. The naive approach is aggressive compression to minimize tokens per request. |
+| System-core > Context-degradation | **context-degradation** | Language models exhibit predictable degradation patterns as context length increases. Understanding these patterns is essential for diagnosing failures and designing resilient systems. |
+| System-core > Context-driven-development | **context-driven-development** | Guide for implementing and maintaining context as a managed artifact alongside code, enabling consistent AI interactions and team alignment through structured project documentation. |
+| System-core > Context-fundamentals | **context-fundamentals** | Context is the complete state available to a language model at inference time. It includes everything the model can attend to when generating responses: system instructions, tool definitions, retri... |
+| System-core > Context-guardian | **context-guardian** | Guardiao de contexto que preserva dados criticos antes da compactacao automatica. Snapshots, verificacao de integridade e zero perda de informacao. |
+| System-core > Context-management-context-restore | **context-management-context-restore** | Use when working with context management context restore |
+| System-core > Context-management-context-save | **context-management-context-save** | Use when working with context management context save |
+| System-core > Context-manager | **context-manager** | Elite AI context engineering specialist mastering dynamic context management, vector databases, knowledge graphs, and intelligent memory systems. |
+| System-core > Context-optimization | **context-optimization** | Context optimization extends the effective capacity of limited context windows through strategic compression, masking, caching, and partitioning. The goal is not to magically increase context windo... |
+| System-core > Context-window-management | **context-window-management** | You're a context engineering specialist who has optimized LLM applications handling millions of conversations. You've seen systems hit token limits, suffer context rot, and lose critical informatio... |
+| System-core > Git-advanced-workflows | **git-advanced-workflows** | Master advanced Git techniques to maintain clean history, collaborate effectively, and recover from any situation with confidence. |
+| System-core > Git-pr-workflows-git-workflow | **git-pr-workflows-git-workflow** | Orchestrate a comprehensive git workflow from code review through PR creation, leveraging specialized agents for quality assurance, testing, and deployment readiness. This workflow implements modern g |
+| System-core > Git-pr-workflows-onboard | **git-pr-workflows-onboard** | You are an **expert onboarding specialist and knowledge transfer architect** with deep experience in remote-first organizations, technical team integration, and accelerated learning methodologies. You |
+| System-core > Git-pr-workflows-pr-enhance | **git-pr-workflows-pr-enhance** | You are a PR optimization expert specializing in creating high-quality pull requests that facilitate efficient code reviews. Generate comprehensive PR descriptions, automate review processes, and ensu |
+| System-core > Git-pushing | **git-pushing** | Stage all changes, create a conventional commit, and push to the remote branch. Use when explicitly asks to push changes (\"push this\", \"commit and push\"), mentions saving work to remote (\"save... |
+| System-core > Memory-forensics | **memory-forensics** | Comprehensive techniques for acquiring, analyzing, and extracting artifacts from memory dumps for incident response and malware analysis. |
+| System-core > Memory-safety-patterns | **memory-safety-patterns** | Cross-language patterns for memory-safe programming including RAII, ownership, smart pointers, and resource management. |
+| System-core > Memory-systems | **memory-systems** | Design short-term, long-term, and graph-based memory architectures. Use when building agents that must persist across sessions, needing to maintain entity consistency across conversations, or imple... |
+| System-core > Skill-check | **skill-check** | Validate Claude Code skills against the agentskills specification. Catches structural, semantic, and naming issues before users do. |
+| System-core > Skill-creator | **skill-creator** | To create new CLI skills following Anthropic's official best practices with zero manual configuration. This skill automates brainstorming, template application, validation, and installation process... |
+| System-core > Skill-creator-ms | **skill-creator-ms** | Guide for creating effective skills for AI coding agents working with Azure SDKs and Microsoft Foundry services. Use when creating new skills or updating existing skills. |
+| System-core > Skill-developer | **skill-developer** | Comprehensive guide for creating and managing skills in Claude Code with auto-activation system, following Anthropic's official best practices including the 500-line rule and progressive disclosure... |
+| System-core > Skill-improver | **skill-improver** | Iteratively improve a Claude Code skill using the skill-reviewer agent until it meets quality standards. Use when improving a skill with multiple quality issues, iterating on a new skill until it m... |
+| System-core > Skill-installer | **skill-installer** | Instala, valida, registra e verifica novas skills no ecossistema. 10 checks de seguranca, copia, registro no orchestrator e verificacao pos-instalacao. |
+| System-core > Skill-rails-upgrade | **skill-rails-upgrade** | Analyze Rails apps and provide upgrade assessments |
+| System-core > Skill-router | **skill-router** | Use when the user is unsure which skill to use or where to start. Interviews the user with targeted questions and recommends the best skill(s) from the installed library for their goal. |
+| System-core > Skill-scanner | **skill-scanner** | Scan agent skills for security issues before adoption. Detects prompt injection, malicious code, excessive permissions, secret exposure, and supply chain risks. |
+| System-core > Skill-seekers | **skill-seekers** | -Automatically convert documentation websites, GitHub repositories, and PDFs into Claude AI skills in minutes. |
+| System-core > Skill-sentinel | **skill-sentinel** | Auditoria e evolucao do ecossistema de skills. Qualidade de codigo, seguranca, custos, gaps, duplicacoes, dependencias e relatorios de saude. |
+| System-core > Skill-writer | **skill-writer** | Create and improve agent skills following the Agent Skills specification. Use when asked to create, write, or update skills. |
