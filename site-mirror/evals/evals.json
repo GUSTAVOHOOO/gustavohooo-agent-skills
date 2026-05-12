@@ -1,0 +1,39 @@
+{
+  "skill_name": "site-mirror",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "baixa esse site pra mim: https://architectuul.com/architecture/amsterdam-centre-for-architecture — não quero nada de blog",
+      "expected_output": "Instala requests/beautifulsoup4/lxml, pergunta profundidade e pasta de saída, gera script de mirror e executa. Arquivos salvos localmente numa pasta.",
+      "files": [],
+      "assertions": [
+        "pip install foi executado com requests e beautifulsoup4",
+        "Um arquivo .py de mirror foi gerado com o TARGET_URL correto",
+        "O script foi executado e baixou arquivos HTML/CSS/JS",
+        "Caminhos de blog foram excluídos (EXCLUDED_PATHS contém /blog)"
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "quero salvar essa página offline: https://en.wikipedia.org/wiki/Brutalist_architecture — só a página, sem seguir outros links",
+      "expected_output": "Instala dependências, pergunta confirmação, gera script com MAX_DEPTH=0 e executa. Só a página principal é baixada.",
+      "files": [],
+      "assertions": [
+        "MAX_DEPTH foi configurado como 0 (página única)",
+        "O script foi executado e salvou o HTML da página",
+        "Imagens e CSS da página foram baixados"
+      ]
+    },
+    {
+      "id": 3,
+      "prompt": "clone this site for me https://quotes.toscrape.com/ — save it to a folder called 'quotes-site', go 1 level deep",
+      "expected_output": "Instala deps, gera script com OUTPUT_DIR='quotes-site' e MAX_DEPTH=1, executa e reporta quantas páginas foram baixadas.",
+      "files": [],
+      "assertions": [
+        "OUTPUT_DIR foi configurado como 'quotes-site'",
+        "MAX_DEPTH foi configurado como 1",
+        "Script foi executado com sucesso"
+      ]
+    }
+  ]
+}
