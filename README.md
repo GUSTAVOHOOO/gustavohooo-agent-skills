@@ -69,4 +69,4 @@ Este projeto é **Open Source** e vive da colaboração!
 
 ---
 
-Feito com ❤️ por [GUSTAVOHOOO](https://github.com/GUSTAVOHOOO)
+Feito por [GUSTAVOHOOO](https://github.com/GUSTAVOHOOO)
