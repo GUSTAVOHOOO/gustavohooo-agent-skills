@@ -1,76 +1,71 @@
 # 🚀 Gustavohooo Agent Skills Library
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)
+![Version](https://img.shields.io/badge/version-1.1.0-blue.svg)
 ![Skills](https://img.shields.io/badge/skills-1300+-brightgreen.svg)
 ![Open Source](https://img.shields.io/badge/Open%20Source-%E2%9D%A4-red.svg)
 
-A maior e mais completa biblioteca de **Agent Skills** do mundo, com mais de **1300+ automações** e especialidades prontas para transformar seu agente de IA (Gemini CLI, Claude Code, etc.) em uma força de elite.
+A maior biblioteca curada de **Agent Skills** do mundo, com mais de **1300+ automações** organizadas para Gemini CLI, Claude Code e outros frameworks.
 
 ---
 
 ## 📚 Encontre sua Skill em segundos
 
-Para navegar na imensidão de ferramentas deste repositório, criamos um índice exaustivo. Não se perca nas pastas, vá direto ao ponto:
+Não navegue no escuro. Use nosso índice exaustivo com descrições reais de cada ferramenta:
 
 # 👉 [**CLIQUE AQUI PARA O CATÁLOGO COMPLETO (CATALOG.md)**](./CATALOG.md) 👈
 
 ---
 
-## 🤖 Dica de Mestre: Use a própria IA para te ajudar!
+## ⚡ Instalação Rápida (Apenas uma Skill)
 
-Com 1300+ opções, às vezes a melhor forma de achar o que você precisa é perguntar para quem entende. 
+Não quer clonar o repositório inteiro? Baixe apenas a skill que você precisa com um comando de uma linha no seu terminal:
 
-**Como fazer:**
-1. Abra o arquivo [**CATALOG.md**](./CATALOG.md).
-2. Copie o texto ou peça para sua LLM (Gemini, Claude, GPT) ler o repositório.
-3. Pergunte: *"Com base no catálogo deste repositório, qual skill é a melhor para [sua necessidade aqui]?"*
-4. A IA vai analisar as descrições e te dar o caminho exato da pasta!
+### Mac / Linux / WSL:
+```bash
+curl -sSL https://raw.githubusercontent.com/GUSTAVOHOOO/gustavohooo-agent-skills/main/scripts/install.sh | bash -s -- <caminho_no_catalogo>
+```
 
----
+### Windows (PowerShell):
+```powershell
+irm https://raw.githubusercontent.com/GUSTAVOHOOO/gustavohooo-agent-skills/main/scripts/install.ps1 | iex; python temp_install.py <caminho_no_catalogo>
+```
 
-## 📂 Organização por Categorias
-
-Nossa biblioteca está dividida em silos lógicos para facilitar a exploração manual:
-
-| Categoria | Descrição | Link |
-| :--- | :--- | :--- |
-| 🟦 **Cloud** | Azure (116+ skills), AWS e infraestrutura. | [Explorar](./cloud) |
-| 🤖 **AI & ML** | Agentes, Personas (Elon, Jobs, etc.) e Frameworks. | [Explorar](./ai-ml) |
-| 🛠️ **Dev Tools** | Frontend, Backend, Mobile e Bancos de Dados. | [Explorar](./development) |
-| 📈 **Marketing** | SEO, Growth Hacking, Vendas e Copywriting. | [Explorar](./marketing-seo) |
-| 🛡️ **Security** | Pentest, Auditoria OWASP e Red Team. | [Explorar](./security) |
-| ⚙️ **System Core** | Gestão de contexto, memória e processos vitais. | [Explorar](./system-core) |
-| 🔌 **Automation** | Slack, Discord, Notion, Zapier e APIs externas. | [Explorar](./automation) |
-| 🏢 **Business** | Ecossistema Odoo e ERPs. | [Explorar](./erp) |
-| 📦 **Misc** | Itens científicos, legais e não categorizados. | [Explorar](./misc) |
+> **Exemplo:** Para instalar a skill de SEO Audit:
+> `... | bash -s -- marketing-seo/seo-audit`
 
 ---
 
-## 📥 Como Instalar uma Skill
+## 🤖 Dica de Mestre: Use a IA para escolher por você!
 
-1. **Clone este repositório** (ou apenas a pasta que desejar).
-2. **Copie a pasta da skill** para o diretório de skills do seu agente (geralmente `~/.gemini/skills` ou similar).
-3. **Ative-a** durante a sessão de chat pedindo para o agente "usar a skill [nome]".
+1. Abra o [**CATALOG.md**](./CATALOG.md).
+2. Pergunte à sua LLM: *"Com base no catálogo deste repositório, qual skill é a melhor para [sua necessidade]?"*
+3. Ela te dará o caminho (ex: `security/vulnerability-scanner`).
+4. Use o comando de instalação rápida acima com esse caminho!
 
 ---
 
-## 🤝 Contribua com a Comunidade
+## 📂 Categorias
 
-Este projeto é **Open Source** e vive da colaboração! Achou um bug em uma skill? Tem uma ideia de uma nova automação?
+| Categoria | Descrição |
+| :--- | :--- |
+| 🟦 **[Cloud](./cloud)** | Azure (116+ skills), AWS e infraestrutura. |
+| 🤖 **[AI & ML](./ai-ml)** | Agentes, Personas e Machine Learning. |
+| 🛠️ **[Development](./development)** | Frontend, Backend, Mobile e Bancos de Dados. |
+| 🛡️ **[Security](./security)** | Pentest, Auditoria OWASP e Red Team. |
+| 📈 **[Marketing](./marketing-seo)** | SEO, Growth Hacking e Vendas. |
+| ⚙️ **[System Core](./system-core)** | Gestão de contexto e memória. |
+| 🔌 **[Automation](./automation)** | Integrações com Slack, Notion, Zapier, etc. |
+
+---
+
+## 🤝 Contribua
+
+Este projeto é **Open Source** e vive da colaboração! 
 
 *   🌟 Dê um Star no repositório.
-*   🍴 Faça um Fork.
-*   🚀 Envie um **Pull Request** com suas melhorias.
-*   💬 Abra uma Issue para discutir novas ideias.
-
----
-
-## 📄 Licença MIT
-
-Este repositório está sob a **Licença MIT**. Isso significa que você é livre para usar, copiar, modificar, fundir, publicar, distribuir, sublicenciar e/ou vender cópias do software e das skills aqui contidas. 
-
-*Fique à vontade para usar tudo o que tem aqui para alavancar seus projetos!*
+*   🚀 Envie um **Pull Request** com novas skills.
+*   📄 Licença MIT - Use livremente em seus projetos!
 
 ---
 
